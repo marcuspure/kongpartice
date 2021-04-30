@@ -27,13 +27,18 @@ transition-property: unquote($property);
 }
 
 // 單位換算
+// 例：想要的字大小為24px，繼承的字大小為12px，1rem = 16px
+// - 轉 em  => toUnit(24/12)
+// - 轉 rem => toUnit(24,rem)
 @function toUnit($value,$unit:'em') {
   @if $unit == 'rem'{
-    @return unquote("#{round($value / 16 * 100) / 100}#{$unit}");
+    @return #{round($value / 16 * 1000) / 1000}#{$unit};
+    // @return unquote("#{round($value / 16 * 1000) / 1000}#{$unit}");
   } @else {
-    @return unquote("#{round($value * 100) / 100}#{$unit}");
+    @return unquote("#{round($value * 1000) / 1000}#{$unit}");
   }
 }
+// 百分比換算 (到小數點後兩位)
 @function percent($value){
   @return (round(percentage($value)*100) / 100);
 }

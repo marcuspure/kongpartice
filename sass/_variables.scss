@@ -15,6 +15,13 @@ $white: #fff !default;
 $black: #000 !default;
 $dark: #333 !default;
 
+$gray-100: #fafafa !default;
+$gray-200: #f4f4f4 !default;
+$gray-300: #9e9e9e !default;
+$white: #fff !default;
+$black: #000 !default;
+$dark: #424242 !default;
+$gray: $gray-300 !default;
 
 // 文字顏色
 $text-color: $primary !default;
@@ -87,8 +94,8 @@ $font-xs: 12px;
 $gutter: 15px !default;
 
 // layout
-$navHeight: 4.375rem; // 70px
-$navHeight-desk: 100px; //100px
+$navHeight: toUnit(64,rem); // 64px
+$navHeight-desk: $navHeight; // 64px
 
 // Grid breakpoints
 //
@@ -102,6 +109,31 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px
 ) !default;
+
+// form
+$placeholder: $gray-300 !default;
+$border-form: #bcbcbc;
+$form-control-lineHeight: 1.5;
+$form-control-radius: 0.75rem;
+$form-controls:(
+  basis: (
+    text: 16px,
+    height: 48px
+  ),
+  large: (
+    text: 16px,
+    height: 56px
+  ),
+  medium: (
+    text: 16px,
+    height: 48px
+  ),
+  small: (
+    text: 15px,
+    height: 40px
+  )
+);
+$btn-bg-disabled: #dadada;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");

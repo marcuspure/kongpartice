@@ -1,0 +1,234 @@
+.form{
+  &_item{
+      margin-bottom: 1rem;
+  }
+}
+
+label,.form-label{
+  font-size: inherit;
+}
+
+:-moz-placeholder{ color: $placeholder; }
+::-moz-placeholder{ color: $placeholder; }
+:-ms-input-placeholder{ color: $placeholder; }
+::-webkit-input-placeholder{ color: $placeholder; }
+::placeholder{ color: $placeholder; }
+
+select{
+  background: $bg-white url(/assets/web/images/select_arrow.svg) right center no-repeat;
+  background-size: auto 6px;
+}
+
+input,select,textarea,.form-control{
+  // padding: 0.75rem 0.75rem;
+  // font-size: 0.875rem;
+  line-height: $form-control-lineHeight;
+  letter-spacing: 0;
+  color: $text-body;
+  background-color: $bg-white;
+  border: solid 1px $border-form;
+  border-radius: toUnit(12,rem);
+  box-sizing: border-box;
+  outline: 0;
+  overflow: hidden;
+  -webkit-appearance: none; -moz-appearance: none; appearance: none;
+@include transition();
+
+  &:focus{
+      $shadow: saturate($border-secondary, 50%);
+      border-color: $shadow;
+      box-shadow: 0 0 2px 0 $shadow, inset 0 0 1px 0 $shadow;
+  }
+  &:disabled,&.disabled{
+      color: rgba($text-body,.3);
+      border-color: rgba($border-form,.3);
+      background-color: $bg-gray;
+      box-shadow: none;
+      // opacity: .3;
+      cursor: not-allowed;
+      &::placeholder{
+          color: rgba($text-body,.3);
+      }
+  }
+  // error時
+  &.error{
+      border-color: $border-warning;
+      &:focus{
+          box-shadow: 0 0 2px 0 $border-warning, inset 0 0 2px 0 $border-warning;
+      }
+  }
+}
+.errorText{
+  margin: 0.25rem 0;
+  font-size: 0.875em;
+  line-height: 1.25;
+  color: $text-warning;
+}
+textarea{
+  line-height: 1.5;
+  resize: vertical;
+}
+
+[type=checkbox], [type=radio]{
+  $size: 20px;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
+  width: $size;
+  height: $size;
+  margin-top: -4px;
+  padding: 2px;
+  border: solid 3px $border-form;
+  background: $bg-white;
+  vertical-align: middle;
+  -webkit-appearance: none; -moz-appearance: none; appearance: none;
+  &:focus{
+      box-shadow: none;
+      border-color: $border-form;
+  }
+  &:checked{
+      border-color: $bg-brand;
+      background-color: $bg-brand;
+  }
+  &:disabled{
+      opacity: .8;
+      background: $bg-white;
+      cursor: not-allowed;
+      ~ .form_labeltext{
+          opacity: .3;
+      }
+  }
+}
+
+[type=radio]{
+  border-radius: 50%;
+  background-clip: content-box;
+}
+[type=checkbox]{
+  border-radius: 5px;
+  &:checked{
+      border-color: $bg-brand;
+      background: $bg-brand url(/assets/web/images/icon_check.svg) center center no-repeat;
+      background-size: contain;
+  }
+}
+// radio group
+.radioGroup{
+  [type=checkbox], [type=radio]{
+      margin: 0.2em 0.75em 0 0;
+  }
+  &_item{
+      display: flex;
+      // align-items: center;
+      margin: 1em 0;
+      font-size: toUnit(15/16);
+  }
+
+  // inline version
+  &-inline{
+      [type=checkbox], [type=radio]{
+          margin-right: 0.5em;
+      }
+      .radioGroup_item{
+          display: inline-flex;
+          margin: 0 1.25em .5em 0;
+      }
+  }
+}
+.form-control-radio,.form-control-checkbox{
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  // error時
+  &.error{
+      color: $text-warning;
+  }
+}
+
+// 組合式
+.input-group{
+  $radius: $form-control-radius;
+  display: flex;
+  font-size: 0.875rem;
+  border: solid 1px $border-form;
+  border-radius: $radius;
+  &-inline{
+      display: inline-flex;
+  }
+  input,select,textarea,.form-control,.btn{
+      // width: 100%;
+      flex-grow: 1;
+      flex-shrink: 1;
+      margin: -1px 0;
+      border-radius: 0;
+      background-clip: padding-box;
+      border-color: transparent;
+      box-shadow: none !important;
+  }
+  select.form-control{
+      padding-right: 1.25em;
+  }
+  *+*{
+      border-left: 1px solid $border-form !important;
+      &.border-left-0{ border-left: 0 !important; }
+  }
+
+  &_text{
+      align-self: center;
+      line-height: $form-control-lineHeight;
+      letter-spacing: 0.15em;
+  }
+  :first-child,&_first{
+      margin-left: -1px;
+      border-radius: $radius 0 0 $radius;
+  }
+  :last-child,&_last{
+      margin-right: -1px;
+      border-radius: 0 $radius $radius 0;
+  }
+  :first-child:last-child, &_first.input-group_last{
+      border-radius: $radius;
+  }
+  // error時
+  &.error{
+      border-color: $border-warning;
+      &:focus{
+          box-shadow: 0 0 2px 0 $border-warning, inset 0 0 2px 0 $border-warning;
+      }
+  }
+}
+
+
+// 組合式-內嵌BTN
+.input-group-innerBtn{
+  display: flex;
+  padding: 2px;
+  font-size: toUnit(13,rem);
+  border: 1px solid $border-form;
+  border-radius: $form-control-radius;
+  input,select,textarea,.form-control{
+      border: 0;
+      width: 100%;
+      padding: 0 0.75em;
+      font-size: inherit;
+      &:focus{
+          box-shadow: none;
+      }
+  }
+  .btn{
+      padding: 0.5em 1rem;
+      font-size: inherit;
+      flex-shrink: 0;
+  }
+}
+
+
+// 限字數輸入框
+.form_maxlength{
+  &_text{
+      margin: 0;
+      font-size: toUnit(12,rem);
+      font-weight: 300;
+      text-align: right;
+      color: $text-gray;
+  }
+}
+

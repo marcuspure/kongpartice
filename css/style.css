@@ -8,6 +8,28 @@
 	├── layout
 	└── index
 */
+.btn { display: inline-block; font-weight: 500; line-height: 1.5; text-align: center; border: solid 1px; border-radius: 0.75em; box-sizing: border-box; outline: 0; cursor: pointer; transition: 0.3s ease; transition-property: color, border, outline, background, opacity, filter, box-shadow, transform; }
+.btn-block { display: block; width: 100%; }
+.btn-pill { border-radius: 2em; }
+.btn-xsmall { padding: 0.308em 1em; font-size: 13px; }
+.btn-small { padding: 0.6em 3em; font-size: 15px; }
+.btn-medium { padding: 0.75em 2.688em; font-size: 16px; }
+.btn-large { padding: 1em 2.688em; font-size: 16px; }
+.btn { color: #fff; background: #000; border-color: transparent; }
+.btn:hover:not(:disabled):not(.disabled) { color: #fff; background: #1a1a1a; }
+.btn-brand { color: #fff; background: #e8381c; border-color: transparent; }
+.btn-brand:hover:not(:disabled):not(.disabled) { color: #fff; background: #ed614a; }
+.btn-bg { color: #fff; border-color: transparent; }
+.btn-bg:hover:not(:disabled):not(.disabled) { color: #fff; filter: brightness(110%) contrast(105%); }
+.btn-white { color: #333; background: #fff; border-color: transparent; }
+.btn.disabled, .btn:disabled { color: #333; background: #dadada; cursor: not-allowed; }
+
+.btn-outline { color: #333; background: transparent; border-color: initial; }
+.btn-outline-color { color: #e8381c; }
+.btn-outline-color:hover { color: #fff; background: #e8381c; border-color: #e8381c; }
+.btn-outline-white { color: #fff; }
+.btn-outline-white:hover { background: rgba(255, 255, 255, 0.1); }
+
 html { font-size: 16px; height: 100%; }
 
 body { position: relative; min-height: 100%; display: -ms-flex; display: flex; -ms-flex-direction: column; flex-direction: column; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", "Microsoft YaHei", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "LiHei Pro", sans-serif; line-height: initial; letter-spacing: 0; color: #333; background: #f9f9f9; }
@@ -117,6 +139,30 @@ h6, .h6 { font-size: 16px; }
 .inner { max-width: 1000px; margin-left: auto; margin-right: auto; }
 
 .copyright { padding: 2em 1em; font-size: 1rem; font-weight: 200; line-height: 1.25; letter-spacing: 0.15em; text-align: center; color: #fff; background: blue; }
+
+.headerWrap { height: 4rem; }
+
+.header { position: fixed; z-index: 99; top: 0; left: 0; right: 0; height: 4rem; line-height: 4rem; background: #f9f9f9; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15); }
+.header .inner { display: flex; justify-content: space-between; padding: 0 8px; height: 100%; }
+.header a { display: flex; align-items: center; }
+.header_icon { width: 2em; font-size: 20px; text-align: center; }
+
+.headerbuttom { background: linear-gradient(90deg, #f1704f, #ed1a43); height: 4px; margin-bottom: -4px; }
+
+.navToggle { position: fixed; z-index: 99; top: 0; right: 0; margin: 8px 9px; width: 1em; height: 1em; line-height: 1em; font-size: 47px; text-align: center; color: blue; background: #fff; border-radius: 50%; transition: 0.3s ease; transition-property: color, border, outline, background, opacity, filter, box-shadow, transform; }
+.navToggle:before { font-size: 24px; vertical-align: top; }
+
+@media (max-width: 1199.98px) { .header { transition: 0.3s ease; transition-property: transform; }
+  .header_info { display: none; }
+  .header.scrolling { transform: translateY(-100%); }
+  .header.scrolling .header_logo { transform: translateY(-100%); }
+  .navToggle { position: fixed; z-index: 99; top: 0; right: 0; margin: 8px 9px; width: 1em; height: 1em; line-height: 1em; font-size: 47px; text-align: center; color: blue; background: #fff; border-radius: 50%; transition: 0.3s ease; transition-property: color, border, outline, background, opacity, filter, box-shadow, transform; }
+  .navToggle:before { font-size: 24px; vertical-align: top; }
+  .scrolling + .navToggle { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35); } }
+.item { margin: 1em; border-radius: 10px; box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25); background-color: #ffffff; }
+.item_header { padding: 1em; }
+.item p { font-size: 15px; font-weight: 500; }
+.item .date_title { font-size: 30px; }
 
 .nav { font-size: 1rem; letter-spacing: 0.2em; }
 @media (max-width: 1199.98px) { .nav { z-index: -999; opacity: 0; visibility: hidden; position: fixed; top: 0; left: 0; right: 0; bottom: 0; transition: .5s ease; }

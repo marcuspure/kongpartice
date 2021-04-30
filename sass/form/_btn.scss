@@ -1,0 +1,105 @@
+// btn
+.btn{
+  display: inline-block;
+  font-weight: 500;
+  line-height: $form-control-lineHeight;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 0.75em;
+  box-sizing: border-box;
+  outline: 0;
+  cursor: pointer;
+  @include transition();
+
+  // block 滿版
+  &-block{
+      display: block;
+      width: 100%;
+  }
+
+  // round 圓形
+  &-pill{
+      border-radius: 2em;
+  }
+
+  // size
+  &-xsmall{
+      padding: toUnit(4/13) 1em; //em
+      font-size: 13px;
+  }
+  &-small{
+      padding: toUnit(9/15) toUnit(45/15); //em
+      font-size: 15px;
+  }
+  &-medium{
+      padding: toUnit(12/16) toUnit(43/16); //em
+      font-size: 16px;
+  }
+  &-large{
+      padding: 1em toUnit(43/16); //em
+      font-size: 16px;
+  }
+
+  // color 
+  //預設
+  &{
+      color: $text-white;
+      background: $bg-black;
+      border-color: transparent;
+      &:hover:not(:disabled):not(.disabled){
+          color: $text-white;
+          background: lighten($bg-black,10%);
+      }
+  }
+  //brand色
+  &-brand{
+      color: $text-white;
+      background: $bg-brand;
+      border-color: transparent;
+      &:hover:not(:disabled):not(.disabled){
+          color: $text-white;
+          background: lighten($bg-brand,10%);
+      }
+  }
+  //其他實色按鈕 背景另外加
+  &-bg{
+      color: $text-white;
+      border-color: transparent;
+      &:hover:not(:disabled):not(.disabled){
+          color: $text-white;
+          filter: brightness(110%) contrast(105%);
+      }
+  }
+  &-white{
+      color: $text-body;
+      background: $bg-white;
+      border-color: transparent;
+  }
+  //不能填的input
+  &.disabled, &:disabled{
+      color: $text-body;
+      background: $btn-bg-disabled;
+      cursor: not-allowed;
+  }
+
+}
+//線框式按鈕
+.btn-outline{
+  color: $text-body;
+  background: transparent;
+  border-color: initial;
+  &-color{
+      color: $text-brand;
+      &:hover{
+          color: $text-white;
+          background: $bg-brand;
+          border-color: $bg-brand;
+      }
+  }
+  &-white{
+      color: $text-white;
+      &:hover{
+          background: rgba($bg-white,.1);
+      }
+  }
+}

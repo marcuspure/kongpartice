@@ -11,11 +11,13 @@
 */
 
 @import "functions";
-@import "variables";
-
 @import "mixins/breakpoints";
 @import "mixins/mixin";
 
+@import "variables";
+
+//form+btn
+@import "form/btn";
 
 
 // @import url(https://use.fontawesome.com/releases/v5.4.1/css/all.css);
@@ -24,6 +26,7 @@
 @import "./layout/layout";
 @import "./layout/footer";
 @import "./layout/header";
+@import "./layout/body";
 @import "./layout/nav";
 @import "_component_custom.scss";
 @import "_module.scss";

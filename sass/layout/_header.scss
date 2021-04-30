@@ -1,152 +1,124 @@
-// // header
-// .header{
-// 	position: fixed;
-// 	z-index: 99;
-// 	top: 0;
-// 	left: 0;
-// 	right: 0;
-// 	height: $navHeight;
-// 	line-height: $navHeight;
-// 	background: $bg-body;
+// header
+.headerWrap{
+	// flex-shrink: 0;
+	height: $navHeight;	
+}
+.header{
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: $navHeight;
+	line-height: $navHeight;
+	background: $bg-body;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+	
+	
+    .inner{
+        display: flex;
+				justify-content: space-between;
+				padding:0 8px;
+				height: 100%;
+    }
+		a{
+			display: flex;
+			align-items: center;
+		}
+		&_icon{
+			width: 2em;
+			font-size: 20px;
+			text-align: center;
+			
+		}
+    // .logo{
+    //     border-radius: 50%;
+		// background: $bg-white;
+    //     @include transition();
+    //     img{
+    //         display: block;
+    //         width: 100%;
+    //         height: auto;
+		//     border-radius: 50%;
+    //     }
+    // }
+		
+}
+.headerbuttom{
+	background:linear-gradient(90deg ,#f1704f,#ed1a43);
+	height: 4px;
+	margin-bottom: -4px;
+}
+.navToggle{
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	margin: 8px 9px;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	font-size: 47px;
+	text-align: center;
+	color: $text-color;
+	background: $bg-white;
+	border-radius: 50%;
+	@include transition;
 
-// 	&Wrap{
-// 		flex-shrink: 0;
-// 		height: $navHeight;
-// 	}
-//     .inner{
-//         display: flex;
-//     }
+	&:before{
+			font-size: 24px;
+			vertical-align: top;
+	}
+}
 
-//     .logo{
-//         border-radius: 50%;
-// 		background: $bg-white;
-//         @include transition();
-//         img{
-//             display: block;
-//             width: 100%;
-//             height: auto;
-// 		    border-radius: 50%;
-//         }
-//     }
-// }
 
-// // 小螢幕only
-// @include media-breakpoint-down(lg) {
-//     .header{
-//         @include transition(transform);
-//         &_info{
-//             display: none;
-//         }
-//         &_logo{
-//             width: 80px;
-//             margin: 0 auto;
-//             margin-bottom: $navHeight - 80;
-//             img{
-//                 padding: 12.5%;
-//             }
-//         }
-//         // on scrolling
-//         &.scrolling{
-//             transform: translateY(-100%);
-//             .header_logo{
-//                 transform: translateY(-100%);
-//             }
-//         }
-//     }
-//     .navToggle{
-//         position: fixed;
-//         z-index: 99;
-//         top: 0;
-//         right: 0;
-//         margin: 8px 9px;
-//         width: 1em;
-//         height: 1em;
-//         line-height: 1em;
-//         font-size: 47px;
-//         text-align: center;
-//         color: $text-color;
-//         background: $bg-white;
-//         border-radius: 50%;
-//         @include transition;
+// 小螢幕only
+@include media-breakpoint-down(lg) {
+    .header{
+        @include transition(transform);
+        &_info{
+            display: none;
+        }
+        // &_logo{
+        //     width: 80px;
+        //     margin: 0 auto;
+        //     margin-bottom: $navHeight - 80;
+        //     img{
+        //         padding: 12.5%;
+        //     }
+        // }
+        // on scrolling
+        &.scrolling{
+            transform: translateY(-100%);
+            .header_logo{
+                transform: translateY(-100%);
+            }
+        }
+    }
+    .navToggle{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        right: 0;
+        margin: 8px 9px;
+        width: 1em;
+        height: 1em;
+        line-height: 1em;
+        font-size: 47px;
+        text-align: center;
+        color: $text-color;
+        background: $bg-white;
+        border-radius: 50%;
+        @include transition;
 
-//         &:before{
-//             font-size: 24px;
-//             vertical-align: top;
-//         }
-//     }
-//     // on scrolling
-//     .scrolling+.navToggle{
-//         @include shadow(2);
-//     }
-// }
+        &:before{
+            font-size: 24px;
+            vertical-align: top;
+        }
+    }
+    // on scrolling
+    .scrolling+.navToggle{
+        @include shadow(2);
+    }
+}
 
-// // desk
-// @include media-breakpoint-up(xl) {
-//     .header{
-//         // height: $navHeight;
-// 		$gutter: 60px;
-// 		padding: {
-// 			left: $gutter;
-// 			right: $gutter;
-// 		}
-// 		height: $navHeight-desk;
-// 		line-height: $navHeight-desk;
-
-// 		&Wrap{
-// 			height: $navHeight-desk;
-// 		}
-
-// 		.nav,&_info{
-// 			flex: 1;
-// 			text-align: center;
-// 		}
-// 		&_logo{
-// 			align-self: flex-start;
-// 			width: 150px;
-// 			margin-bottom: $navHeight-desk - 150;
-// 			img{
-// 				padding: 15%;
-// 			}
-// 		}
-// 		&_info{
-// 			letter-spacing: 0.15em;
-// 			font-size: 0.875em; //14px
-// 			color: #777;
-// 			a+a{
-// 				margin-left: 5%;
-// 			}
-//         }
-
-//         // on scrolling
-// 		&.scrolling{
-// 			height: $navHeight;
-// 			line-height: $navHeight;
-// 			@include shadow();
-
-// 			.header_logo{
-// 				opacity: 0;
-// 				transform: translateY(-100%);
-// 			}
-// 		}
-//     }
-// }
-
-// // desk 1600 up
-// @include media-breakpoint-up(xxl) {
-//     .header{
-// 		$gutter: 7.29;
-// 		padding: {
-// 			left: $gutter;
-// 			right: $gutter;
-// 		}
-// 		.inner{
-// 			max-width: none;
-// 		}
-// 		.logo{
-// 			width: 200px;
-// 		}
-// 		&_info{
-// 			font-size: 15px;
-// 		}
-// 	}
-// }
