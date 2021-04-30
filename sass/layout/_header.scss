@@ -21,15 +21,12 @@
 				padding:0 8px;
 				height: 100%;
     }
-		a{
-			display: flex;
-			align-items: center;
-		}
+		
 		&_icon{
 			width: 2em;
 			font-size: 20px;
 			text-align: center;
-			
+			line-height: inherit;
 		}
     // .logo{
     //     border-radius: 50%;
