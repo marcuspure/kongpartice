@@ -1,0 +1,44 @@
+.gutter{
+	padding: {
+		left: $gutter;
+		right: $gutter;
+	}
+	@include media-breakpoint-up(md) {
+		$gutter: 60px;
+		padding: {
+			left: $gutter;
+			right: $gutter;
+		}
+	}
+	@include media-breakpoint-up(xxl) {
+		$gutter: 7.29vw;
+		padding: {
+			left: $gutter;
+			right: $gutter;
+		}
+	}
+}
+.wrap{
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+}
+.main{
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+}
+.inner{
+	max-width: 1000px;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+
+.pageTop{
+}
+

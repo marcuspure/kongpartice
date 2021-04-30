@@ -1,0 +1,39 @@
+@mixin truncate($lines) {
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+
+@mixin mask {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@mixin transition($property:'color, border, outline, background, opacity, filter, box-shadow, transform') {
+transition: 0.3s ease;
+transition-property: unquote($property);
+}
+
+@mixin shadow($size:1){
+  @if $size == 1 {
+      box-shadow: 0 3px 6px rgba(#000, .16);
+  } @else {
+      box-shadow: 0 2px 4px rgba(#000, .35);
+  }
+}
+
+// 單位換算
+@function toUnit($value,$unit:'em') {
+  @if $unit == 'rem'{
+    @return unquote("#{round($value / 16 * 100) / 100}#{$unit}");
+  } @else {
+    @return unquote("#{round($value * 100) / 100}#{$unit}");
+  }
+}
+@function percent($value){
+  @return (round(percentage($value)*100) / 100);
+}

@@ -1,0 +1,10 @@
+// 套件修改
+
+// table
+.table{ color: $text-body; }
+
+// google 驗證
+.g-recaptcha>*{ display: block; margin: 0 auto; }
+@media (max-width: 365px){
+	.g-recaptcha { transform:scale(0.83); transform-origin:0 0; }
+}

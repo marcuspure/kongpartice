@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/*
+	css
+	├── 基本設定
+	├── 共用
+	├── 套件修改
+	├── 模組
+	├── layout
+	└── index
+*/
+html { font-size: 16px; height: 100%; }
+
+body { position: relative; min-height: 100%; display: -ms-flex; display: flex; -ms-flex-direction: column; flex-direction: column; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", "Microsoft YaHei", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "LiHei Pro", sans-serif; line-height: initial; letter-spacing: 0; color: #333; background: #f9f9f9; }
+
+.fa, .far, .fas { font-family: "Font Awesome 5 Free", "Font Awesome 5 Pro", "Open Sans", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", "Microsoft YaHei", "LiHei Pro", sans-serif; }
+
+.transition { -o-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+a { color: inherit; text-decoration: none; outline: 0; transition: 0.3s ease; transition-property: color, border-color, background-color, opacity, filter, transform; }
+
+a:hover { text-decoration: none; }
+
+a:focus { text-decoration: none; }
+
+label { font-size: 16px; }
+
+[type=checkbox], [type=radio] { width: 1em; height: 1em; vertical-align: middle; }
+
+::-moz-placeholder { color: #ccc; }
+
+:-ms-input-placeholder { /** notice that ie has only a single colon) */ color: #ccc; }
+
+::-webkit-input-placeholder { color: #ccc; }
+
+::placeholder { color: #ccc; }
+
+tr, th, td { margin: initial; padding: initial; line-height: 1.5; }
+
+.text-color { color: blue; }
+
+.text-white { color: #fff; }
+
+.text-gray { color: #ccc; }
+
+.text-dark { color: #333; }
+
+.text-color-reset { color: #333; }
+
+.bg-color { background: blue; }
+
+h1, .h1 { font-size: 40px; }
+
+h2, .h2 { font-size: 32px; }
+
+h3, .h3 { font-size: 28px; }
+
+h4, .h4 { font-size: 24px; }
+
+h5, .h5 { font-size: 20px; }
+
+h6, .h6 { font-size: 16px; }
+
+.font-l { font-size: 18px; }
+
+.font-m { font-size: 16px; }
+
+.font-s { font-size: 14px; }
+
+.font-xs { font-size: 12px; }
+
+.text-center { text-align: center; }
+
+.text-left { text-align: left; }
+
+.text-right { text-align: right; }
+
+.valign-middle { vertical-align: middle; }
+
+.opacity-30 { opacity: .3; }
+
+.opacity-60 { opacity: .6; }
+
+.opacity-80 { opacity: .8; }
+
+.breadcrumb .active { color: blue; }
+
+#loader { position: fixed; left: 50%; top: 50%; z-index: 99999999; width: 150px; height: 150px; margin: -75px 0 0 -75px; background: url(../images/loaging.gif) no-repeat; background-size: cover; -webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite; }
+
+.mask { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); }
+
+.w-6em { width: 6em; }
+
+.w-8em { width: 8em; max-width: 100%; }
+
+.h-50-window { height: 50vh; }
+
+.h-fill-window { height: calc(100vh - (4.1 * 16px)); }
+
+@media (min-width: 576px) { .h-sm-fill-window { height: calc(100vh - (4.1 * 18px)); } }
+.overflow-x-hidden { overflow-x: hidden; }
+
+.overflow-y-auto { overflow-y: auto; }
+
+.scrollbar::-webkit-scrollbar-track { background-color: #fff; -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2); }
+
+.scrollbar::-webkit-scrollbar { height: 8px; width: 8px; background-color: #F5F5F5; }
+
+.scrollbar::-webkit-scrollbar-thumb { border-radius: 10px; background-color: #aaa; -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); }
+
+.gutter { padding-left: 15px; padding-right: 15px; padding-left: 7.29vw; padding-right: 7.29vw; }
+@media (min-width: 768px) { .gutter { padding-left: 60px; padding-right: 60px; } }
+
+.wrap { display: -ms-flex; display: flex; -ms-flex-direction: column; flex-direction: column; -ms-flex-grow: 1; flex-grow: 1; }
+
+.main { -ms-flex-grow: 1; flex-grow: 1; }
+
+.inner { max-width: 1000px; margin-left: auto; margin-right: auto; }
+
+.copyright { padding: 2em 1em; font-size: 1rem; font-weight: 200; line-height: 1.25; letter-spacing: 0.15em; text-align: center; color: #fff; background: blue; }
+
+.nav { font-size: 1rem; letter-spacing: 0.2em; }
+@media (max-width: 1199.98px) { .nav { z-index: -999; opacity: 0; visibility: hidden; position: fixed; top: 0; left: 0; right: 0; bottom: 0; transition: .5s ease; }
+  .nav .mask { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); }
+  .nav_cont { position: absolute; top: 0; right: 0; bottom: 0; display: flex; flex-direction: column; width: 300px; max-width: 75%; height: 100%; padding: 24px; background: #fff; overflow-y: auto; opacity: 0; transform: translateX(50%); transition: .5s ease; }
+  .nav_close { position: absolute; top: 0; right: 0; width: 1em; height: 1em; line-height: 1; padding: 1.25rem; box-sizing: content-box; font: bold 1rem "Font Awesome 5 Free", "Font Awesome 5 Pro", "Open Sans", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", "Microsoft YaHei", "LiHei Pro", sans-serif; text-align: center; cursor: pointer; }
+  .nav_close:hover { opacity: .6; }
+  .nav_item { display: flex; padding: 1.1875em 0; border-top: 1px solid rgba(255, 255, 255, 0.15); }
+  .nav_item .fas { display: none; }
+  .nav_trigger { min-width: 6em; font-size: 1.125em; }
+  .nav_dropdown a { opacity: .8; }
+  .nav.open { z-index: 999; opacity: 1; visibility: visible; }
+  .nav.open .nav_cont { opacity: 1; transform: translateX(0); } }
+@media (min-width: 1200px) { .nav { text-align: center; }
+  .nav .desk-hide { display: none; }
+  .nav_item { position: relative; display: inline-block; }
+  .nav_item .fas { width: 1.5em; height: 1.5em; line-height: 1.5; margin-right: -1em; font-size: 0.75em; text-align: center; transform-origin: 50% 50%; transition: 0.3s ease; transition-property: transform; }
+  .nav_trigger { padding: 0.5em 0.75em; }
+  .nav_dropdown { position: absolute; top: 100%; left: 50%; padding: 0.75em 0; font-size: 0.8125em; line-height: 1.5; text-align: left; white-space: nowrap; background: #fff; border-top: 1px solid #e8381c; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); transition: 0.3s ease; transition-property: color, border, outline, background, opacity, filter, box-shadow, transform; opacity: 0; visibility: hidden; transform: translate(-50%, -3em); }
+  .nav_dropdown a { display: block; padding: 0.25em 2em; }
+  .nav_item:hover .nav_trigger { color: #e8381c; }
+  .nav_item:hover .fas { transform: rotate(90deg); }
+  .nav_item:hover .nav_dropdown { opacity: 1; visibility: visible; transform: translate(-50%, -2.5em); } }
+.nav_trigger { font-size: 1.125em; }
+
+.table { color: #333; }
+
+.g-recaptcha > * { display: block; margin: 0 auto; }
+
+@media (max-width: 365px) { .g-recaptcha { transform: scale(0.83); transform-origin: 0 0; } }
+.list-unstyled { list-style: none; margin: 0; padding: 0; }
+
+.list-decimal { list-style: decimal; padding-left: 1.25em; }
+
+.imgfit { /*需要裁切的圖 (比例須個別另下) */ display: block; position: relative; overflow: hidden; text-align: left; }
+
+.imgfit-1x1 { /* 寬高 1:1; */ padding-top: 100%; }
+
+.imgfit-3x2 { /* 寬高 3:2 */ padding-top: 66.66%; }
+
+.imgfit-3x4 { /* 寬高 3:4 */ padding-top: 133.33%; }
+
+.imgfit img { position: absolute; top: 0; width: 100%; height: 100%; object-fit: cover; }
+
+.imgfit-contain img { object-fit: contain; }
+
+.imgfit-scale-down img { object-fit: scale-down; }
+
+@media screen\0 { .imgfit { z-index: 0; }
+  .imgfit img { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: auto; width: 100% !important; height: auto !important; } }
+/*圖文編輯器*/
+.editor { font-size: 1rem; font-weight: 400; line-height: 1.75; word-wrap: break-word; word-break: break-word; clear: both; }
+
+.editor:after { content: ""; display: block; height: 0; clear: both; }
+
+.editor img { max-width: 100%; height: auto !important; vertical-align: baseline; }
+
+.editor iframe { max-width: 100%; }
+
+@media (max-width: 991.98px) { .editor iframe[src*="youtube"], .editor iframe[src*="vimeo"], .editor iframe[src*="facebook"], .editor iframe[src*="instagram"] { width: 100%; /*height: 56.25%;*/ height: -webkit-calc( (100vw - 20px) * 0.5625); height: -moz-calc( (100vw - 20px) * 0.5625); height: calc( (100vw - 20px) * 0.5625); } }
+
+/*# sourceMappingURL=style.css.map */

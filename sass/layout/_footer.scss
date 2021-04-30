@@ -1,0 +1,17 @@
+// footer
+.footer{
+}
+.copyright{
+	padding: 2em 1em;
+	font-size: 1rem;
+	font-weight: 200;
+	line-height: 1.25;
+	letter-spacing: 0.15em;
+	text-align: center;
+	color: $text-white;
+	background: $bg-color;
+}
+@include media-breakpoint-down(sm) {
+}
+@include media-breakpoint-up(sm) {
+}

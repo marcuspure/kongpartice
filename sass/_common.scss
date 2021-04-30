@@ -1,0 +1,92 @@
+
+// 共用
+
+
+//文字顏色
+.text-color{ color: $text-color; }//藍
+.text-white{ color: $text-white;}//white
+.text-gray{ color: $text-gray;}//灰
+.text-dark{ color: $text-dark;}//灰
+.text-color-reset{ color: $text-body; }//預設字色
+
+// background
+.bg-color{ background: $bg-color; }
+
+// border
+
+// font size
+h1, .h1{ font-size: $h1-font-size; }
+h2, .h2{ font-size: $h2-font-size; }
+h3, .h3{ font-size: $h3-font-size; }
+h4, .h4{ font-size: $h4-font-size; }
+h5, .h5{ font-size: $h5-font-size; }
+h6, .h6{ font-size: $h6-font-size; }
+.font-l{ font-size: $font-l; } //18px
+.font-m{ font-size: $font-m; } //16px
+.font-s{ font-size: $font-s; } //14px
+.font-xs{ font-size: $font-xs; } //12px
+
+// text-align
+.text-center{ text-align: center; }
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+
+// verticle
+.valign-middle{ vertical-align: middle; }
+
+// opacity
+.opacity-30{ opacity: .3; }
+.opacity-60{ opacity: .6; }
+.opacity-80{ opacity: .8; }
+
+
+// 麵包屑
+.breadcrumb .active{ color: $bg-color; }
+
+
+// button
+
+
+// radio+checkbox
+
+
+// 標題
+// 每頁大標
+.pageTitle{
+}
+
+
+//loading
+#loader{
+	position: fixed; left: 50%; top: 50%; z-index: 99999999; width: 150px; height: 150px; margin: -75px 0 0 -75px;
+	background: url(../images/loaging.gif) no-repeat; background-size: cover;
+	-webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite;
+}
+
+.mask{
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background: rgba($black,.5);
+}
+
+// 寬度
+.w-6em{ width: 6em; }
+.w-8em{ width: 8em; max-width: 100% }
+
+// 高度
+// 高度滿版
+.h-50-window{ height: 50vh; }
+.h-fill-window{ height: calc(100vh - (4.1 * 16px)); }
+@media (min-width: 576px){
+	.h-sm-fill-window{ height: calc(100vh - (4.1 * 18px)); }
+}
+
+// 卷軸區塊
+.overflow-x-hidden{ overflow-x: hidden; }
+.overflow-y-auto{ overflow-y: auto; }
+.scrollbar::-webkit-scrollbar-track{ background-color: #fff; -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.2);}
+.scrollbar::-webkit-scrollbar{ height:8px; width: 8px; background-color: #F5F5F5;}
+.scrollbar::-webkit-scrollbar-thumb{ border-radius: 10px; background-color: #aaa; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.2);}
+
+
+

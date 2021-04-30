@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+Thumbs.db
+*.7z
+*.zip
+*.rar
+.sass-cache/

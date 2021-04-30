@@ -1,0 +1,65 @@
+
+// 基本設定
+
+html{
+	font-size: 16px;
+	height: 100%;
+}
+
+body{
+	position: relative;
+	min-height: 100%;
+	display: -ms-flex;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-family: $font-family-reset;
+	line-height: initial;
+	letter-spacing: 0;
+	color: $text-body;
+	background: $bg-body;
+}
+
+.fa,.far,.fas { font-family: $font-family-fa; }
+
+.transition{
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+	outline: 0;
+	transition: 0.3s ease;
+	transition-property: color, border-color, background-color, opacity, filter, transform;
+}
+a:hover{ text-decoration: none; }
+a:focus{ text-decoration: none; }
+
+label{ font-size: $font-size-base; }
+[type=checkbox], [type=radio]{
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+}
+::-moz-placeholder {
+    color: $text-gray;
+}
+:-ms-input-placeholder {
+    /** notice that ie has only a single colon) */
+    color: $text-gray;
+}
+::-webkit-input-placeholder {
+    color: $text-gray;
+}
+::placeholder {
+    color: $text-gray;
+}
+
+tr, th, td{
+	margin: initial;
+	padding: initial;
+	line-height: 1.5;
+}

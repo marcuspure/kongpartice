@@ -1,0 +1,111 @@
+
+
+// Color system
+$brand: #e8381c !default;
+$primary: blue !default;
+$secondary: #f8b62d !default;
+$success: #00c853 !default;
+$warning: #fb8c00 !default;
+$danger: $brand !default;
+// social media
+$facebook: #1877f2 !default;
+$line-social: #00b900 !default;
+// 灰階
+$white: #fff !default;
+$black: #000 !default;
+$dark: #333 !default;
+
+
+// 文字顏色
+$text-color: $primary !default;
+$text-brand: $brand !default;
+$text-primary: $primary !default;
+$text-secondary: $secondary !default;
+$text-success: $success !default;
+$text-warning: $warning !default;
+$text-danger: $danger !default;
+// 灰階
+$text-white: $white; //white
+$text-black: $black; //black
+$text-gray: #ccc; //灰
+$text-dark: $dark; //灰
+$text-body: $dark;  //預設字色
+
+// background
+$bg-color: $primary !default;
+$bg-brand: $brand !default;
+$bg-primary: $primary !default;
+$bg-secondary: $secondary !default;
+$bg-success: $success !default;
+$bg-warning: $warning !default;
+$bg-danger: $danger !default;
+// 灰階
+$bg-white: $white; //white
+$bg-black: $black; //black
+$bg-gray: #ccc; //灰
+$bg-dark: $dark; //灰
+$bg-body: #f9f9f9;  //body顏色
+
+
+// border color
+$border-color: $primary !default;
+$border-brand: $brand !default;
+$border-primary: $primary !default;
+$border-secondary: $secondary !default;
+$border-success: $success !default;
+$border-warning: $warning !default;
+$border-danger: $danger !default;
+// 灰階
+$border-white: $white; //white
+$border-black: $black; //black
+$border-gray: #ccc; //灰
+$border-dark: $dark; //灰
+$border-body: $dark;  //預設字色
+
+
+// font family
+$font-family-reset:
+  'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+  '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei',
+  'SF Pro TC', 'SF Pro Display', 'SF Pro Icons', 'PingFang TC', 'LiHei Pro', sans-serif;
+$font-family-fa: 'Font Awesome 5 Free', "Font Awesome 5 Pro", 'Open Sans', Helvetica, Arial, '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', 'LiHei Pro', sans-serif;
+
+// font size
+$font-size-base: 16px; // Assumes the browser default, typically `16px`
+$h1-font-size: $font-size-base * 2.5 !default;	//40
+$h2-font-size: $font-size-base * 2 !default;	//32
+$h3-font-size: $font-size-base * 1.75 !default;	//28
+$h4-font-size: $font-size-base * 1.5 !default;	//24
+$h5-font-size: $font-size-base * 1.25 !default;	//20
+$h6-font-size: $font-size-base !default;
+$font-l: 18px;
+$font-m: 16px;
+$font-s: 14px;
+$font-xs: 12px;
+
+// gutter
+$gutter: 15px !default;
+
+// layout
+$navHeight: 4.375rem; // 70px
+$navHeight-desk: 100px; //100px
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+// 路徑
+// $path: "../";

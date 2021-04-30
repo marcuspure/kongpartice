@@ -1,0 +1,30 @@
+// @charset "utf-8";
+
+/*
+	css
+	├── 基本設定
+	├── 共用
+	├── 套件修改
+	├── 模組
+	├── layout
+	└── index
+*/
+
+@import "functions";
+@import "variables";
+
+@import "mixins/breakpoints";
+@import "mixins/mixin";
+
+
+
+// @import url(https://use.fontawesome.com/releases/v5.4.1/css/all.css);
+@import "_reset.scss";
+@import "_common.scss";
+@import "./layout/layout";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/nav";
+@import "_component_custom.scss";
+@import "_module.scss";
+@import "_page.scss";
