@@ -11,12 +11,11 @@
 */
 
 @import "functions";
-@import "variables";
-
 @import "mixins/breakpoints";
 @import "mixins/mixin";
 
-
+// 變數全放這
+@import "variables";
 
 // @import url(https://use.fontawesome.com/releases/v5.4.1/css/all.css);
 @import "_reset.scss";
