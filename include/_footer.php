@@ -1,69 +1,70 @@
 <div class="footerWrap">
    <footer id="footer" class="footer">
-      <div class="inner d-flex">
-         <a href="" class="footer_item">
-            <img class="footer_item_icon" src="https://fakeimg.pl/24x24/">
-            <span class="footer_item_text">首頁</span>
-         </a>
-         <a href="" class="footer_item">
-            <img class="footer_item_icon" src="https://fakeimg.pl/24x24/">
-            <span class="footer_item_text">追蹤事項</span>
-         </a>
-         <a href="" class="footer_item">
-            <img class="footer_item_icon" src="https://fakeimg.pl/24x24/">
-            <span class="footer_item_text">行事曆</span>
-         </a>
-         <a href="" class="footer_item">
-            <img class="footer_item_icon" src="https://fakeimg.pl/24x24/">
-            <span class="footer_item_text">客戶管理</span>
-         </a>
-         <a href="" class="footer_item">
-            <img class="footer_item_icon" src="https://fakeimg.pl/24x24/">
-            <span class="footer_item_text">更多</span>
-         </a>
-      </div>
-      <!-- <div class="inner row">
-         <div class="footer_logo col">
-            <div class="logo">
-               <a href="./" class=" flex-1"><img src="https://fakeimg.pl/24x24/"  alt="<?php echo $siteName; ?>"></a>
-             </div>
-             <div class="footertext">
-                <label for="">首頁</label>
-             </div>
-         </div>
-         <div class="footer_logo col">
-            <div class="logo">
-               <a href="./" class="footer_logo flex-1"><img src="https://fakeimg.pl/24x24/"  alt="<?php echo $siteName; ?>"></a>
-             </div>
-             <div class="footertext">
-                <label for="">首頁</label>
-             </div>
-         </div>
-         <div class="footer_logo col">
-            <div class="logo">
-               <a href="./" class="footer_logo flex-1"><img src="https://fakeimg.pl/24x24/"  alt="<?php echo $siteName; ?>"></a>
-             </div>
-             <div class="footertext">
-                <label for="">首頁</label>
-             </div>
-         </div>
-         <div class="footer_logo col">
-            <div class="logo">
-               <a href="./" class="footer_logo flex-1"><img src="https://fakeimg.pl/24x24/"  alt="<?php echo $siteName; ?>"></a>
-             </div>
-             <div class="footertext">
-                <label for="">首頁</label>
-             </div>
-         </div>
-         <div class="footer_logo col">
-            <div class="logo">
-               <a href="./" class="footer_logo flex-1"><img src="https://fakeimg.pl/24x24/"  alt="<?php echo $siteName; ?>"></a>
-             </div>
-             <div class="footertext">
-                <label for="">首頁</label>
-             </div>
-         </div>
-      </div> -->
+   <div class="gutter">
+        <div class="inner">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer_item">
+                        <p class="footer_title font-thin">KOGI Headquarter</p>
+                        <ul class="footer_info list-unstyled">
+                            <li class="mb-2"><i class="fas fa-fw fa-phone-alt"></i>+886-2-2799-8808<li>
+                            <li class="mb-2"><i class="fas fa-fw fa-map-marker-alt"></i>7F-1, No.335 Ruiguang Road., Neihu Dist., Taipei, Taiwan R.O.C.<li>
+                            <li class="mb-2"><i class="far fa-fw fa-clock"></i>09:00 – 18:00 GMT+8<li>
+                            <li class="mb-2"><i class="far fa-fw fa-envelope"></i>inquiry@kogiconsulting.com</li>
+                        </ul>
+                    </div>
+                    <div class="footer_item">
+                        <p class="footer_title font-thin">Connect with Us</p>
+                        <a class="footer_socialIcon fab fa-linkedin-in" target="_blank" href="https://www.linkedin.com/company/kogi-technology"></a>
+                        <a class="footer_socialIcon fab fa-twitter" target="_blank" href="https://twitter.com/kogitechnology"></a>
+                        <a class="footer_socialIcon fab fa-youtube" target="_blank" href="https://www.youtube.com/channel/UCOxCycODX3oUjHTQgFJp_Zw"></a>
+                        <a class="footer_socialIcon fas fa-envelope" target="_blank" href="mailto:inquiry@kogiconsulting.com"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="footer_item">
+                        <p class="footer_title font-thin">KOGI Headquarter</p>
+                        <ul class="footer_info list-unstyled">
+                            <li class="mb-2"><i class="fas fa-fw fa-phone-alt"></i>+886-2-2799-8808<li>
+                            <li class="mb-2"><i class="fas fa-fw fa-map-marker-alt"></i>7F-1, No.335 Ruiguang Road., Neihu Dist., Taipei, Taiwan R.O.C.<li>
+                            <li class="mb-2"><i class="far fa-fw fa-clock"></i>09:00 – 18:00 GMT+8<li>
+                            <li class="mb-2"><i class="far fa-fw fa-envelope"></i>inquiry@kogiconsulting.com</li>
+                        </ul>
+                    </div>
+                    <div class="footer_item">
+                        <p class="footer_title font-thin">Connect with Us</p>
+                        <a class="footer_socialIcon fab fa-linkedin-in" target="_blank" href="https://www.linkedin.com/company/kogi-technology"></a>
+                        <a class="footer_socialIcon fab fa-twitter" target="_blank" href="https://twitter.com/kogitechnology"></a>
+                        <a class="footer_socialIcon fab fa-youtube" target="_blank" href="https://www.youtube.com/channel/UCOxCycODX3oUjHTQgFJp_Zw"></a>
+                        <a class="footer_socialIcon fas fa-envelope" target="_blank" href="mailto:inquiry@kogiconsulting.com"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="footer_item">
+                        <p class="footer_title font-thin">Our Alliance Partners</p>
+                        <div id="footer_brands" class="footer_brands swiper-container">
+                            <ul class="swiper-wrapper list-unstyled">
+                                <li class="swiper-slide">
+                                  <a class="footer_brands_item" target="_blank" href="https://www.nvidia.com/en-in/" title="公司名稱">
+                                    <!-- <div class="imgfit"><img src="https://storage.googleapis.com/www.gcs.fa-da.com.tw/Kogicorp/upload/images/2020/11/18/20201118123147_R7Yjp6WZzYMbjjw2j0LE.png" alt="公司名稱"></div> -->
+                                  </a>
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.inner -->
+    </div>
+    <!-- /.gutter -->
+      
+        <div class="copyright font-serif">© 2021 KONFU Enterprise Co.,Ltd <span class="d-inline-block">All Rights Reserved.</span></div>
    </footer><!--End of footer-->
 </div>
 

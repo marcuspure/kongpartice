@@ -75,7 +75,7 @@ $font-family-reset:
   'Open Sans', 'Helvetica Neue', Helvetica, Arial,
   '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei',
   'SF Pro TC', 'SF Pro Display', 'SF Pro Icons', 'PingFang TC', 'LiHei Pro', sans-serif;
-$font-family-fa: 'Font Awesome 5 Free', "Font Awesome 5 Pro", 'Open Sans', Helvetica, Arial, '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', 'LiHei Pro', sans-serif;
+$font-family-fa: 'Montserrat-Bold','Font Awesome 5 Free', "Font Awesome 5 Pro", 'Open Sans', Helvetica, Arial, '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', 'LiHei Pro', sans-serif;
 
 // font size
 $font-size-base: 16px; // Assumes the browser default, typically `16px`
@@ -92,6 +92,11 @@ $font-xs: 12px;
 
 // gutter
 $gutter: 15px !default;
+$gutter-mobile: 30px !default;
+
+// layout
+$navHeight: 4.375rem; // 70px
+$navHeight-mobile: 3.75rem; // 60px
 
 // layout
 $navHeight: toUnit(64,rem); // 64px

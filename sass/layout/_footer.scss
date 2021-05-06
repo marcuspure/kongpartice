@@ -1,4 +1,4 @@
-// footer
+footer
 .footerWrap{
 	font-size: toUnit(12,rem);
 	line-height: 1.25;
@@ -16,16 +16,16 @@
 .footer_item_text{
 	display: block;
 }
-// .copyright{
-// 	padding: 2em 1em;
-// 	font-size: 1rem;
-// 	font-weight: 200;
-// 	line-height: 1.25;
-// 	letter-spacing: 0.15em;
-// 	text-align: center;
-// 	color: $text-white;
-// 	background: $bg-color;
-// }
+.copyright{
+	padding: 2em 1em;
+	font-size: 13px;
+	font-weight: 200;
+	line-height: 1.25;
+	letter-spacing: 0.15em;
+	text-align: center;
+	color: $text-black;
+	background: $bg-white;
+}
 @include media-breakpoint-down(sm) {
 }
 @include media-breakpoint-up(sm) {
