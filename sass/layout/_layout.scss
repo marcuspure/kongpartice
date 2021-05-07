@@ -84,15 +84,27 @@
 // header
 // ----------------------------------------------------------------------
 
+// .header_cont{
+// 	height: $navHeight-mobile;
+// 	line-height: $navHeight-mobile;
 
-.index .header{
-	position: fixed;
-}
-.init{
-	&.header{
-		background: none;
-	}
-}
+// 	.logo{
+// 		img{
+// 			vertical-align: middle;
+// 			height: $navHeight-mobile * 0.6666;
+// 			margin-top: -411111px;
+// 			transition: .3s ease;
+// 		}
+// 	}
+// }
+// .index .header{
+// 	position: fixed;
+// }
+// .init{
+// 	&.header{
+// 		background: none;
+// 	}
+// }
 
 @include media-breakpoint-down(lg) {
 	.logo{
@@ -325,9 +337,7 @@
 		padding: 1px 0 $gutter-mobile;
 	}
 
-	&_item{
-		margin-top: 40px;
-	}
+	
 	&_title{
 		margin: 0 0 1em;
 		font-size: 1.5rem;
@@ -364,16 +374,7 @@
 			border-radius: 5px;
 			box-sizing: border-box;
 		}
-		.imgfit{
-			// width: 130px;
-			// height: 75px;
-			padding-top: percentage(55/100);
-			img{
-				// position: static;
-				object-fit: scale-down;
-				object-position: center;
-			}
-		}
+		
 		.swiper-pagination{
 			position: static;
 			margin-top: 0.5rem;
@@ -391,8 +392,7 @@
 		}
 		&_item{
 			margin-top: 0;
-			margin-bottom: 3rem;
-			padding: 10px 15px;
+			padding: 0px 5px;
 		}
 		&_socialIcon{
 			margin-right: 0.8em;

@@ -1,28 +1,30 @@
 // header
-.headerWrap{
-	// flex-shrink: 0;
-	height: $navHeight;	
+.headerWrap {
+  // flex-shrink: 0;
+  height: $navHeight;
 }
 
-.header{
-	position: fixed;
-	z-index: 99;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: $navHeight;
-	line-height: $navHeight;
-	background: $bg-body;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+.header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $navHeight;
+  line-height: $navHeight;
+  background: $bg-body;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
   font-family: 'Montserrat-Bold';
-	}
-    .inner{
-        display: flex;
-				justify-content: space-between;
-				padding:0 8px;
-				height: 100%;
-    }
-		
+
+  
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  height: 100%;
+}
+
 // 		&_icon{
 // 			width: 2em;
 // 			font-size: 20px;
@@ -124,7 +126,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-$font-family: 'Roboto', sans-serif;
+$font-family: 'Roboto',
+sans-serif;
 $font-size-base: 0.925rem;
 $base-color: #66f;
 $text-dark: #3c4250;
@@ -153,10 +156,12 @@ a {
 .container {
   width: 1170px;
   position: relative;
+
   margin: {
     left: auto;
     right: auto;
   }
+
   padding: {
     left: 15px;
     right: 15px;
@@ -169,9 +174,10 @@ a {
 .navbar .container {
   width: 100%;
   display: flex;
-//   flex-wrap: wrap;
+  //   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
   @media (max-width: 768px) {
     display: block;
   }
@@ -186,12 +192,15 @@ a {
     @media (min-width: 576px) {
       max-width: 540px;
     }
+
     @media (min-width: 768px) {
       max-width: 720px;
     }
+
     @media (min-width: 992px) {
       max-width: 960px;
     }
+
     @media (min-width: 1200px) {
       max-width: 1140px;
     }
@@ -222,7 +231,9 @@ a {
       display: none;
       outline: none;
 
-      @media (max-width: 768px) { display: block }
+      @media (max-width: 768px) {
+        display: block
+      }
 
       span {
         height: 2px;
@@ -230,12 +241,13 @@ a {
         background-color: lighten($text-dark, 35%);
         display: block;
       }
+
       span:not(:last-child) {
         margin-bottom: 0.2rem;
       }
     }
 
-    > a {
+    >a {
       font-weight: 500;
       color: $text-dark;
     }
@@ -273,19 +285,22 @@ a {
         margin-top: 1rem;
       }
 
-      > li {
-        > a {
+      >li {
+        >a {
           color: $text-dark;
           text-decoration: none;
           display: inline-block;
           padding: 0.5rem 1rem;
+
           &:hover {
             color: $navbar-link-hover;
           }
+
           @media (max-width: 768px) {
             border-bottom: 1px solid #EEE;
           }
         }
+
         &.active {
           a {
             color: $base-color;
@@ -308,10 +323,12 @@ a {
           z-index: 99999;
           border-radius: 0.75rem;
           display: none;
+
           @media (max-width: 768px) {
             position: relative;
             box-shadow: none;
           }
+
           li {
             a {
               color: $text-dark;
@@ -319,13 +336,14 @@ a {
               display: block;
             }
           }
+
           &.show {
             display: block !important;
           }
         }
       }
 
-      .dropdown > .separator {
+      .dropdown>.separator {
         height: 1px;
         width: 100%;
         margin: 9px 0;
@@ -341,12 +359,14 @@ a {
 
 
 // Custom
-.navbar .navbar-header > a span {
+.navbar .navbar-header>a span {
   color: $base-color;
 }
+
 .navbar .navbar-header h4 {
   font-weight: 500;
   font-size: 1.25rem;
+
   @media (max-width: 768px) {
     font-size: 1.05rem;
   }
