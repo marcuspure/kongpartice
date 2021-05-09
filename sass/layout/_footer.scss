@@ -30,3 +30,92 @@ footer
 }
 @include media-breakpoint-up(sm) {
 }
+
+// footer
+// ----------------------------------------------------------------------
+.footer{
+	font-size: 0.875rem;
+	color: $text-white;
+	background: black;
+	padding:1em;
+	.inner{
+		padding: 1px 0 $gutter-mobile;
+	}
+
+	
+	&_title{
+		margin: 0 0 1em;
+		font-size: 1.5rem;
+		font-weight: 600;
+	}
+	&_info{
+		padding-left: 1.5em;
+		letter-spacing: 0.05em;
+		line-height: 1.5;
+		color: rgba($text-white,.8);
+		.fa-fw{
+			margin-left: -1.5em;
+			margin-right: 0.25em;
+			text-indent: -0.25em;
+			// color: $text-color-light;
+		}
+	}
+	&_socialIcon{
+		margin-right: 0.55em;
+		font-size: 40px;
+	}
+	&_brands{
+		font-size: 0;
+		// max-width: 544px;
+		margin: 0;
+		li{
+			display: inline-block;
+			// margin: 0 0.5rem 0.5rem 0;
+		}
+		&_item{
+			display: block;
+			padding: 10px;
+			background: $bg-white;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+		
+		.swiper-pagination{
+			position: static;
+			margin-top: 0.5rem;
+		}
+		.swiper-pagination-bullet-active{
+			// background: $bg-color-light;
+		}
+	}
+	a:hover{
+		color: $text-color;
+	}
+    @include media-breakpoint-up(lg) {
+		.inner{
+			padding: 120px 0 50px;
+		}
+		&_item{
+			margin-top: 0;
+			padding: 0px 5px;
+		}
+		&_socialIcon{
+			margin-right: 0.8em;
+		}
+		&_brands{
+			max-width: 544px;
+		}
+	}
+}
+.footer_copyright{
+	padding-right: 20px;
+	font-size: 12px;
+	line-height: 4.285em;
+	text-align: center;
+	color: $text-white;
+	// background: $text-deep-gray;
+    @include media-breakpoint-up(md) {
+		padding-right: 0;
+		font-size: 0.875rem;
+	}
+}

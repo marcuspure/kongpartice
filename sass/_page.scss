@@ -1,6 +1,44 @@
 // 頁面style
 
-.newproduct_ourwork
-{
+.newproduct_ourwork {}
+
+.production_item {
+  background-image: url("/images/title.jpg");
+  background-size: 100%;
+  height: 230px;
+}
+
+.production {
+  height: 360px;
+ p{
+   color: white;
+ }
+
   
+}
+
+.btn_seeall {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.top_line {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    border-top: 1px solid black;
+    width: 52px;
+  }
+}
+h3 {
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.tabCont{
+  // height: 293px;
 }
