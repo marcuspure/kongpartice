@@ -30,7 +30,7 @@ $pageTitle = '';
       <!-- text -->
       <div class="container">
         <div class="row py-4">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12 text-center font-l fon-weight-l">
             <p class="machine_text ">We have a professional team for comprehensive equipment consultation whenever you manage to enter the fastener field.
               As long as you propose a general concept for products, we can provide you with perfect solutions to related wires, dies, machines, heat treatment, electroplating and packing equipments.
             </p>
@@ -50,13 +50,11 @@ $pageTitle = '';
 
     <div class="">
       <div class="">
-        <div class="imgfit imgfit-3x2 ">
+        <div class="imgfit ">
           <div class="text-center">
-            <button class="btn-rectangle-black btn-outline m-2 p-2">Introduction</button>
-            <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="/Performance.php">Performance</a></button>
-            <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">Production Equipments</a></button>
-            <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">Quality Control System</a></button>
-            <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">ESG</a></button>
+            <button class="btn-rectangle-black btn-outline m-2 p-2">Handing Machine</button>
+            <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="/Performance.php">Thread Rolling Machine</a></button>
+            <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">Nut Former</a></button>
           </div>
         </div>
       </div>
@@ -66,7 +64,7 @@ $pageTitle = '';
       <img src="https://fakeimg.pl/520x348" alt="">
     </div>
 
-    <div class="imgfit imgfit-3x2">
+    <div class="imgfit imgfit-3x2 ">
       <img src="https://fakeimg.pl/400x267" alt="">
       <img src="https://fakeimg.pl/400x267" alt="">
     </div>

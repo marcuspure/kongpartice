@@ -117,6 +117,30 @@ $pageTitle = '';
 					<div class="+">
 						+
 					</div>
+					<div class="formula_item text-center">
+						<div class="img_outline">
+							<div class="formula_itemimg d-flex ">
+								<img class="img imgfit" src="./images/index4機台.png" alt="">
+							</div>
+						</div>
+						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<button class="btn py-1 px-3 my-1">More ></button>
+					</div>
+					<div class="+">
+						+
+					</div>
+					<div class="formula_item text-center">
+						<div class="img_outline">
+							<div class="formula_itemimg d-flex ">
+								<img class="img imgfit" src="./images/index5.png" alt="">
+							</div>
+						</div>
+						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<button class="btn py-1 px-3 my-1">More ></button>
+					</div>
+					<div class="+">
+						+
+					</div>
 				</div>
 			</div>
 
@@ -132,8 +156,8 @@ $pageTitle = '';
 							<p class="font-l fon-weight-l">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
 							<button class="btn w-8em py-1 my-2">Contact Us</button>
 						</div>
-					</div>				
-					
+					</div>
+
 				</div>
 			</div>
 
@@ -200,7 +224,7 @@ $pageTitle = '';
 											<div class="active_text">
 												<img class="imgfit " src="https://fakeimg.pl/480x360" alt="">
 												<div class="img_date d-flex p-1 justify-content-between">
-													<button class="btn p-1 font-xs">Current activity</button>
+													<button class="btn_black p-1 font-xs">Current activity</button>
 													<p class="d-flex flex-column justify-content-center">2021-01-01</p>
 												</div>
 												<p class="font-m">HH-1538 loading </p>
@@ -216,7 +240,6 @@ $pageTitle = '';
 						<div class="row">
 							<div class="col-lg-12">
 								<h3 class="title font-serif text-center mt-0">
-									<span class="title_en top_line">Business</span>
 								</h3>
 
 							</div>

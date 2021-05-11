@@ -11,6 +11,7 @@
 .text-red{color: $text-danger}
 // background
 .bg-color{ background: $bg-color; }
+.bg-gray{ background: $bg-gray; }
 
 // border
 
@@ -22,6 +23,7 @@ h4, .h4{ font-size: $h4-font-size; }
 h5, .h5{ font-size: $h5-font-size; }
 h6, .h6{ font-size: $h6-font-size; }
 
+.font-xxl{ font-size: $font-xxl;} //28px
 .font-xl{ font-size: $font-xl;} //22px
 .font-l{ font-size: $font-l; } //18px
 .font-m{ font-size: $font-m; } //16px
@@ -30,6 +32,7 @@ h6, .h6{ font-size: $h6-font-size; }
 
 
 .fon-weight-l{font-weight: $fon-weight-l;} // weight 300
+.fon-weight-400{font-weight: $fon-weight-400;} // weight 400
 .fon-weight-xl{font-weight: $fon-weight-xl;} // weight 700
 
 // text-align

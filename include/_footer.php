@@ -15,20 +15,20 @@
           <div class="col-lg-4">
             <div class="footer_item">
               <p class="footer_title font-thin">KOGI Headquarter</p>
-              <ul class=" list-unstyled">
-                <li class="mb-2"><i class="fas fa-fw fa-phone-alt"></i>+886-2-2799-8808
+              <ul class=" list-unstyled fon-weight-400 font-m">
+                <li class="mb-2 "><i class="fas fa-fw fa-phone-alt"></i>+886-2-2577-6800
                 <li>
-                <li class="mb-2"><i class="fas fa-fw fa-map-marker-alt"></i>7F-1, No.335 Ruiguang Road., Neihu Dist., Taipei, Taiwan R.O.C.
+                <li class="mb-2"><i class="fas fa-fw fa-map-marker-alt"></i>+886-2-2577-9555
                 <li>
-                <li class="mb-2"><i class="far fa-fw fa-clock"></i>09:00 – 18:00 GMT+8
+                <li class="mb-2"><i class="far fa-fw fa-clock"></i>info@konfu.com.tw
                 <li>
-                <li class="mb-2"><i class="far fa-fw fa-envelope"></i>inquiry@kogiconsulting.com</li>
+                <li class="mb-2"><i class="far fa-fw fa-envelope"></i>4F., No.18,Aly. 8,Ln. 158,Sec. 3, Bade Rd.,Taipei City 10555, Taiwan</li>
               </ul>
             </div>
           </div>
 
           <div class="col-lg-4">
-            <div class="footer_item">
+            <div class="footer_item fon-weight-400 font-m">
               <p class="footer_title font-thin">KOGI Headquarter</p>
               <ul class="footer_info list-unstyled">
                 <li class="mb-2">ANF TOOL&MACHINE LTD

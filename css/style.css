@@ -24,6 +24,7 @@
 .btn-bg:hover:not(:disabled):not(.disabled) { color: #fff; filter: brightness(110%) contrast(105%); }
 .btn-white { color: #333; background: #fff; border-color: transparent; }
 .btn.disabled, .btn:disabled { color: #333; background: #dadada; cursor: not-allowed; }
+.btn_black { background: #000; color: #fff; border-radius: 1em; border: black solid 1px; }
 
 .btn-outline { color: #333; background: transparent; border-color: initial; }
 .btn-outline-color { color: #e8381c; }
@@ -78,6 +79,8 @@ tr, th, td { margin: initial; padding: initial; line-height: 1.5; }
 
 .bg-color { background: blue; }
 
+.bg-gray { background: #F2F2F2; }
+
 h1, .h1 { font-size: 40px; }
 
 h2, .h2 { font-size: 32px; }
@@ -90,6 +93,8 @@ h5, .h5 { font-size: 20px; }
 
 h6, .h6 { font-size: 16px; }
 
+.font-xxl { font-size: 28px; }
+
 .font-xl { font-size: 22px; }
 
 .font-l { font-size: 18px; }
@@ -101,6 +106,8 @@ h6, .h6 { font-size: 16px; }
 .font-xs { font-size: 12px; }
 
 .fon-weight-l { font-weight: 300; }
+
+.fon-weight-400 { font-weight: 400; }
 
 .fon-weight-xl { font-weight: 700; }
 
@@ -371,7 +378,7 @@ a { text-decoration: none; }
 
 h3 { font-size: 42px; line-height: 51px; }
 
-.newproduct { height: 506px; }
+.newproduct { height: 400px; }
 
 .production_item { display: flex; flex-direction: column; justify-content: center; }
 .production_item_p { font-size: 32px; font-weight: 700; }

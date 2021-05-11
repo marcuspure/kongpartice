@@ -24,7 +24,7 @@ $pageTitle = '';
               <button class="btn-rectangle btn-outline m-2 p-2"><a href="/Performance.php">Performance</a></button>
               <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Production Equipments</a></button>
               <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Quality Control System</a></button>
-              <button class="btn-rectangle btn-outline m-2 p-2"><a href="">ESG</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="/esg.php">ESG</a></button>
             </div>
           </div>
         </div>

@@ -101,6 +101,12 @@
         cursor: not-allowed;
     }
 
+    &_black{
+        background: $black;
+        color: $white;
+        border-radius: 1em;
+        border: black solid 1px
+    }
 }
 
 //線框式按鈕
