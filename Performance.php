@@ -33,16 +33,16 @@ $pageTitle = '';
 
       <div class="Performance_text text-center ">
         <h1 class="">Performance</h1>
-        <p class="text-center text-wrap ">We have sold our products to more than 40 countries around the world, 
-          and therefore we have solid cooperation with the clients. 
-          In industrial countries, such as the USA, Germany, Italy and Japan, we have loyal customers who utilize refined 
-          dies and various fasteners provided by KONFU. </p>
+        <p class="text-center text-wrap ">We have sold our products to more than 40 countries around the world,
+          and therefore </p>
+        <p class="text-center text-wrap"> we have solid cooperation with the clients. In industrial countries, such as the USA, </p>
+        <p class="text-center text-wrap"> Germany, Italy and Japan, we have loyal customers who utilize refined dies and various fasteners provided by KONFU. </p>
       </div>
 
 
       <img src="" alt="">
 
-      
+
 
 
 

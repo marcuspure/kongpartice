@@ -85,10 +85,15 @@ $h3-font-size: $font-size-base * 1.75 !default;	//28
 $h4-font-size: $font-size-base * 1.5 !default;	//24
 $h5-font-size: $font-size-base * 1.25 !default;	//20
 $h6-font-size: $font-size-base !default;
+
+$font-xl: 22px;
 $font-l: 18px;
 $font-m: 16px;
 $font-s: 14px;
 $font-xs: 12px;
+
+$fon-weight-l:300;
+$fon-weight-xl:700;
 
 // gutter
 $gutter: 15px !default;

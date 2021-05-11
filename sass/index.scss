@@ -1,0 +1,23 @@
+.production_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &_p {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+.titlebgimg {
+  background: url(/images/title.jpg);
+  width: 66%;
+  object-fit: cover;
+}
+
+.formula {
+  height: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

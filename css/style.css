@@ -31,6 +31,11 @@
 .btn-outline-white { color: #fff; }
 .btn-outline-white:hover { background: rgba(255, 255, 255, 0.1); }
 
+.btn-rectangle { display: inline-block; font-weight: 600; font-size: 18px; line-height: 1.5; text-align: center; border: solid 2px; box-sizing: border-box; outline: 0; cursor: pointer; font-family: 'Montserrat'; font-style: normal; line-height: 22px; color: white; /* identical to box height */ }
+.btn-rectangle:hover { background-color: red; }
+
+.btn-rectangle-black { display: inline-block; font-weight: 600; font-size: 18px; line-height: 1.5; text-align: center; border: black solid 2px; box-sizing: border-box; outline: 0; cursor: pointer; font-family: 'Montserrat'; font-style: normal; line-height: 22px; color: black; /* identical to box height */ }
+
 html { font-size: 16px; height: 100%; }
 
 body { position: relative; min-height: 100%; display: -ms-flex; display: flex; -ms-flex-direction: column; flex-direction: column; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", "Microsoft YaHei", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "LiHei Pro", sans-serif; line-height: initial; letter-spacing: 0; color: #333; background: #f9f9f9; }
@@ -85,6 +90,8 @@ h5, .h5 { font-size: 20px; }
 
 h6, .h6 { font-size: 16px; }
 
+.font-xl { font-size: 22px; }
+
 .font-l { font-size: 18px; }
 
 .font-m { font-size: 16px; }
@@ -92,6 +99,10 @@ h6, .h6 { font-size: 16px; }
 .font-s { font-size: 14px; }
 
 .font-xs { font-size: 12px; }
+
+.fon-weight-l { font-weight: 300; }
+
+.fon-weight-xl { font-weight: 700; }
 
 .text-center { text-align: center; }
 
@@ -118,6 +129,8 @@ h6, .h6 { font-size: 16px; }
 .w-6em { width: 6em; }
 
 .w-8em { width: 8em; max-width: 100%; }
+
+.m-left-auto { margin-left: auto; }
 
 .h-50-window { height: 50vh; }
 
@@ -194,7 +207,7 @@ h6, .h6 { font-size: 16px; }
 
 .formula { background: lightblue; }
 
-.formula_itemimg { background-color: blue; border-radius: 70px; width: 140px; height: 140px; align-items: center; justify-content: center; }
+.formula_itemimg { background-color: white; border-radius: 70px; width: 140px; height: 140px; align-items: center; justify-content: center; }
 .formula_itemimg img { border-radius: inherit; }
 
 .img_outline { background-color: black; width: 150px; height: 150px; border-radius: 70px; align-items: center; justify-content: center; display: flex; }
@@ -211,7 +224,7 @@ footer .footerWrap { font-size: 0.75rem; line-height: 1.25; text-align: center; 
 
 .copyright { padding: 2em 1em; font-size: 13px; font-weight: 200; line-height: 1.25; letter-spacing: 0.15em; text-align: center; color: #000; background: #fff; }
 
-.footer { font-size: 0.875rem; color: #fff; background: black; padding: 1em; }
+.footer { font-size: 0.875rem; color: #fff; background: black; padding: 2em; }
 .footer .inner { padding: 1px 0 30px; }
 .footer_title { margin: 0 0 1em; font-size: 1.5rem; font-weight: 600; }
 .footer_info { padding-left: 1.5em; letter-spacing: 0.05em; line-height: 1.5; color: rgba(255, 255, 255, 0.8); }
@@ -227,7 +240,7 @@ footer .footerWrap { font-size: 0.75rem; line-height: 1.25; text-align: center; 
   .footer_socialIcon { margin-right: 0.8em; }
   .footer_brands { max-width: 544px; } }
 
-.footer_copyright { padding-right: 20px; font-size: 12px; line-height: 4.285em; text-align: center; color: #fff; }
+.footer_copyright { padding-right: 20px; font-size: 12px; line-height: 4.285em; text-align: center; color: #fff; height: 54px; }
 @media (min-width: 768px) { .footer_copyright { padding-right: 0; font-size: 0.875rem; } }
 
 .headerWrap { height: 4rem; }
@@ -357,5 +370,28 @@ a { text-decoration: none; }
 .top_line::before { content: ""; border-top: 1px solid black; width: 52px; }
 
 h3 { font-size: 42px; line-height: 51px; }
+
+.newproduct { height: 506px; }
+
+.production_item { display: flex; flex-direction: column; justify-content: center; }
+.production_item_p { font-size: 32px; font-weight: 700; }
+
+.titlebgimg { background: url(/images/title.jpg); width: 66%; object-fit: cover; }
+
+.formula { height: 534px; display: flex; flex-direction: column; justify-content: center; }
+
+.machine_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
+
+.about_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
+
+.toolings_text p { width: 496px; margin: auto; text-align: left; padding: 1em; }
+
+.punch_text p { width: 496px; margin: auto; text-align: left; padding: 1em; }
+
+.Toolstitle_img { position: relative; text-align: center; color: white; }
+
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.fastener_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
 
 /*# sourceMappingURL=style.css.map */

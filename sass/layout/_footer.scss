@@ -37,7 +37,7 @@ footer
 	font-size: 0.875rem;
 	color: $text-white;
 	background: black;
-	padding:1em;
+	padding:2em;
 	.inner{
 		padding: 1px 0 $gutter-mobile;
 	}
@@ -113,6 +113,7 @@ footer
 	line-height: 4.285em;
 	text-align: center;
 	color: $text-white;
+	height: 54px;
 	// background: $text-deep-gray;
     @include media-breakpoint-up(md) {
 		padding-right: 0;

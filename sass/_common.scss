@@ -21,10 +21,16 @@ h3, .h3{ font-size: $h3-font-size; }
 h4, .h4{ font-size: $h4-font-size; }
 h5, .h5{ font-size: $h5-font-size; }
 h6, .h6{ font-size: $h6-font-size; }
+
+.font-xl{ font-size: $font-xl;} //22px
 .font-l{ font-size: $font-l; } //18px
 .font-m{ font-size: $font-m; } //16px
 .font-s{ font-size: $font-s; } //14px
 .font-xs{ font-size: $font-xs; } //12px
+
+
+.fon-weight-l{font-weight: $fon-weight-l;} // weight 300
+.fon-weight-xl{font-weight: $fon-weight-xl;} // weight 700
 
 // text-align
 .text-center{ text-align: center; }
@@ -79,6 +85,8 @@ h6, .h6{ font-size: $h6-font-size; }
 // 寬度
 .w-6em{ width: 6em; }
 .w-8em{ width: 8em; max-width: 100% }
+
+.m-left-auto{ margin-left: auto;}
 
 // 高度
 // 高度滿版
