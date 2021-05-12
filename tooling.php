@@ -17,18 +17,15 @@ $pageTitle = '';
     <div id="main" class="main">
       <!-- content 從這裡開始 -->
       <!-- //title -->
-     
-
       <div class="Toolstitle_img title_img text-center">
-        <img src="/images/title.jpg" alt="Snow" style="width:100%;">
+        <img src="/images/title.jpg" style="width:100%;">
         <h1 class="centered">Tooling</h1>
       </div>
-
 
       <!-- text -->
       <div class="container">
         <div class="row py-4">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12 text-center font-l fon-weight-l l-h-30">
             <p class="machine_text ">KONFU is a professional designer and producer of fastener dies. We serve clients from every corner around the world, and our clients have always given praises and compliments to our dies.
             </p>
             <p class="machine_text">Nevertheless, we are not complacent about our achievements and still endeavor to provide our clients with the most proper solutions. When our clients want to produce new products, we stand by their sides. With a persistent attitude, we keep studying how to refine the die design and help clients produce ideal fasteners.
@@ -45,9 +42,15 @@ $pageTitle = '';
       </div>
     </div>
 
-    <h3 class="text-center">Carbide Tools</h3>
+    <div class="text-center">
+      <button class="btn-rectangle-black btn-outline m-2 p-2">Carbide Tools</button>
+      <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="/Performance.php">Punch</a></button>
+      <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">Power Metallurgy Tools</a></button>
+    </div>
 
-    <div class="Carbide_Tools_text">
+    <!-- Carbide Tools -->
+    <h3 class="text-center">Carbide Tools</h3>
+    <div class="Carbide_Tools_text font-l fon-weight-l l-h-30">
       <div class="d-flex no-gutters align-items-center justify-content-center ">
         <div class="text-center toolings_text ">
           <p>KONFU is in the first group of companies which started to export tsungsteng carbide dies in Taiwan, and tungsten carbide is one of the products on KONFU’s earliest selling list. Since the 60’s, KONFU has been endeavoring to provide fastener producers around the world with tsungsten carbide dies made in Taiwan. </p>
@@ -58,7 +61,7 @@ $pageTitle = '';
       </div>
     </div>
 
-    <div class="Carbide_Tools_text">
+    <div class="Carbide_Tools_text font-l fon-weight-l l-h-30">
       <div class="d-flex no-gutters align-items-center justify-content-center ">
         <div class="text-center toolings_text ">
           <p>KONFU is in the first group of companies which started to export tsungsteng carbide dies in Taiwan, and tungsten carbide is one of the products on KONFU’s earliest selling list. Since the 60’s, KONFU has been endeavoring to provide fastener producers around the world with tsungsten carbide dies made in Taiwan. </p>
@@ -75,18 +78,18 @@ $pageTitle = '';
 
     <h4 class="text-center">Punch</h4>
     <div class="punch_text">
-      <div class="d-flex no-gutters align-items-center justify-content-center ">
+      <div class="d-flex no-gutters align-items-center justify-content-center font-l fon-weight-l l-h-25">
         <div class="text-center toolings_text ">
           <p>Basic ejector punches, such as DIN9861-D, and round pin punches can be ready for shipment in 2 weeks. We can also pre-store punches for clients so that the shipment can be ready in 3 days. We also have hexagon punches for DIN912 in storage. Be free to contact us for the punch sizes in storage.</p>
         </div>
-        <div class="punch_text">
+        <div class="punch_text ">
           <p>for titanium coating on different materials and for different usage. Please be free to contact us for special demands. </p>
         </div>
       </div>
     </div>
 
     <div class="punch_text">
-      <div class="d-flex no-gutters align-items-center justify-content-center ">
+      <div class="d-flex no-gutters align-items-center justify-content-center font-l fon-weight-l l-h-25">
         <div class="text-center toolings_text ">
           <p>We provide punches in different materials, such as high speed steels (M2,M35 and M42), powder metallurgies (ASP23, ASP30 and ASP60) and tungsten carbide. We also provides options for surface coating: TiN, TiAIN, AlCrn,TiCN, etc. Suggestions will be provided </p>
         </div>
@@ -102,7 +105,7 @@ $pageTitle = '';
 
     <h4 class="text-center">Power Metallurgy Tools</h4>
     <div class="punch_text">
-      <div class="d-flex no-gutters align-items-center justify-content-center ">
+      <div class="d-flex no-gutters align-items-center justify-content-center font-l fon-weight-l l-h-25">
         <div class="text-center toolings_text ">
           <p>We provide punches in different materials, such as high speed steels (M2,M35 and M42), powder metallurgies (ASP23, ASP30 and ASP60) and tungsten carbide. We also provides options for surface coating: TiN, TiAIN, AlCrn,TiCN, etc. Suggestions will be provided </p>
         </div>
@@ -113,9 +116,16 @@ $pageTitle = '';
     </div>
 
     <div class="text-center">
-      <img src="https://fakeimg.pl/416x278" alt="123">
-      <img src="https://fakeimg.pl/416x278" alt="123">
-      <img src="https://fakeimg.pl/416x278" alt="123">
+      <div class="imgfit imgfit-3x2">
+        <img src="./images/tooling01.jpeg">
+      </div>
+      <div class="imgfit imgfit-3x2">
+        <img src="./images/tooling02.jpeg">
+      </div>
+      <div class="imgfit imgfit-3x2">
+        <img src="./images/tooling03.jpeg">
+      </div>
+     
     </div>
 
   </div>

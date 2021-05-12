@@ -14,7 +14,7 @@
 
           <div class="col-lg-4">
             <div class="footer_item">
-              <p class="footer_title font-thin">KOGI Headquarter</p>
+              <p class="footer_title font-thin">Contact Us</p>
               <ul class=" list-unstyled fon-weight-400 font-m">
                 <li class="mb-2 "><i class="fas fa-fw fa-phone-alt"></i>+886-2-2577-6800
                 <li>
@@ -29,7 +29,7 @@
 
           <div class="col-lg-4">
             <div class="footer_item fon-weight-400 font-m">
-              <p class="footer_title font-thin">KOGI Headquarter</p>
+              <p class="footer_title font-thin">Subsidiary</p>
               <ul class="footer_info list-unstyled">
                 <li class="mb-2">ANF TOOL&MACHINE LTD
                 <li>

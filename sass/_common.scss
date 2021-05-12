@@ -33,7 +33,11 @@ h6, .h6{ font-size: $h6-font-size; }
 
 .fon-weight-l{font-weight: $fon-weight-l;} // weight 300
 .fon-weight-400{font-weight: $fon-weight-400;} // weight 400
+.fon-weight-600{font-weight: $fon-weight-600;} // weight 400
 .fon-weight-xl{font-weight: $fon-weight-xl;} // weight 700
+
+.l-h-25{line-height:$line-height-25;} //line hight 30px
+.l-h-30{line-height:$line-height-30;} //line hight 30px
 
 // text-align
 .text-center{ text-align: center; }
@@ -61,8 +65,8 @@ h6, .h6{ font-size: $h6-font-size; }
 
 // 標題
 // 每頁大標
-.pageTitle{
-}
+// .pageTitle{
+// }
 
 
 //loading

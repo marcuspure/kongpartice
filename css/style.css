@@ -33,9 +33,10 @@
 .btn-outline-white:hover { background: rgba(255, 255, 255, 0.1); }
 
 .btn-rectangle { display: inline-block; font-weight: 600; font-size: 18px; line-height: 1.5; text-align: center; border: solid 2px; box-sizing: border-box; outline: 0; cursor: pointer; font-family: 'Montserrat'; font-style: normal; line-height: 22px; color: white; /* identical to box height */ }
-.btn-rectangle:hover { background-color: red; }
+.btn-rectangle:hover { background-color: red; border: solid 2px red; }
 
 .btn-rectangle-black { display: inline-block; font-weight: 600; font-size: 18px; line-height: 1.5; text-align: center; border: black solid 2px; box-sizing: border-box; outline: 0; cursor: pointer; font-family: 'Montserrat'; font-style: normal; line-height: 22px; color: black; /* identical to box height */ }
+.btn-rectangle-black:hover { background-color: black; border: solid 2px black; color: white; }
 
 html { font-size: 16px; height: 100%; }
 
@@ -109,7 +110,13 @@ h6, .h6 { font-size: 16px; }
 
 .fon-weight-400 { font-weight: 400; }
 
+.fon-weight-600 { font-weight: 600; }
+
 .fon-weight-xl { font-weight: 700; }
+
+.l-h-25 { line-height: 25px; }
+
+.l-h-30 { line-height: 30px; }
 
 .text-center { text-align: center; }
 
@@ -387,6 +394,8 @@ h3 { font-size: 42px; line-height: 51px; }
 
 .formula { height: 534px; display: flex; flex-direction: column; justify-content: center; }
 
+.free_trial { width: 900px; margin: auto; }
+
 .machine_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
 
 .about_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
@@ -397,8 +406,16 @@ h3 { font-size: 42px; line-height: 51px; }
 
 .Toolstitle_img { position: relative; text-align: center; color: white; }
 
-.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 70px; font-weight: 600; }
+
+.centered_p { position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); font-size: 28px; font-weight: 400; margin: 1em 0; }
 
 .fastener_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
+
+.wire_text p { width: 790px; height: 90px; margin: auto; text-align: left; padding: 1em; }
+
+.factory_img img { width: 790px; height: 281px; margin: auto; }
+
+.plating_img img { width: 790px; height: 590px; margin: auto; }
 
 /*# sourceMappingURL=style.css.map */

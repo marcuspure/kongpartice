@@ -152,6 +152,7 @@
     
     &:hover{
         background-color: red;
+        border: solid 2px red;
     }
 } 
 //長方形 黑底
@@ -169,5 +170,11 @@
     font-style: normal;
     line-height: 22px;
     color: black;
+
+    &:hover{
+        background-color: black;
+        border: solid 2px black;
+        color: white;
+    }
     /* identical to box height */
 } 

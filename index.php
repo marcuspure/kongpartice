@@ -27,8 +27,10 @@ $pageTitle = '';
 			<!-- //title -->
 			<div class="konfu_title swiper-container">
 				<div class="swiper-wrapper ">
-					<div class="swiper-slide imgfit imgfit-3x2">
-						<img class="titlebgimg" src="" alt="">
+					<div class="swiper-slide imgfit imgfit-3x2 Toolstitle_img title_img text-center opacity-60">
+						<img src="/images/title.jpg" style="width:100%;">
+						<h1 class="centered">Discover The Best</h1>
+						<p class="centered_p">More Than 40 Years Of Experience</p>
 					</div>
 					<div class="swiper-slide">Slide 2</div>
 					<div class="swiper-slide">Slide 3</div>
@@ -48,7 +50,7 @@ $pageTitle = '';
 					</div>
 					<div class="col-lg-6  text-center title_item">
 						<h3 class="py-3">New Product Our Work</h3>
-						<p class="py-3 font-l fon-weight-l">If you have a new product you nwat to develop,but encounter a problem with tooling desing. please study with us and we will provide the best solution.</p>
+						<p class="py-3 font-l fon-weight-l l-h-30">If you have a new product you nwat to develop,but encounter a problem with tooling desing. please study with us and we will provide the best solution.</p>
 						<div class="more">
 							<button class="btn w-8em py-1"><a href="./new_product.php">More</a></button>
 						</div>
@@ -60,7 +62,7 @@ $pageTitle = '';
 				<div class="row no-gutters  align-items-center title_item">
 					<div class="col-lg-6 ">
 						<h3 class="py-3">Your Trouble Our Job</h3>
-						<p class="py-3 font-l fon-weight-l">Do you have the problem of poor life of existing tooling? Want to produce products of different materials, but encounter the problem of tooling breakage?
+						<p class="py-3 font-l fon-weight-l l-h-30">Do you have the problem of poor life of existing tooling? Want to produce products of different materials, but encounter the problem of tooling breakage?
 							We can provide appropriate tooling modification solutions.</p>
 						<div class="more">
 							<button class="btn w-8em py-1">More</button>
@@ -85,7 +87,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="/images/線圈.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<p class="text-center my-1 font-m fon-weight-600">Wire Rod / Wire</p>
 						<button class="btn py-1 px-3 my-1 font-m">More ></button>
 					</div>
 					<div class="div">
@@ -99,7 +101,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="/images/機台.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<p class="text-center my-1 font-m fon-weight-600">Machine</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -107,11 +109,11 @@ $pageTitle = '';
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
-							<div class="formula_itemimg d-flex ">
+							<div class="formula_itemimg d-flex fon-weight-600">
 								<img class="img imgfit" src="./images/小零件.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<p class="text-center my-1 font-m fon-weight-600">Toolings</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -119,11 +121,11 @@ $pageTitle = '';
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
-							<div class="formula_itemimg d-flex ">
+							<div class="formula_itemimg d-flex fon-weight-600">
 								<img class="img imgfit" src="./images/index4機台.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<p class="text-center my-1 font-m fon-weight-600">Heat Treatment/Plating</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -131,11 +133,11 @@ $pageTitle = '';
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
-							<div class="formula_itemimg d-flex ">
+							<div class="formula_itemimg d-flex fon-weight-600">
 								<img class="img imgfit" src="./images/index5.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m">Wire Rod / Wire</p>
+						<p class="text-center my-1 font-m fon-weight-600">Fasteners</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -145,19 +147,16 @@ $pageTitle = '';
 			</div>
 
 			<!-- free_trial -->
-			<div class="free_trial order project m-1 ">
-				<div class="container">
-					<div class="d-flex">
-						<div class="img text-right m-2">
-							<img src="https://fakeimg.pl/200x200" alt="">
-						</div>
-						<div class="trailtext m-2">
-							<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
-							<p class="font-l fon-weight-l">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
-							<button class="btn w-8em py-1 my-2">Contact Us</button>
-						</div>
+			<div class="free_trial order project ">
+				<div class="d-flex">
+					<div class="img text-right m-2">
+						<img src="https://fakeimg.pl/200x200" alt="">
 					</div>
-
+					<div class="trailtext m-2">
+						<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
+						<p class="font-l fon-weight-l l-h-30">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
+						<button class="btn w-8em py-1 my-2">Contact Us</button>
+					</div>
 				</div>
 			</div>
 
@@ -188,11 +187,10 @@ $pageTitle = '';
 						<div class="production_item">
 							<p class="production_item_p">ESG</p>
 							<div class="production_btn">
-								<button class="btn py-1 px-4 my-3">More ></button>
+								<a class="btn py-1 px-4 my-3" href="./esg.php">More ></a>
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 			</div>
@@ -217,20 +215,44 @@ $pageTitle = '';
 				<div class="tabCont">
 					<div id="indexActivity_slider" class="indexActivity_slider swiper-container">
 						<div class="swiper-wrapper">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="swiper-slide ">
-											<div class="active_text">
-												<img class="imgfit " src="https://fakeimg.pl/480x360" alt="">
-												<div class="img_date d-flex p-1 justify-content-between">
-													<button class="btn_black p-1 font-xs">Current activity</button>
-													<p class="d-flex flex-column justify-content-center">2021-01-01</p>
-												</div>
-												<p class="font-m">HH-1538 loading </p>
-											</div>
-										</div>
+							<div class="swiper-slide ">
+								<div class="active_text">
+									<img class="imgfit mx-1" src="/images/index_機台.png" alt="">
+									<div class="img_date d-flex p-1 justify-content-between">
+										<button class="btn_black p-1 font-xs">Current activity</button>
+										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
 									</div>
+									<p class="font-m">HH-1538 loading </p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="active_text">
+									<img class="imgfit imgfit3x2 mx-1" src="/images/index_機台02.jpeg" alt="">
+									<div class="img_date d-flex p-1 justify-content-between">
+										<button class="btn_black p-1 font-xs">Current activity</button>
+										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
+									</div>
+									<p class="font-m">HH-1538 loading </p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="active_text">
+									<img class="imgfit mx-1" src="/images/index_機台03.png" alt="">
+									<div class="img_date d-flex p-1 justify-content-between">
+										<button class="btn_black p-1 font-xs">Current activity</button>
+										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
+									</div>
+									<p class="font-m">HH-1538 loading </p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="active_text">
+									<img class="imgfit mx-1" src="/images/index_機台04.jpeg" alt="">
+									<div class="img_date d-flex p-1 justify-content-between">
+										<button class="btn_black p-1 font-xs">Current activity</button>
+										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
+									</div>
+									<p class="font-m">HH-1538 loading </p>
 								</div>
 							</div>
 						</div>
@@ -307,7 +329,7 @@ $pageTitle = '';
 					slidesPerGroup: 2,
 				},
 				1024: {
-					slidesPerView: 3,
+					slidesPerView: 4,
 					slidesPerColumn: 1,
 					slidesPerGroup: 3,
 				}

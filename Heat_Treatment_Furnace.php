@@ -80,7 +80,7 @@ $pageTitle = '';
 
 
 
-      <div class="text-center imgfit imgfit-3x2">
+      <div class="text-center w-100 plating_img">
         <img src="/images/heat1.jpeg" alt="">
       </div>
       <p class="text-center my-1 font-l fon-weight-l">Continuous Mesh-belt heat treatment furnace.</p>
@@ -103,7 +103,7 @@ $pageTitle = '';
         </div>
       </div>
 
-      <div class="text-center imgfit imgfit-3x2">
+      <div class="text-center w-100 plating_img">
         <img src="/images/heat2.jpeg" alt="">
       </div>
       <p class="text-center my-1 font-l fon-weight-l">Electroplating equipments.</p>

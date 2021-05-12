@@ -18,21 +18,20 @@ $pageTitle = '';
       <!-- //title -->
       <div class="newproduction">
         <div class="newbackground">
-          <div class="imgfit imgfit-3x2">
-            <img src="https://fakeimg.pl/1440x340" alt="">
+          <div class="imgfit imgfit-3x2 newproduction">
+            <div class="aboutus_button text-center">
+              <button class="btn-rectangle btn-outline m-2 p-2">Introduction</button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="/Performance.php">Performance</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Production Equipments</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Quality Control System</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="/esg.php">ESG</a></button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="aboutusbutton text-center ">
-        <button class="btn">Introduction</button>
-        <button class="btn"><a href="">Performance</a></button>
-        <button class="btn"><a href="">Production Equipments</a></button>
-        <button class="btn"><a href="">Quality Control System</a></button>
-        <button class="btn"><a href="">ESG</a></button>
-      </div>
 
-      <div class="Performance_text text-center ">
-        <h1 class="">Performance</h1>
+      <div class="Performance_text text-center l-h-30">
+        <h3 class="my-3">Performance</h3>
         <p class="text-center text-wrap ">We have sold our products to more than 40 countries around the world,
           and therefore </p>
         <p class="text-center text-wrap"> we have solid cooperation with the clients. In industrial countries, such as the USA, </p>
