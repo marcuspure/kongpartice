@@ -67,28 +67,27 @@ $pageTitle = '';
         <img class="m-1" src="./images/esg6.jpeg">
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-4 imgfit imgfit-3x2">
+      <div class=" popup">
+        <div class="row no-gutters">
+          <div class="col col-lg-4 ">
             <img class="" src="./images/esg1.jpeg">
           </div>
-          <div class="col col-lg-4 imgfit imgfit-3x2">
+          <div class="col col-lg-4 ">
             <img class="" src="./images/esg2.jpeg">
           </div>
-          <div class="col col-lg-4 imgfit imgfit-3x2">
+          <div class="col col-lg-4 ">
             <img class="" src="./images/esg3.jpeg">
           </div>
-          <div class="col col-lg-4 imgfit imgfit-3x2">
+          <div class="col col-lg-4 ">
             <img class="" src="./images/esg4.jpeg">
           </div>
-          <div class="col col-lg-4 imgfit imgfit-3x2">
+          <div class="col col-lg-4 ">
             <img class="" src="./images/esg5.jpeg">
           </div>
-          <div class="col col-lg-4 imgfit imgfit-3x2">
+          <div class="col col-lg-4 ">
             <img class="" src="./images/esg6.jpeg">
           </div>
         </div>
-
       </div>
       <div class="show">
         <div class="overlay"></div>
@@ -126,13 +125,12 @@ $pageTitle = '';
       </div>
     </div>
 
-
-
     <div class="bg bg-gray">
-
-      <div class="py-4">
-        <div class=" text-center font-l fon-weight-l">
-          <p class="my-3">Looking forward to the future, we will continue to follow ESG regulations and operate sustainably. We are grateful to all the customers and suppliers who trade with us, and we look forward to creating more business opportunities with more friends from all over the world who agree with us in the future, continue to give back to the society, and form a positive energy cycle.</p>
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-lg-12  text-left font-l fon-weight-l l-h-25">
+            <p class="my-3 ">Looking forward to the future, we will continue to follow ESG regulations and operate sustainably. We are grateful to all the customers and suppliers who trade with us, and we look forward to creating more business opportunities with more friends from all over the world who agree with us in the future, continue to give back to the society, and form a positive energy cycle.</p>
+          </div>
         </div>
       </div>
 
@@ -145,6 +143,37 @@ $pageTitle = '';
         <img class="m-1" src="./images/感謝狀6.jpeg">
         <img class="m-1" src="./images/感謝狀7.jpeg">
       </div>
+
+
+      <div class="row popupthanks no-gutters">
+        <div class="col col-lg-3 ">
+          <img class="" src="./images/感謝狀1.jpeg">
+        </div>
+        <div class="col col-lg-3 ">
+          <img class="" src="./images/感謝狀2.jpeg">
+        </div>
+        <div class="col col-lg-3 ">
+          <img class="" src="./images/感謝狀3.jpeg">
+        </div>
+        <div class="col col-lg-3 ">
+          <img class="" src="./images/感謝狀4.jpeg">
+        </div>
+      </div>
+
+      <div class="row no-gutters popupthanks ">
+        <div class="col col-lg-4 ">
+          <img class="" src="./images/感謝狀5.jpeg">
+        </div>
+        <div class="col col-lg-4 ">
+          <img class="" src="./images/感謝狀6.jpeg">
+        </div>
+        <div class="col col-lg-4 ">
+          <img class="" src="./images/感謝狀7.jpeg">
+        </div>
+      </div>
+
+
+
       <div class="show">
         <div class="overlay"></div>
         <div class="img-show">

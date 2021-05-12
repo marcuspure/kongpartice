@@ -6,7 +6,7 @@
     <li class="nav_item"><a href="/machine.php">Machine</a></li>
     <li class="nav_item"><a href="/fastener.php">Fasteners</a></li>
     <li class="nav_item"><a href="">Equipment</a></li>
-    <li class="nav_item"><a href="/new_product.php">News</a></li>
+    <li class="nav_item"><a href="/new.php">News</a></li>
     <li class="nav_item"><a href="">Contacts Us</a></li>
   </ul>
 </nav>

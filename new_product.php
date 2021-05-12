@@ -65,6 +65,10 @@ $pageTitle = '';
         </div>
       </div>
     </div>
+    <button class="btn click p-3">X</button>
+    <div class="col imgfit imgfit-3x2 ">
+      <img class="test bg-black" src="/images/new_product01.png" alt="">
+    </div>
 
     <!-- //輪波圖 -->
     <div class="swiper-container mySwiper">
@@ -97,7 +101,7 @@ $pageTitle = '';
     </div>
 
   </div>
-  
+
   <!--End of main-->
 
   <?php include("include/_footer.php"); ?>
@@ -113,6 +117,12 @@ $pageTitle = '';
 
 
   <script>
+    $(document).ready(function() {
+      $(".click").click(function() {
+        $(".test").toggle();
+      })
+    });
+
     var swiper = new Swiper(".mySwiper", {
       cssMode: true,
       navigation: {
