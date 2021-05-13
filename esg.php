@@ -18,6 +18,10 @@ $pageTitle = '';
       <!-- content 從這裡開始 -->
       <!-- //title -->
 
+      <div class="Toolstitle_img title_img text-center">
+        <img src="/images/ESG_main.png" style="width:100%;">
+        <h1 class="centered_tooling">ESG</h1>
+      </div>
 
       <div class="bg-gray text-center font-l fon-weight-l">
         <p class="py-3">Practicing ESG philosophy, KONFU ENTERPRISE expects sustainable operation.</p>

@@ -56,10 +56,16 @@ $pageTitle = '';
 
 
 
+    <div class="btn01">
+      <button class="toggle btn  p-3 ">+</button>
+      <div id="target"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
+    </div>
+    <div class="btn02">
+      <button class="toggle1 btn  p-3 ">+</button>
+      <div id="target1"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
+    </div>
 
-    <button class="toggle btn  p-3 btn01">+</button>
-    <div id="target"><img class="bg-black btn01" src="/images/new_product01.png" style="width: 50%;"></div>
-
+    
     <!-- //輪波圖 -->
     <div class="swiper-container mySwiper">
       <div class="swiper-wrapper">
@@ -110,6 +116,9 @@ $pageTitle = '';
     $('.toggle').click(function() {
       $('#target').toggle('');
     });
+    $('.toggle1').click(function() {
+      $('#target1').toggle('');
+    });
 
     var swiper = new Swiper(".mySwiper", {
       cssMode: true,
@@ -129,30 +138,32 @@ $pageTitle = '';
 </html>
 
 <style>
-  .newproduct1{
+  .newproduct1 {
     background-image: url('./images/new_product1.png');
     background-size: cover;
   }
+
   #target {
     /* background: #0099cc; */
     /* width: 300px;
     height: 300px;
     padding: 5px; */
-    /* display: none; */
+    display: none;
   }
 
   .Hide {
     display: none;
   }
 
-  /* .btn01{
+   .btn01{
     position: absolute;
     top: 50%;
     left: 22%;
   }
-  .btn01{
+   /* .btn02{
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 22%;
   } */
+
 </style>

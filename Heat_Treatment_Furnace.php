@@ -20,12 +20,12 @@ $pageTitle = '';
 
       <div class="Toolstitle_img title_img text-center">
         <img src="/images/title.jpg" alt="Snow" style="width:100%;">
-        <h1 class="centered">Heat Treatment/Plating</h1>
+        <h1 class="centered_tooling">Heat Treatment/Plating</h1>
       </div>
 
 
       <!-- text -->
-      <h4 class="text-center my-3">Heat Treatment Furnace</h4>
+      <h4 class="text-center my-3 font-xxl">Heat Treatment Furnace</h4>
       <div class="Carbide_Tools_text">
         <div class="d-flex no-gutters align-items-center justify-content-center ">
           <div class="text-center toolings_text font-l fon-weight-l">
@@ -38,24 +38,20 @@ $pageTitle = '';
         </div>
       </div>
 
-
-      <div class="">
-        <div class="d-flex no-gutters align-items-center justify-content-center ">
-          <div class="text-center toolings_text font-l fon-weight-l">
-            <p>
-              Longer mesh belt lifecycle: It’s sustained by a special roller conveyor system.
-              Precise temperature: In furnace, the automatic segmentation temperature control keeps the temperature accurate.
-              Force ventilation fan: It will stir and mix the atmosphere to make sure the temperature is even.
-              Automatic atmosphere control: Quality and quantity of production is guaranteed, and the furnace lifecycle will be lengthened.
-              High production capacity and low abrasion: The furnace design aims to recycle resources and power.
-              Easy operation: once the heat treatment conditions are set, it will be run automatically. No special techniques required.
-              Furnace atmosphere choices: It can work with endothermic gas or carbinol instillation.
-              Specialized heating elements: It’s easy to change components and maintain. It runs either with electricity or gas, depending on its power source.
-            </p>
-          </div>
+      <div class="d-flex no-gutters align-items-center justify-content-center">
+        <div class="text-left toolings_text font-l fon-weight-l">
+          <ul class="list-style-decimal my-5">
+            <li>Longer mesh belt lifecycle: It’s sustained by a special roller conveyor system.</li>
+            <li>Precise temperature: In furnace, the automatic segmentation temperature control keeps the temperature accurate.</li>
+            <li>Force ventilation fan: It will stir and mix the atmosphere to make sure the temperature is even.</li>
+            <li>Automatic atmosphere control: Quality and quantity of production is guaranteed, and the furnace lifecycle will be lengthened.</li>
+            <li>High production capacity and low abrasion: The furnace design aims to recycle resources and power.</li>
+            <li>Easy operation: once the heat treatment conditions are set, it will be run automatically. No special techniques required.</li>
+            <li>Furnace atmosphere choices: It can work with endothermic gas or carbinol instillation.</li>
+            <li>Specialized heating elements: It’s easy to change components and maintain. It runs either with electricity or gas, depending on its power source.</li>
+          </ul>
         </div>
       </div>
-
 
       <div class="punch_text">
         <div class="d-flex no-gutters align-items-center justify-content-center ">
@@ -100,6 +96,29 @@ $pageTitle = '';
               electroplating, after-treatment. It can customize different designs for different metal coatings. It’s applicable to the surface treatment of screws, general hardware, machines, and electronic components.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div class="d-flex no-gutters align-items-center justify-content-center">
+        <div class="text-left toolings_text font-l fon-weight-l">
+          <ul class=" my-5">
+            <li>Automatic barrel plating: it can be equipped with a monitor system to control the electroplating quality.</li>
+            <li>Barrel for electroplating basket: The set includes pretreatment, electroplating, after-treatment, etc.</li>
+            <li>Customize automatic production: It can customize an automatic production process after different metal coatings.</li>
+            <li>Automatic atmosphere control: Quality and quantity of production is guaranteed, and the furnace lifecycle will be lengthened.</li>
+            <li>Widely applicable to the surface treatment of screws, general hardware, zippers, machines , and electronic components.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="Carbide_Tools_text">
+        <div class="d-flex no-gutters align-items-center justify-content-center ">
+          <div class="text-center toolings_text font-l fon-weight-l">
+            <p>
+            If you require other special surface treatment, please feel free to contact us.
+            </p>
+          </div>
+          
         </div>
       </div>
 

@@ -38,46 +38,44 @@ $pageTitle = '';
       <div class="text-center w-100 my-5 factory_img ">
         <img src="./images/廠區01.jpeg" alt="">
       </div>
-    </div>
 
-    <div class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="imgfit imgfit-3x2">
-            <img src="/images/線材01.jpeg" alt="">
+
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="imgfit imgfit-3x2">
+              <img src="/images/線材01.jpeg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgfit imgfit-3x2">
+              <img src="/images/線材02.jpeg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgfit imgfit-3x2">
+              <img src="/images/線材03.jpeg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgfit imgfit-3x2">
+              <img src="/images/線材04.jpeg" alt="">
+            </div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="imgfit imgfit-3x2">
-            <img src="/images/線材02.jpeg" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgfit imgfit-3x2">
-            <img src="/images/線材03.jpeg" alt="">
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgfit imgfit-3x2">
-            <img src="/images/線材04.jpeg" alt="">
-          </div>
-        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+         <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+     
     </div>
+    <!--End of main-->
 
-
-  </div>
-  <!--End of main-->
-
-  <?php include("include/_footer.php"); ?>
+    <?php include("include/_footer.php"); ?>
 
 
   </div>
@@ -91,6 +89,8 @@ $pageTitle = '';
 
   <script>
     var swiper = new Swiper('.swiper-container', {
+      direction: 'horizontal',
+      loop: false,
       slidesPerView: 1, //手機版一排一張
       spaceBetween: 16,
       // RWD
@@ -101,6 +101,16 @@ $pageTitle = '';
           spaceBetween: 32, //間距
         },
       },
+    });
+
+    var mySwiper = new Swiper('.swiper-container1', {
+      direction: 'horizontal',
+      loop: false,
+      navigation: {
+        nextEl: '.swiper-button-next1',
+        prevEl: '.swiper-button-prev1',
+      },
+
     });
   </script>
 </body>

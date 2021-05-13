@@ -47,43 +47,22 @@ $pageTitle = '';
     <!-- //tab -->
     <div class="text-center bg-gray">
       <!-- <div class="inner"> -->
-        <ul class="tabs list-unstyled">
-          <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 active "><a data-tab="#tab_1">Handing Machine</a></li>
-          <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_2">Thread Rolling Machine</a></li>
-          <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_3">Nut Former</a></li>
-        </ul>
+      <ul class="tabs list-unstyled">
+        <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 active "><a data-tab="#tab_1">Handing Machine</a></li>
+        <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_2">Thread Rolling Machine</a></li>
+        <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_3">Nut Former</a></li>
+      </ul>
       <!-- </div> -->
     </div>
 
     <div class="tabCont home_tabCont mt-4">
       <div id="tab_1" class="tabCont_panel active">
-        <div class="form-group row">
-          <div class="col-6">
-            <select name="" id="" class="form-control w-100 mb-3">
-              <option value="">台北市</option>
-            </select>
-          </div>
-          <div class="col-6">
-            <select name="" id="" class="form-control w-100 mb-3">
-              <option value="">中正區</option>
-            </select>
-          </div>
-          <div class="col-12">
-            <input type="text" name="" id="address" class="form-control w-100 mb-3" placeholder="輸入外送地址">
-          </div>
-          <div class="col-12">
-            <input type="text" name="" id="address_name" class="form-control w-100 mb-3" placeholder="輸入公司/地標/樓層 (非必填)">
-          </div>
-          <div class="col-12">
-            <a class="font-s tracking-1" data-modal="#userAddress">
-              <i class="icon-map-pin big mr-1"></i><u>選擇常用地址</u>
-            </a>
-          </div>
-        </div>
-        <a data-modal="#chooseStore" class="btn btn-large btn-block my-4">尋找美食</a>
+
+
       </div>
       <!-- /#tab_1 -->
 
+      <!-- tab_2 -->
       <div id="tab_2" class="tabCont_panel">
         <a href="/ui/brand_list" class="card card-hover d-flex align-items-center mb-3">
           <i class="icon-fork-cross ml-3 h4"></i>
@@ -102,9 +81,15 @@ $pageTitle = '';
         <div class="imgfit imgfit-3x2">
           <img src="/images/machinetab01.png" alt="">
         </div>
+        <div class="imgfit imgfit-3x2 d-flex">
+          <img src="/images/machine02.jpeg " style="width:50%;">
+          <img src="/images/machine03.jpeg" style="width:50%;">
+        </div>
       </div>
-      <!-- /#tab_3 -->
+
     </div>
+    <!-- /#tab_3 -->
+  </div>
 
 
   </div>
@@ -125,18 +110,7 @@ $pageTitle = '';
 
 
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      cssMode: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      mousewheel: true,
-      keyboard: true,
-    });
+  
 
     // tab
     $('[data-tab]').click(function(e) {

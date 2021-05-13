@@ -47,7 +47,7 @@ $pageTitle = '';
     <!-- //tab -->
     <div class="text-center bg-gray">
       <!-- <div class="inner"> -->
-      <ul class="tabs list-unstyled">
+      <ul class="tabs list-unstyled m-auto">
         <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 active "><a data-tab="#tab_1">Carbide</a></li>
         <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_2">Punch</a></li>
         <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_3">Power Metallugy Tools</a></li>
@@ -167,6 +167,7 @@ $pageTitle = '';
       $(this).parent('.tabs_item').toggleClass('active', true).siblings('.tabs_item').toggleClass('active', false);
       $(tabId).toggleClass('active', true).siblings('.tabCont_panel').toggleClass('active', false);
     });
+    
   </script>
 </body>
 
