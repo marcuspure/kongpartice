@@ -17,12 +17,9 @@ $pageTitle = '';
     <div id="main" class="main">
       <!-- content 從這裡開始 -->
       <!-- //title -->
-      <div class="newproduction">
-        <div class="">
-          <div class="title_img imgfit imgfit-3x2">
-            <img src="" alt="">
-          </div>
-        </div>
+      <div class="Toolstitle_img title_img text-center">
+        <img src="/images/New-product_main.png" style="width:100%;">
+        <h1 class="centered_tooling">New Product Our Work</h1>
       </div>
 
 
@@ -44,48 +41,48 @@ $pageTitle = '';
 
         </div>
       </div>
-    </div>
 
-    <div class="pic">
-      <div class="row mx-0 justify-content-center align-items-center w-100">
-        <div class="col imgfit imgfit-3x2 newproduct1">
-          <!-- <img src="" alt=""> -->
+
+      <div class="pic">
+        <div class="row mx-0 justify-content-center align-items-center w-100">
+          <div class="col imgfit imgfit-3x2 newproduct1">
+            <!-- <img src="" alt=""> -->
+          </div>
         </div>
       </div>
-    </div>
 
 
 
-    <div class="btn01">
-      <button class="toggle btn  p-3 ">+</button>
-      <div id="target"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
-    </div>
-    <div class="btn02">
-      <button class="toggle1 btn  p-3 ">+</button>
-      <div id="target1"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
-    </div>
-
-    
-    <!-- //輪波圖 -->
-    <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide imgfit imgfit-3x2">
-          <img class="" src="./images/new product_slider2.png" alt="">
-        </div>
-        <div class="swiper-slide imgfit imgfit-3x2">
-          <img class="" src="./images/ournewproduct.png" alt="">
-        </div>
-        <div class="swiper-slide imgfit imgfit-3x2">
-          <img class="" src="./images/newproduct3.png" alt="">
-        </div>
-
+      <div class="btn01">
+        <button class="toggle btn  p-3 ">+</button>
+        <div id="target"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+      <div class="btn02">
+        <button class="toggle1 btn  p-3 ">+</button>
+        <div id="target1"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
+      </div>
+
+
+      <!-- //輪波圖 -->
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide imgfit imgfit-3x2">
+            <img class="" src="./images/new product_slider2.png" alt="">
+          </div>
+          <div class="swiper-slide imgfit imgfit-3x2">
+            <img class="" src="./images/ournewproduct.png" alt="">
+          </div>
+          <div class="swiper-slide imgfit imgfit-3x2">
+            <img class="" src="./images/newproduct3.png" alt="">
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
     </div>
-
-
     <!-- newproduct -->
     <div class="newproduct text-center d-flex justify-content-center flex-column font-l fon-weight-l l-h-30 bg bg-gray">
       <p class="font-l fon-weight-l m-1 ">If you want to develop or design any new product,
@@ -149,21 +146,31 @@ $pageTitle = '';
     height: 300px;
     padding: 5px; */
     display: none;
+    z-index: 2;
+
   }
+
+  #target1 {
+    display: none;
+   
+  }
+
 
   .Hide {
     display: none;
   }
 
-   .btn01{
+  .btn01 {
     position: absolute;
-    top: 50%;
-    left: 22%;
+    top: 30%;
+    left: 24%;
+   
   }
-   /* .btn02{
-    position: absolute;
-    top: 50%;
-    left: 22%;
-  } */
 
+  .btn02 {
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    
+  }
 </style>

@@ -101,12 +101,12 @@ $pageTitle = '';
 
       <div class="d-flex no-gutters align-items-center justify-content-center">
         <div class="text-left toolings_text font-l fon-weight-l">
-          <ul class=" my-5">
-            <li>Automatic barrel plating: it can be equipped with a monitor system to control the electroplating quality.</li>
-            <li>Barrel for electroplating basket: The set includes pretreatment, electroplating, after-treatment, etc.</li>
-            <li>Customize automatic production: It can customize an automatic production process after different metal coatings.</li>
-            <li>Automatic atmosphere control: Quality and quantity of production is guaranteed, and the furnace lifecycle will be lengthened.</li>
-            <li>Widely applicable to the surface treatment of screws, general hardware, zippers, machines , and electronic components.</li>
+          <ul class="heatul my-5">
+            <li class="heat_li">Automatic barrel plating: it can be equipped with a monitor system to control the electroplating quality.</li>
+            <li class="heat_li">Barrel for electroplating basket: The set includes pretreatment, electroplating, after-treatment, etc.</li>
+            <li class="heat_li">Customize automatic production: It can customize an automatic production process after different metal coatings.</li>
+            <li class="heat_li">Automatic atmosphere control: Quality and quantity of production is guaranteed, and the furnace lifecycle will be lengthened.</li>
+            <li class="heat_li">Widely applicable to the surface treatment of screws, general hardware, zippers, machines , and electronic components.</li>
           </ul>
         </div>
       </div>

@@ -47,7 +47,7 @@ $pageTitle = '';
     <!-- //tab -->
     <div class="text-center bg-gray">
       <!-- <div class="inner"> -->
-      <ul class="tabs list-unstyled">
+      <ul class="tabs list-unstyled m-auto">
         <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 active "><a data-tab="#tab_1">Handing Machine</a></li>
         <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_2">Thread Rolling Machine</a></li>
         <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_3">Nut Former</a></li>
@@ -57,23 +57,21 @@ $pageTitle = '';
 
     <div class="tabCont home_tabCont mt-4">
       <div id="tab_1" class="tabCont_panel active">
-
+        <div class="imgfit imgfit-3x2">
+          <img src="/images/fa-15.jpeg" alt="">
+        </div>
 
       </div>
       <!-- /#tab_1 -->
 
       <!-- tab_2 -->
       <div id="tab_2" class="tabCont_panel">
-        <a href="/ui/brand_list" class="card card-hover d-flex align-items-center mb-3">
-          <i class="icon-fork-cross ml-3 h4"></i>
-          <div class="p-3">
-            <strong class="d-block font-500">台北車站店</strong>
-            <div class="small">
-              <div class="font-300 text-gray">台北市中正區忠孝東路二段134巷2號</div>
-              02-2751-6665
-            </div>
-          </div>
-        </a>
+        <div class="imgfit imgfit-3x2">
+          <img src="/images/震動盤.png" alt="">
+        </div>
+        <div class="imgfit imgfit-3x2">
+          <img src="/images/搓牙機牙版.jpeg" alt="">
+        </div>
       </div>
       <!-- /#tab_3 -->
       <div id="tab_3" class="tabCont_panel">
@@ -81,6 +79,7 @@ $pageTitle = '';
         <div class="imgfit imgfit-3x2">
           <img src="/images/machinetab01.png" alt="">
         </div>
+
         <div class="imgfit imgfit-3x2 d-flex">
           <img src="/images/machine02.jpeg " style="width:50%;">
           <img src="/images/machine03.jpeg" style="width:50%;">
@@ -110,8 +109,6 @@ $pageTitle = '';
 
 
   <script>
-  
-
     // tab
     $('[data-tab]').click(function(e) {
       e.preventDefault();
