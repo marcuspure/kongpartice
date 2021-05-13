@@ -216,24 +216,6 @@ h6, .h6 { font-size: 16px; }
   .nav_item:hover { background: #e8381c; }
   .nav_item:hover .nav_dropdown { opacity: 1; visibility: visible; }
   .nav_social { display: none; } }
-.fixedBtns { position: fixed; z-index: 9; bottom: 0; right: 0; margin: 10px; }
-.fixedBtns a { display: flex; flex-direction: column; justify-content: center; align-items: center; width: 48px; height: 48px; margin-top: 8px; line-height: 1; text-align: center; border-radius: 50%; border: solid 1px rgba(51, 51, 51, 0.1); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
-.fixedBtns_top { color: blue; background: #fff; font-size: 16px; font-weight: 600; }
-.fixedBtns_top .fas { margin-bottom: -0.125em; font-size: 14px; }
-.fixedBtns_mail { color: #fff; background: blue; font-size: 12px; font-weight: 500; }
-.fixedBtns_mail .fas { font-size: 18px; }
-.fixedBtns_mail img { width: 1.75em; }
-.fixedBtns_mail span { margin-top: 0.05em; }
-.fixedBtns_mail:hover { background: #3333ff; }
-@media (min-width: 1200px) { .fixedBtns { margin: 30px 2.25rem; }
-  .fixedBtns a { width: 60px; height: 60px; margin-top: 12px; }
-  .fixedBtns_top { font-size: 24px; }
-  .fixedBtns_top .fas { font-size: 20px; }
-  .fixedBtns_mail { font-size: 14px; }
-  .fixedBtns_mail .fas { font-size: 28px; }
-  .fixedBtns_mail img { width: 2.285em; }
-  .fixedBtns_mail span { margin-top: 0.2em; } }
-
 footer .footerWrap { font-size: 0.75rem; line-height: 1.25; text-align: center; padding: 10px 20px 10px 20px; background-color: white; }
 
 .footer_item { -ms-flex: 1 1 4em; flex: 1 1 4em; }
@@ -413,6 +395,11 @@ h3 { font-size: 42px; line-height: 51px; }
 .img_outline { background-color: black; width: 150px; height: 150px; border-radius: 70px; align-items: center; justify-content: center; display: flex; }
 
 .newproduction { background-image: url("https://fakeimg.pl/585x389"); }
+
+.formula_top_line { display: flex; align-items: center; flex-direction: column; }
+.formula_top_line::before { content: ""; border-top: 2px solid white; width: 52px; }
+
+.free_trial { height: 15rem; justify-content: center; display: flex; flex-direction: column; }
 
 .machine_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
 

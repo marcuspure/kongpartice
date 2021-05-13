@@ -27,9 +27,9 @@ $pageTitle = '';
 			<!-- //title -->
 			<div class="konfu_title swiper-container">
 				<div class="swiper-wrapper ">
-					
+
 					<div class="swiper-slide imgfit imgfit-3x2 Toolstitle_img title_img text-center ">
-					<div class="mask"></div>
+						<div class="mask"></div>
 						<img src="/images/title.jpg" style="width:100%;">
 						<h1 class="centered">Discover The Best</h1>
 						<p class="centered_p">More Than 40 Years Of Experience</p>
@@ -77,10 +77,11 @@ $pageTitle = '';
 					</div>
 				</div>
 			</div>
+
 			<!-- The Formula of Fasteners Manufacturing -->
 			<div class="formula">
 				<div class="formulatitle text-center">
-					<h3 class="py-3 top_line text-white">The Formula of Fasteners Manufacturing</h3>
+					<h3 class="py-3 formula_top_line text-white">The Formula of Fasteners Manufacturing</h3>
 				</div>
 				<div class="formula_allitem d-flex justify-content-center">
 					<div class="formula_item text-center">
@@ -89,13 +90,11 @@ $pageTitle = '';
 								<img class="img imgfit" src="/images/線圈.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600 text-white">Wire Rod / Wire</p>
+						<p class="text-center my-2 font-m fon-weight-600 text-white">Wire Rod / Wire</p>
 						<button class="btn py-1 px-3 my-1 font-m">More ></button>
 					</div>
-					<div class="div">
-						<div class="+">
-							+
-						</div>
+					<div class="text-white mx-4 my-6 font-xl">
+						<i class="fas fa-plus"></i>
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
@@ -103,11 +102,11 @@ $pageTitle = '';
 								<img class="img imgfit" src="/images/機台.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600 text-white">Machine</p>
+						<p class="text-center my-2 font-m fon-weight-600 text-white">Machine</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
-					<div class="+">
-						+
+					<div class="text-white mx-4 my-6 font-xl">
+						<i class="fas fa-plus"></i>
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
@@ -115,11 +114,11 @@ $pageTitle = '';
 								<img class="img imgfit" src="./images/小零件.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600 text-white">Toolings</p>
+						<p class="text-center my-2 font-m fon-weight-600 text-white">Toolings</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
-					<div class="+">
-						+
+					<div class="text-white mx-4 my-6 font-xl">
+						<i class="fas fa-plus"></i>
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
@@ -127,11 +126,11 @@ $pageTitle = '';
 								<img class="img imgfit" src="./images/index4機台.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600 text-white">Heat Treatment/Plating</p>
+						<p class="text-center my-2 font-m fon-weight-600 text-white">Heat Treatment/Plating</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
-					<div class="+">
-						+
+					<div class="text-white mx-4 my-6 font-xl">
+						<i class="fas fa-plus"></i>
 					</div>
 					<div class="formula_item text-center">
 						<div class="img_outline">
@@ -139,11 +138,8 @@ $pageTitle = '';
 								<img class="img imgfit" src="./images/index5.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600 text-white">Fasteners</p>
+						<p class="text-center my-2 font-m fon-weight-600 text-white">Fasteners</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
-					</div>
-					<div class="+">
-						+
 					</div>
 				</div>
 			</div>
@@ -151,9 +147,11 @@ $pageTitle = '';
 			<!-- free_trial -->
 			<div class="free_trial order project ">
 				<div class="d-flex">
-					<div class="img text-right m-2">
-						<img src="https://fakeimg.pl/200x200" alt="">
-					</div>
+				<div class="img_outline">
+							<div class="formula_itemimg d-flex fon-weight-600">
+								<img class="img imgfit" src="./images/index_trial_icon.png" alt="">
+							</div>
+						</div>
 					<div class="trailtext m-2">
 						<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
 						<p class="font-l fon-weight-l l-h-30">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
@@ -164,7 +162,7 @@ $pageTitle = '';
 
 			<!-- Production Equipment -->
 			<div class="container production text-center">
-			
+
 				<div class="row no-gutters ">
 					<div class="col col-lg-4 ">
 						<div class="production_item">
@@ -265,9 +263,9 @@ $pageTitle = '';
 		</div><!-- /.indexnews -->
 
 		<!-- map -->
-<div class="map">
-	<img src="./images/map.png" alt="" style="width: 100%;">
-</div>
+		<div class="map">
+			<img src="./images/map.png" alt="" style="width: 100%;">
+		</div>
 
 		<!-- /map -->
 	</div>

@@ -8,6 +8,7 @@
     font-weight: 700;
   }
 }
+
 .qulaity_item {
   display: flex;
   flex-direction: column;
@@ -18,6 +19,7 @@
     font-weight: 700;
   }
 }
+
 .esg_item {
   display: flex;
   flex-direction: column;
@@ -41,53 +43,80 @@
   flex-direction: column;
   justify-content: center;
 }
-.free_trial{
+
+.free_trial {
   width: 900px;
   margin: auto;
 }
 
-.title_item{
-	h3 {
-		width: 510px;
-		margin: auto;
-		text-align: left;
-	}
-	p {
-		width: 510px;
-		margin: auto;
-		text-align: left;
-	}
-	.more{
-		width: 510px;
-		margin: auto;
-		text-align: left;
-	}
+.title_item {
+  h3 {
+    width: 510px;
+    margin: auto;
+    text-align: left;
+  }
+
+  p {
+    width: 510px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .more {
+    width: 510px;
+    margin: auto;
+    text-align: left;
+  }
 }
 
-.formula{
-	background-image: url("/images/index_formula_bg.png");
+.formula {
+  background-image: url("/images/index_formula_bg.png");
 }
-.formula_itemimg{
-	background-color: white;
-	border-radius: 70px;
-	width: 140px;
-	height: 140px;
-	align-items: center;
-	justify-content: center;
-	img{
-		border-radius: inherit;
-	}
-	
+
+.formula_itemimg {
+  background-color: white;
+  border-radius: 70px;
+  width: 140px;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    border-radius: inherit;
+  }
+
 }
-.img_outline{
-	background-color: black;
-	width: 150px;
-	height: 150px;
-	border-radius: 70px;
-	align-items: center;
-	justify-content: center;
-	display: flex;
+
+.img_outline {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-.newproduction{
-	background-image: url('https://fakeimg.pl/585x389');
+
+.newproduction {
+  background-image: url('https://fakeimg.pl/585x389');
+}
+
+.formula_top_line {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    border-top: 2px solid white;
+    width: 52px;
+  }
+}
+
+
+.free_trial {
+  height: 15rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }

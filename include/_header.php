@@ -15,14 +15,3 @@
 
 
 
-
-<script>
-  // nav
-  $('#navToggle').click(function() {
-    $(this).toggleClass('open');
-    $('#nav').toggleClass('open');
-  });
-  $('#nav_close, #nav_mask').click(function() {
-    $('#nav, #navToggle').toggleClass('open', false);
-  });
-</script>

@@ -48,15 +48,15 @@ $pageTitle = '';
 
     <div class="pic">
       <div class="row mx-0 justify-content-center align-items-center w-100">
-        <div class="col imgfit imgfit-3x2 ">
-          <img src="./images/new_product1.png" alt="">
+        <div class="col imgfit imgfit-3x2 newproduct1">
+          <!-- <img src="" alt=""> -->
         </div>
       </div>
     </div>
-    
-    
 
-    
+
+
+
     <button class="toggle btn  p-3 btn01">+</button>
     <div id="target"><img class="bg-black btn01" src="/images/new_product01.png" style="width: 50%;"></div>
 
@@ -107,18 +107,8 @@ $pageTitle = '';
 
 
   <script>
-    $('.Show').click(function() {
-      $('#target').show(0);
-      $('.Show').hide(0);
-      $('.Hide').show(0);
-    });
-    $('.Hide').click(function() {
-      $('#target').hide(0);
-      $('.Show').show(0);
-      $('.Hide').hide(0);
-    });
     $('.toggle').click(function() {
-      $('#target').toggle('fast');
+      $('#target').toggle('');
     });
 
     var swiper = new Swiper(".mySwiper", {
@@ -133,29 +123,28 @@ $pageTitle = '';
       mousewheel: true,
       keyboard: true,
     });
-
   </script>
 </body>
 
 </html>
 
 <style>
-  
-
-  
-  
-
+  .newproduct1{
+    background-image: url('./images/new_product1.png');
+    background-size: cover;
+  }
   #target {
     /* background: #0099cc; */
-    width: 300px;
+    /* width: 300px;
     height: 300px;
-    padding: 5px;
-    display: none;
+    padding: 5px; */
+    /* display: none; */
   }
 
   .Hide {
     display: none;
   }
+
   /* .btn01{
     position: absolute;
     top: 50%;
