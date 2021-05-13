@@ -46,18 +46,6 @@ $pageTitle = '';
       </div>
     </div>
 
-
-    <div class="popup">
-      <img src="/images/newproduct1.png">
-    </div>
-    <div class="show">
-      <div class="overlay"></div>
-      <div class="img-show">
-        <span>X</span>
-        <img src="">
-      </div>
-    </div>
-
     <div class="pic">
       <div class="row mx-0 justify-content-center align-items-center w-100">
         <div class="col imgfit imgfit-3x2 ">
@@ -65,10 +53,12 @@ $pageTitle = '';
         </div>
       </div>
     </div>
-    <button class="btn click p-3">X</button>
-    <div class="col imgfit imgfit-3x2 ">
-      <img class="test bg-black" src="/images/new_product01.png" alt="">
-    </div>
+    
+    
+
+    
+    <button class="toggle btn  p-3 btn01">+</button>
+    <div id="target"><img class="bg-black btn01" src="/images/new_product01.png" style="width: 50%;"></div>
 
     <!-- //輪波圖 -->
     <div class="swiper-container mySwiper">
@@ -91,7 +81,7 @@ $pageTitle = '';
 
 
     <!-- newproduct -->
-    <div class="newproduct text-center d-flex justify-content-center flex-column font-l fon-weight-l l-h-30">
+    <div class="newproduct text-center d-flex justify-content-center flex-column font-l fon-weight-l l-h-30 bg bg-gray">
       <p class="font-l fon-weight-l m-1 ">If you want to develop or design any new product,
         please don’t hesitate to contact</p>
       <p class="font-l fon-weight-l m-1">KONFU for advice. We are always there to make steps forward with you.</p>
@@ -117,10 +107,18 @@ $pageTitle = '';
 
 
   <script>
-    $(document).ready(function() {
-      $(".click").click(function() {
-        $(".test").toggle();
-      })
+    $('.Show').click(function() {
+      $('#target').show(0);
+      $('.Show').hide(0);
+      $('.Hide').show(0);
+    });
+    $('.Hide').click(function() {
+      $('#target').hide(0);
+      $('.Show').show(0);
+      $('.Hide').hide(0);
+    });
+    $('.toggle').click(function() {
+      $('#target').toggle('fast');
     });
 
     var swiper = new Swiper(".mySwiper", {
@@ -136,78 +134,36 @@ $pageTitle = '';
       keyboard: true,
     });
 
-    $(function() {
-      "use strict";
-
-      $(".popup img").click(function() {
-        var $src = $(this).attr("src");
-        $(".show").fadeIn();
-        $(".img-show img").attr("src", $src);
-      });
-
-      $("span, .overlay").click(function() {
-        $(".show").fadeOut();
-      });
-
-    });
   </script>
 </body>
 
 </html>
 
 <style>
-  .popup {
-    width: 900px;
-    margin: auto;
-    text-align: center
-  }
+  
 
-  .popup img {
-    width: 200px;
-    height: 200px;
-    cursor: pointer
-  }
+  
+  
 
-  .show {
-    z-index: 999;
+  #target {
+    /* background: #0099cc; */
+    width: 300px;
+    height: 300px;
+    padding: 5px;
     display: none;
   }
 
-  .show .overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .66);
-    position: absolute;
-    top: 0;
-    left: 0;
+  .Hide {
+    display: none;
   }
-
-  .show .img-show {
-    width: 600px;
-    height: 400px;
-    background: #FFF;
+  /* .btn01{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden
+    left: 22%;
   }
-
-  .img-show span {
+  .btn01{
     position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 99;
-    cursor: pointer;
-  }
-
-  .img-show img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  /*End style*/
+    top: 50%;
+    left: 20%;
+  } */
 </style>

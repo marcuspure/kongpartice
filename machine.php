@@ -17,13 +17,9 @@ $pageTitle = '';
     <div id="main" class="main">
       <!-- content 從這裡開始 -->
       <!-- //title -->
-      <div class="newproduction">
-        <div class="">
-          <div class="title_img imgfit imgfit-3x2">
-            <img src="" alt="">
-            <h3 class="text-center">Machine</h3>
-          </div>
-        </div>
+      <div class="Toolstitle_img title_img text-center">
+        <img src="/images/Machine_main.png" style="width:100%;">
+        <h1 class="centered_tooling">Machine</h1>
       </div>
 
 
@@ -48,25 +44,67 @@ $pageTitle = '';
       </div>
     </div>
 
-    <div class="text-center">
-      <button class="btn-rectangle-black btn-outline m-2 p-2">Handing Machine</button>
-      <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="/Performance.php">Thread Rolling Machine</a></button>
-      <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">Nut Former</a></button>
+    <!-- //tab -->
+    <div class="text-center bg-gray">
+      <!-- <div class="inner"> -->
+        <ul class="tabs list-unstyled">
+          <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 active "><a data-tab="#tab_1">Handing Machine</a></li>
+          <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_2">Thread Rolling Machine</a></li>
+          <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_3">Nut Former</a></li>
+        </ul>
+      <!-- </div> -->
     </div>
 
+    <div class="tabCont home_tabCont mt-4">
+      <div id="tab_1" class="tabCont_panel active">
+        <div class="form-group row">
+          <div class="col-6">
+            <select name="" id="" class="form-control w-100 mb-3">
+              <option value="">台北市</option>
+            </select>
+          </div>
+          <div class="col-6">
+            <select name="" id="" class="form-control w-100 mb-3">
+              <option value="">中正區</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <input type="text" name="" id="address" class="form-control w-100 mb-3" placeholder="輸入外送地址">
+          </div>
+          <div class="col-12">
+            <input type="text" name="" id="address_name" class="form-control w-100 mb-3" placeholder="輸入公司/地標/樓層 (非必填)">
+          </div>
+          <div class="col-12">
+            <a class="font-s tracking-1" data-modal="#userAddress">
+              <i class="icon-map-pin big mr-1"></i><u>選擇常用地址</u>
+            </a>
+          </div>
+        </div>
+        <a data-modal="#chooseStore" class="btn btn-large btn-block my-4">尋找美食</a>
+      </div>
+      <!-- /#tab_1 -->
 
-    <!-- //img -->
-    <div class="imgfit imgfit-3x2">
-      <img src="https://fakeimg.pl/520x348" alt="">
+      <div id="tab_2" class="tabCont_panel">
+        <a href="/ui/brand_list" class="card card-hover d-flex align-items-center mb-3">
+          <i class="icon-fork-cross ml-3 h4"></i>
+          <div class="p-3">
+            <strong class="d-block font-500">台北車站店</strong>
+            <div class="small">
+              <div class="font-300 text-gray">台北市中正區忠孝東路二段134巷2號</div>
+              02-2751-6665
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- /#tab_3 -->
+      <div id="tab_3" class="tabCont_panel">
+
+        <div class="imgfit imgfit-3x2">
+          <img src="/images/machinetab01.png" alt="">
+        </div>
+      </div>
+      <!-- /#tab_3 -->
     </div>
-
-    <div class="imgfit imgfit-3x2 ">
-      <img src="https://fakeimg.pl/400x267" alt="">
-      <img src="https://fakeimg.pl/400x267" alt="">
-    </div>
-
-
-
 
 
   </div>
@@ -98,6 +136,14 @@ $pageTitle = '';
       },
       mousewheel: true,
       keyboard: true,
+    });
+
+    // tab
+    $('[data-tab]').click(function(e) {
+      e.preventDefault();
+      var tabId = $(this).data('tab');
+      $(this).parent('.tabs_item').toggleClass('active', true).siblings('.tabs_item').toggleClass('active', false);
+      $(tabId).toggleClass('active', true).siblings('.tabCont_panel').toggleClass('active', false);
     });
   </script>
 </body>

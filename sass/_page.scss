@@ -1,9 +1,17 @@
-// 頁面style
-
-.newproduct_ourwork {}
+// 頁面index
 
 .production_item {
-  background-image: url("/images/title.jpg");
+  background-image: url("/images/index_production-equipment_bg.png");
+  background-size: 100%;
+  height: 230px;
+}
+.qulaity_item {
+  background-image: url("/images/index_quality-control-system_bg.png");
+  background-size: 100%;
+  height: 230px;
+}
+.esg_item {
+  background-image: url("/images/index_ESG_bg.png");
   background-size: 100%;
   height: 230px;
 }

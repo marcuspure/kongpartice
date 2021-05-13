@@ -27,7 +27,9 @@ $pageTitle = '';
 			<!-- //title -->
 			<div class="konfu_title swiper-container">
 				<div class="swiper-wrapper ">
-					<div class="swiper-slide imgfit imgfit-3x2 Toolstitle_img title_img text-center opacity-60">
+					
+					<div class="swiper-slide imgfit imgfit-3x2 Toolstitle_img title_img text-center ">
+					<div class="mask"></div>
 						<img src="/images/title.jpg" style="width:100%;">
 						<h1 class="centered">Discover The Best</h1>
 						<p class="centered_p">More Than 40 Years Of Experience</p>
@@ -87,7 +89,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="/images/線圈.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600">Wire Rod / Wire</p>
+						<p class="text-center my-1 font-m fon-weight-600 text-white">Wire Rod / Wire</p>
 						<button class="btn py-1 px-3 my-1 font-m">More ></button>
 					</div>
 					<div class="div">
@@ -101,7 +103,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="/images/機台.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600">Machine</p>
+						<p class="text-center my-1 font-m fon-weight-600 text-white">Machine</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -113,7 +115,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="./images/小零件.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600">Toolings</p>
+						<p class="text-center my-1 font-m fon-weight-600 text-white">Toolings</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -125,7 +127,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="./images/index4機台.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600">Heat Treatment/Plating</p>
+						<p class="text-center my-1 font-m fon-weight-600 text-white">Heat Treatment/Plating</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -137,7 +139,7 @@ $pageTitle = '';
 								<img class="img imgfit" src="./images/index5.png" alt="">
 							</div>
 						</div>
-						<p class="text-center my-1 font-m fon-weight-600">Fasteners</p>
+						<p class="text-center my-1 font-m fon-weight-600 text-white">Fasteners</p>
 						<button class="btn py-1 px-3 my-1">More ></button>
 					</div>
 					<div class="+">
@@ -162,8 +164,9 @@ $pageTitle = '';
 
 			<!-- Production Equipment -->
 			<div class="container production text-center">
-				<div class="row no-gutters d-flex justify-content-center">
-					<div class="col-lg-4 ">
+			
+				<div class="row no-gutters ">
+					<div class="col col-lg-4 ">
 						<div class="production_item">
 							<p class="production_item_p">Production </p>
 							<p class="production_item_p">Equipment</p>
@@ -173,30 +176,29 @@ $pageTitle = '';
 						</div>
 					</div>
 
-					<div class="col-lg-4">
-						<div class="production_item">
-							<p class="production_item_p">Qulaity Control</p>
-							<p class="production_item_p">System</p>
+					<div class="col col-lg-4">
+						<div class="qulaity_item">
+							<p class="qulaity_item_p">Qulaity Control</p>
+							<p class="qulaity_item_p">System</p>
 							<div class="production_btn">
 								<button class="btn py-1 px-4 my-3">More ></button>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-4">
-						<div class="production_item">
-							<p class="production_item_p">ESG</p>
+					<div class="col col-lg-4">
+						<div class="esg_item">
+							<p class="esg_item_p">ESG</p>
 							<div class="production_btn">
 								<a class="btn py-1 px-4 my-3" href="./esg.php">More ></a>
 							</div>
 						</div>
 					</div>
+
 				</div>
 
 			</div>
-		</div>
-		<!-- /.inner -->
-
+		</div><!-- /.inner -->
 
 		<!-- news -->
 		<div class="indexArticles gutter">
@@ -257,23 +259,26 @@ $pageTitle = '';
 							</div>
 						</div>
 					</div>
-
-					<div class="mb-4 my-xl-6 text-center">
-						<div class="row">
-							<div class="col-lg-12">
-								<h3 class="title font-serif text-center mt-0">
-								</h3>
-
-							</div>
-						</div>
-					</div>
 				</div>
 
 			</div>
-		</div>
-		<!-- business -->
+		</div><!-- /.indexnews -->
+
+		<!-- map -->
+<div class="map">
+	<img src="./images/map.png" alt="" style="width: 100%;">
+</div>
+
+		<!-- /map -->
 	</div>
-	<!-- /.indexAnews -->
+
+
+
+
+
+	<!-- business -->
+	</div>
+
 	</div>
 
 

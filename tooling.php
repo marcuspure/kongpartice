@@ -18,8 +18,8 @@ $pageTitle = '';
       <!-- content 從這裡開始 -->
       <!-- //title -->
       <div class="Toolstitle_img title_img text-center">
-        <img src="/images/title.jpg" style="width:100%;">
-        <h1 class="centered">Tooling</h1>
+        <img src="/images/Tooling_main.png" style="width:100%;">
+        <h1 class="centered_tooling">Tooling</h1>
       </div>
 
       <!-- text -->
@@ -42,90 +42,91 @@ $pageTitle = '';
       </div>
     </div>
 
-    <div class="text-center">
-      <button class="btn-rectangle-black btn-outline m-2 p-2">Carbide Tools</button>
-      <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="/Performance.php">Punch</a></button>
-      <button class="btn-rectangle-black btn-outline m-2 p-2"><a href="">Power Metallurgy Tools</a></button>
+    
+
+    <!-- //tab -->
+    <div class="text-center bg-gray">
+      <!-- <div class="inner"> -->
+      <ul class="tabs list-unstyled">
+        <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 active "><a data-tab="#tab_1">Carbide</a></li>
+        <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_2">Punch</a></li>
+        <li class="tabs_item btn-rectangle-black btn-outline m-2 p-2 "><a data-tab="#tab_3">Power Metallugy Tools</a></li>
+      </ul>
+      <!-- </div> -->
     </div>
 
-    <!-- Carbide Tools -->
-    <h3 class="text-center">Carbide Tools</h3>
-    <div class="Carbide_Tools_text font-l fon-weight-l l-h-30">
-      <div class="d-flex no-gutters align-items-center justify-content-center ">
-        <div class="text-center toolings_text ">
-          <p>KONFU is in the first group of companies which started to export tsungsteng carbide dies in Taiwan, and tungsten carbide is one of the products on KONFU’s earliest selling list. Since the 60’s, KONFU has been endeavoring to provide fastener producers around the world with tsungsten carbide dies made in Taiwan. </p>
-        </div>
-        <div class="toolings_text">
-          <p>press-fit amount of the core—all these have a significant impact on the die's lifecycle. As for molded cases, we also apply the most proper manner to dies for different purposes. In this way, the molded case and the core may have an optimal match, and the usage lifecycle is therefore maximized. </p>
-        </div>
-      </div>
-    </div>
+    <div class="tabCont home_tabCont mt-4">
+      <div id="tab_1" class="tabCont_panel active">
 
-    <div class="Carbide_Tools_text font-l fon-weight-l l-h-30">
-      <div class="d-flex no-gutters align-items-center justify-content-center ">
-        <div class="text-center toolings_text ">
-          <p>KONFU is in the first group of companies which started to export tsungsteng carbide dies in Taiwan, and tungsten carbide is one of the products on KONFU’s earliest selling list. Since the 60’s, KONFU has been endeavoring to provide fastener producers around the world with tsungsten carbide dies made in Taiwan. </p>
+        <!-- Carbide Tools -->
+        <h3 class="text-center">Carbide Tools</h3>
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-6">
+              <div class="font-l fon-weight-l l-h-30">
+                <div class="text-center toolings_text font-l fon-weight-l l-h-30">
+                  <p>KONFU is in the first group of companies which started to export tsungsteng carbide dies in Taiwan, and tungsten carbide is one of the products on KONFU’s earliest selling list. Since the 60’s, KONFU has been endeavoring to provide fastener producers around the world with tsungsten carbide dies made in Taiwan. </p>
+                  <p>Our tsungsten carbide, with the most stable quality, is provided by the largest tungsten carbide supplier in Taiwan. We will choose the most proper tsungsten carbide raw material according to die usage attributes. For instance, we will choose differently for abrasion-proof and stamping-pressure-resistant dies. The material and hardness of the molded case, the press-fit measure and the</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="toolings_text font-l fon-weight-l l-h-30">
+                <p>press-fit amount of the core—all these have a significant impact on the die's lifecycle. As for molded cases, we also apply the most proper manner to dies for different purposes. In this way, the molded case and the core may have an optimal match, and the usage lifecycle is therefore maximized. </p>
+                <p>If client’s primary die has lifecycle issues, we are more than happy to give modification suggestions according to the die’s problems. For instance, we can add vents to the die or change the manner of mold assembly. Until now, KONFU has accumulated numerous successful cases to demonstrate our capability to help our clients to optimize their production.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="toolings_text">
-          <p>press-fit amount of the core—all these have a significant impact on the die's lifecycle. As for molded cases, we also apply the most proper manner to dies for different purposes. In this way, the molded case and the core may have an optimal match, and the usage lifecycle is therefore maximized. </p>
+        <div class="imgfit imgfit-3x2">
+          <img src="./images/CarbideTools.png" alt="">
         </div>
-      </div>
-    </div>
 
-    <div class="text-center ">
-      <img src="https://fakeimg.pl/790x240" alt="">
-    </div>
+      </div>
+      <!-- /#tab_1 -->
 
-    <h4 class="text-center">Punch</h4>
-    <div class="punch_text">
-      <div class="d-flex no-gutters align-items-center justify-content-center font-l fon-weight-l l-h-25">
-        <div class="text-center toolings_text ">
-          <p>Basic ejector punches, such as DIN9861-D, and round pin punches can be ready for shipment in 2 weeks. We can also pre-store punches for clients so that the shipment can be ready in 3 days. We also have hexagon punches for DIN912 in storage. Be free to contact us for the punch sizes in storage.</p>
-        </div>
-        <div class="punch_text ">
-          <p>for titanium coating on different materials and for different usage. Please be free to contact us for special demands. </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="punch_text">
-      <div class="d-flex no-gutters align-items-center justify-content-center font-l fon-weight-l l-h-25">
-        <div class="text-center toolings_text ">
-          <p>We provide punches in different materials, such as high speed steels (M2,M35 and M42), powder metallurgies (ASP23, ASP30 and ASP60) and tungsten carbide. We also provides options for surface coating: TiN, TiAIN, AlCrn,TiCN, etc. Suggestions will be provided </p>
-        </div>
-        <div class="punch_text">
-          <p> The surface finish of a punch has a great impact on its lifecycle. Besides the regular finish, we can also apply special sand-blasting finish and surface heat treatment to lower abrasion and production stress on the surface. In this way, the lifecycle of the punches can be prolonged to 2 times longer. The shape and tolerance of the punches will be strictly monitored. As for punches in crucial sizes, the tolerance can be as fine as +/-0.005mm. </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-center">
-      <img src="https://fakeimg.pl/790x540" alt="">
-    </div>
-
-    <h4 class="text-center">Power Metallurgy Tools</h4>
-    <div class="punch_text">
-      <div class="d-flex no-gutters align-items-center justify-content-center font-l fon-weight-l l-h-25">
-        <div class="text-center toolings_text ">
-          <p>We provide punches in different materials, such as high speed steels (M2,M35 and M42), powder metallurgies (ASP23, ASP30 and ASP60) and tungsten carbide. We also provides options for surface coating: TiN, TiAIN, AlCrn,TiCN, etc. Suggestions will be provided </p>
-        </div>
-        <div class="punch_text">
-          <p> The surface finish of a punch has a great impact on its lifecycle. Besides the regular finish, we can also apply special sand-blasting finish and surface heat treatment to lower abrasion and production stress on the surface. In this way, the lifecycle of the punches can be prolonged to 2 times longer. The shape and tolerance of the punches will be strictly monitored. As for punches in crucial sizes, the tolerance can be as fine as +/-0.005mm. </p>
+      <div id="tab_2" class="tabCont_panel">
+        <h3 class="text-center">Punch</h3>
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-6">
+              <div class="font-l fon-weight-l l-h-30">
+                <div class="text-center toolings_text font-l fon-weight-l l-h-30">
+                  <p>Basic ejector punches, such as DIN9861-D, and round pin punches can be ready for shipment in 2 weeks. We can also pre-store punches for clients so that the shipment can be ready in 3 days. We also have hexagon punches for DIN912 in storage. Be free to contact us for the punch sizes in storage.</p>
+                  <p>We provide punches in different materials, such as high speed steels (M2,M35 and M42), powder metallurgies (ASP23, ASP30 and ASP60) and tungsten carbide. We also provides options for surface coating: TiN, TiAIN, AlCrn,TiCN, etc. Suggestions will be provided </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="toolings_text font-l fon-weight-l l-h-30">
+                <p>for titanium coating on different materials and for different usage. Please be free to contact us for special demands. </p>
+                <p> The surface finish of a punch has a great impact on its lifecycle. Besides the regular finish, we can also apply special sand-blasting finish and surface heat treatment to lower abrasion and production stress on the surface. In this way, the lifecycle of the punches can be prolonged to 2 times longer. The shape and tolerance of the punches will be strictly monitored. As for punches in crucial sizes, the tolerance can be as fine as +/-0.005mm. </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="text-center">
-      <div class="imgfit imgfit-3x2">
-        <img src="./images/tooling01.jpeg">
+      <!-- /#tab_3 -->
+      <div id="tab_3" class="tabCont_panel">
+        <h3 class="text-center">Power Metallurgy Tools</h3>
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-6">
+              <div class="font-l fon-weight-l l-h-30">
+                <div class="text-center toolings_text font-l fon-weight-l l-h-30">
+                  <p>Besides dies for fasteners, KONFU keeps developing new die market in other application fields. Powder metallurgy die is the priority among our development projects. Although powder metallurgy die is more complicated in formation and process procedure, it can form special shapes that cold forging fails to form. Therefore, powder metallurgy die is widely utilized in many fields, such as automobile components and home appliances. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="toolings_text font-l fon-weight-l l-h-30">
+                <p>We can properly suggest machine tonnage after client’s need for production. Moreover, we can help to develop the powder metallurgy die necessary for production. For die design, we will adjust the die matching, to gain extra die lifecycle, according to the powder material and density used by client. We can also provide all kinds of inspection gages and examine jigs for measurement in powder metallurgy production. The gage tolerance can be as fine as 0.001mm. </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="imgfit imgfit-3x2">
-        <img src="./images/tooling02.jpeg">
-      </div>
-      <div class="imgfit imgfit-3x2">
-        <img src="./images/tooling03.jpeg">
-      </div>
-     
+      <!-- /#tab_3 -->
     </div>
 
   </div>
@@ -157,6 +158,14 @@ $pageTitle = '';
       },
       mousewheel: true,
       keyboard: true,
+    });
+
+    // tab
+    $('[data-tab]').click(function(e) {
+      e.preventDefault();
+      var tabId = $(this).data('tab');
+      $(this).parent('.tabs_item').toggleClass('active', true).siblings('.tabs_item').toggleClass('active', false);
+      $(tabId).toggleClass('active', true).siblings('.tabCont_panel').toggleClass('active', false);
     });
   </script>
 </body>

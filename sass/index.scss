@@ -8,6 +8,26 @@
     font-weight: 700;
   }
 }
+.qulaity_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &_p {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+.esg_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &_p {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
 
 .titlebgimg {
   background: url(/images/title.jpg);
@@ -24,4 +44,50 @@
 .free_trial{
   width: 900px;
   margin: auto;
+}
+
+.title_item{
+	h3 {
+		width: 510px;
+		margin: auto;
+		text-align: left;
+	}
+	p {
+		width: 510px;
+		margin: auto;
+		text-align: left;
+	}
+	.more{
+		width: 510px;
+		margin: auto;
+		text-align: left;
+	}
+}
+
+.formula{
+	background-image: url("/images/index_formula_bg.png");
+}
+.formula_itemimg{
+	background-color: white;
+	border-radius: 70px;
+	width: 140px;
+	height: 140px;
+	align-items: center;
+	justify-content: center;
+	img{
+		border-radius: inherit;
+	}
+	
+}
+.img_outline{
+	background-color: black;
+	width: 150px;
+	height: 150px;
+	border-radius: 70px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.newproduction{
+	background-image: url('https://fakeimg.pl/585x389');
 }
