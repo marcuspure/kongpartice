@@ -11,11 +11,10 @@
 
 .formula { height: 60vw; display: flex; flex-direction: column; justify-content: center; object-fit: cover; }
 
-.free_trial { width: 70vw; margin: auto; }
-
-.title_item h3 { width: 510px; margin: auto; text-align: left; }
-.title_item p { width: 510px; margin: auto; text-align: left; }
-.title_item .more { width: 510px; margin: auto; text-align: left; }
+.title_item h3 { margin: auto; text-align: left; }
+.title_item p { margin: auto; text-align: left; }
+.title_item .more { margin: auto; text-align: left; }
+@media (max-width: 375px) { .title_item .more { text-align: center; margin: 1em 0; } }
 
 .formula { background-image: url("/images/index_formula_bg.png"); }
 
@@ -28,7 +27,5 @@
 
 .formula_top_line { display: flex; align-items: center; flex-direction: column; }
 .formula_top_line::before { content: ""; border-top: 2px solid white; width: 52px; }
-
-.free_trial { height: 15rem; justify-content: center; display: flex; flex-direction: column; }
 
 /*# sourceMappingURL=index.css.map */

@@ -84,7 +84,7 @@ $pageTitle = '';
     <h4 class="text-center my-2">Plating</h4>
     <div class="container">
       <div class="inner">
-        <div class="row no-gutters">
+        <div class="row ">
           <div class="col-12 col-lg-6 font-l fon-weight-l my-3">
             <p>The final process for screw-making is the surface treatment. The coated film on the surface makes screws aesthetic and anti-corrosive. Our electroplating equipment takes the design of barrel plating. A consistent production process is applied in the production line. Process equipments include: pretreatment,</p>
           </div>

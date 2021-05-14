@@ -51,10 +51,10 @@ $pageTitle = '';
 						</div>
 					</div>
 					<div class="col-lg-6  text-center title_item">
-						<h3 class="py-3">New Product Our Work</h3>
-						<p class="py-3 font-l fon-weight-l l-h-30">If you have a new product you nwat to develop,but encounter a problem with tooling desing. please study with us and we will provide the best solution.</p>
+						<h3 class="py-3 text-center">New Product Our Work</h3>
+						<p class="py-3 text-center font-l fon-weight-l l-h-30">If you have a new product you nwat to develop,but encounter a problem with tooling desing. please study with us and we will provide the best solution.</p>
 						<div class="more">
-							<button class="btn w-8em py-1"><a href="./new_product.php">More</a></button>
+							<button class="btn text-center w-8em py-1"><a href="./new_product.php">More</a></button>
 						</div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@ $pageTitle = '';
 						<p class="py-3 font-l fon-weight-l l-h-30">Do you have the problem of poor life of existing tooling? Want to produce products of different materials, but encounter the problem of tooling breakage?
 							We can provide appropriate tooling modification solutions.</p>
 						<div class="more">
-							<button class="btn w-8em py-1">More</button>
+							<button class="btn text-center w-8em py-1 ">More</button>
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -145,17 +145,21 @@ $pageTitle = '';
 			</div>
 
 			<!-- free_trial -->
-			<div class="free_trial order project ">
-				<div class="d-flex">
-				<div class="img_outline">
-							<div class="formula_itemimg d-flex fon-weight-600">
+			<div class="container">
+				<div class="inner">
+					<div class="row nogutters">
+						<div class="col-12 col-lg-6">
+							<div class="formula_itemimg d-flex fon-weight-600 img_outline">
 								<img class="img imgfit" src="./images/index_trial_icon.png" alt="">
 							</div>
 						</div>
-					<div class="trailtext m-2">
-						<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
-						<p class="font-l fon-weight-l l-h-30">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
-						<button class="btn w-8em py-1 my-2">Contact Us</button>
+						<div class="col-12 col-lg-6">
+							<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
+							<p class="font-l fon-weight-l l-h-30">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
+							<div class="more">
+								<button class="btn w-8em py-1 my-2">Contact Us</button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

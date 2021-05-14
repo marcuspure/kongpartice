@@ -57,12 +57,40 @@ $pageTitle = '';
 
     <div class="tabCont home_tabCont mt-4">
       <div id="tab_1" class="tabCont_panel active">
-        <div class="imgfit imgfit-3x2">
-          <img src="/images/fa-15.jpeg" alt="">
+        <div class="inner">
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-6">
+                <div class="imgfit imgfit-3x2 d-flex">
+                  <img src="/images/fa-15.jpeg" alt="">
+                </div>
+              </div>
+              <div class="col col-lg-6">
+                <div class="imgfit imgfit-3x2 d-flex">
+                  <img src="/images/handing02.jpeg" alt="">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="imgfit imgfit-3x2">
+                  <img src="/images/打頭機膜.jpeg" alt="">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="imgfit imgfit-3x2">
+                  <img src="/images/打頭機沖模.jpeg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+
+
+
 
       </div>
       <!-- /#tab_1 -->
+
 
       <!-- tab_2 -->
       <div id="tab_2" class="tabCont_panel">
@@ -75,17 +103,28 @@ $pageTitle = '';
       </div>
       <!-- /#tab_3 -->
       <div id="tab_3" class="tabCont_panel">
-
-        <div class="imgfit imgfit-3x2">
-          <img src="/images/machinetab01.png" alt="">
-        </div>
-
-        <div class="imgfit imgfit-3x2 d-flex">
-          <img src="/images/machine02.jpeg " style="width:50%;">
-          <img src="/images/machine03.jpeg" style="width:50%;">
+        <div class="inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="imgfit imgfit-3x2">
+                  <img src="/images/machinetab01.png" alt="">
+                </div>
+              </div>
+              <div class="col col-lg-6">
+                <div class="imgfit imgfit-3x2 d-flex">
+                  <img src="/images/machine02.jpeg ">
+                </div>
+              </div>
+              <div class="col col-lg-6">
+                <div class="imgfit imgfit-3x2 d-flex">
+                  <img src="/images/machine03.jpeg" style="width:50vw;">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
     <!-- /#tab_3 -->
   </div>

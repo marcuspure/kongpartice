@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS,GACP,SAAS,EAAE,MAAM,EAEjB,WAAI,EAAE,IAAI,EACV,YAAK,EAAE,IAAI",
+"sources": ["../sass/product_equipment.scss"],
+"names": [],
+"file": "product_equipment.css"
+}
