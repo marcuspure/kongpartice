@@ -1,6 +1,5 @@
 <nav id="nav" class="nav">
-  <!-- <div id="nav_mask" class="nav_mask mask"></div>
-  <a id="nav_close" class="nav_close icon-close" title="關閉選單"></a> -->
+  <!-- <div id="nav_mask" class="nav_mask mask"></div>-->
   <ul class="list_unstyled nav_cont">
     <li class="nav_item"><a href="/aboutus.php">About Us</a></li>
     <li class="nav_item"><a href="/tooling.php">Tooling</a></li>

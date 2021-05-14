@@ -26,27 +26,24 @@ $pageTitle = '';
       <!-- text -->
       <div class="container">
         <div class="row py-4">
-          <div class="col-lg-6">
-            <h4 class="font-xxl l-h-30">Through the Toolings Designed by Us,
+          <div class="col-12 col-lg-6">
+            <h4 class="font-xxl l-h-30 my-3 ">Through the Toolings Designed by Us,
               Customers Save A Lot of Raw Material Costs and Time</h4>
-            <p class="font-l fon-weight-l my-2 l-h-30">The client presumably wants to order a brand-new 5 Die 5 Blow Former to produce workpieces
+            <p class="font-l fon-weight-l my-3 l-h-30">The client presumably wants to order a brand-new 5 Die 5 Blow Former to produce workpieces
               which need to be furtherly modified by lathe machine. With the die sets designed by KONFU, the workpieces can directly form after cold forging. In this way, scraps in previous procedure can be reduced. Moreover, both raw material cost and man-hour will be saved.
               The client’s competiveness in the market is therefore firmly established.
             </p>
           </div>
-          <div class="col-lg-6 imgfit ">
+          <div class="col-12 col-lg-6 imgfit ">
             <img class="" src="/images/newproduct1.png" alt="">
           </div>
-
-
         </div>
       </div>
 
 
       <div class="pic">
-        <div class="row mx-0 justify-content-center align-items-center w-100">
+        <div class="row mx-0 justify-content-center align-items-center ">
           <div class="col imgfit imgfit-3x2 newproduct1">
-            <!-- <img src="" alt=""> -->
           </div>
         </div>
       </div>
@@ -64,8 +61,8 @@ $pageTitle = '';
 
 
       <!-- //輪波圖 -->
-      <div class="swiper-container mySwiper">
-        <div class="swiper-wrapper">
+      <div class="swiper-container mySwiper newproduct_swiper">
+        <div class="swiper-wrapper my-5">
           <div class="swiper-slide imgfit imgfit-3x2">
             <img class="" src="./images/new product_slider2.png" alt="">
           </div>

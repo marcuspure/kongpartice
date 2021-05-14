@@ -164,7 +164,7 @@ $pageTitle = '';
 			<div class="container production text-center">
 
 				<div class="row no-gutters ">
-					<div class="col col-lg-4 ">
+					<div class="col-12 col-lg-4 ">
 						<div class="production_item">
 							<p class="production_item_p">Production </p>
 							<p class="production_item_p">Equipment</p>
@@ -174,7 +174,7 @@ $pageTitle = '';
 						</div>
 					</div>
 
-					<div class="col col-lg-4">
+					<div class="col-12 col-lg-4">
 						<div class="qulaity_item">
 							<p class="qulaity_item_p">Qulaity Control</p>
 							<p class="qulaity_item_p">System</p>
@@ -184,9 +184,9 @@ $pageTitle = '';
 						</div>
 					</div>
 
-					<div class="col col-lg-4">
+					<div class="col-12 col-lg-4">
 						<div class="esg_item">
-							<p class="esg_item_p">ESG</p>
+							<p class="esg_item_p my-2">ESG</p>
 							<div class="production_btn">
 								<a class="btn py-1 px-4 my-3" href="./esg.php">More ></a>
 							</div>
@@ -215,6 +215,7 @@ $pageTitle = '';
 				<div class="tabCont">
 					<div id="indexActivity_slider" class="indexActivity_slider swiper-container">
 						<div class="swiper-wrapper">
+
 							<div class="swiper-slide ">
 								<div class="active_text">
 									<img class="imgfit mx-1" src="/images/index_機台.png" alt="">
@@ -225,6 +226,7 @@ $pageTitle = '';
 									<p class="font-m">HH-1538 loading </p>
 								</div>
 							</div>
+
 							<div class="swiper-slide">
 								<div class="active_text">
 									<img class="imgfit imgfit3x2 mx-1" src="/images/index_機台02.jpeg" alt="">
@@ -235,6 +237,7 @@ $pageTitle = '';
 									<p class="font-m">HH-1538 loading </p>
 								</div>
 							</div>
+
 							<div class="swiper-slide">
 								<div class="active_text">
 									<img class="imgfit mx-1" src="/images/index_機台03.png" alt="">
@@ -245,6 +248,7 @@ $pageTitle = '';
 									<p class="font-m">HH-1538 loading </p>
 								</div>
 							</div>
+
 							<div class="swiper-slide">
 								<div class="active_text">
 									<img class="imgfit mx-1" src="/images/index_機台04.jpeg" alt="">
@@ -255,6 +259,7 @@ $pageTitle = '';
 									<p class="font-m">HH-1538 loading </p>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
@@ -266,7 +271,6 @@ $pageTitle = '';
 		<div class="map">
 			<img src="./images/map.png" alt="" style="width: 100%;">
 		</div>
-
 		<!-- /map -->
 	</div>
 
