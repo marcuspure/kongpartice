@@ -55,7 +55,7 @@ $pageTitle = '';
         <div id="target"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
       </div>
       <div class="btn02">
-        <button class="toggle1 btn  p-3 ">+</button>
+        <button class="toggle1 btn p-3 ">+</button>
         <div id="target1"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
       </div>
 

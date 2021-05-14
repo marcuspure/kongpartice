@@ -16,7 +16,7 @@
 .title_item .more { margin: auto; text-align: left; }
 @media (max-width: 375px) { .title_item .more { text-align: center; margin: 1em 0; } }
 
-.formula { background-image: url("/images/index_formula_bg.png"); }
+.formula { background-image: url("/images/index_formula_bg.png"); object-fit: cover; }
 
 .formula_itemimg { background-color: white; border-radius: 70px; width: 140px; height: 140px; align-items: center; justify-content: center; }
 .formula_itemimg img { border-radius: inherit; }
@@ -27,5 +27,9 @@
 
 .formula_top_line { display: flex; align-items: center; flex-direction: column; }
 .formula_top_line::before { content: ""; border-top: 2px solid white; width: 52px; }
+
+.free_trial { display: flex; justify-content: center; }
+
+.free_trial_inner { display: flex; align-items: center; }
 
 /*# sourceMappingURL=index.css.map */

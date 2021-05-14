@@ -220,6 +220,9 @@ body { font-family: "Roboto", sans-serif; font-size: 0.925rem; }
 
 a { text-decoration: none; }
 
+.navbar, .navbar .container { width: 100%; display: flex; align-items: center; justify-content: space-between; }
+@media (max-width: 768px) { .navbar, .navbar .container { display: block; } }
+
 /*
 |-----------------------------------
 | Start navbar logo or brand etc..
@@ -280,10 +283,7 @@ a { text-decoration: none; }
 
 .esg_item { background-image: url("/images/index_ESG_bg.png"); background-size: 100%; height: 230px; }
 
-.production { height: 360px; }
 .production p { color: white; }
-
-.btn_seeall { position: absolute; right: 0; bottom: 0; }
 
 .top_line { display: flex; align-items: center; flex-direction: column; }
 .top_line::before { content: ""; border-top: 1px solid black; width: 52px; }
@@ -314,7 +314,7 @@ h3 { font-size: 42px; line-height: 51px; }
 .title_item .more { margin: auto; text-align: left; }
 @media (max-width: 375px) { .title_item .more { text-align: center; margin: 1em 0; } }
 
-.formula { background-image: url("/images/index_formula_bg.png"); }
+.formula { background-image: url("/images/index_formula_bg.png"); object-fit: cover; }
 
 .formula_itemimg { background-color: white; border-radius: 70px; width: 140px; height: 140px; align-items: center; justify-content: center; }
 .formula_itemimg img { border-radius: inherit; }
@@ -325,6 +325,10 @@ h3 { font-size: 42px; line-height: 51px; }
 
 .formula_top_line { display: flex; align-items: center; flex-direction: column; }
 .formula_top_line::before { content: ""; border-top: 2px solid white; width: 52px; }
+
+.free_trial { display: flex; justify-content: center; }
+
+.free_trial_inner { display: flex; align-items: center; }
 
 .about_text { width: 790px; margin: auto; text-align: left; padding: 1em; }
 

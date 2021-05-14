@@ -147,8 +147,8 @@ $pageTitle = '';
 			<!-- free_trial -->
 			<div class="container">
 				<div class="inner">
-					<div class="row nogutters">
-						<div class="col-12 col-lg-6">
+					<div class="free_trial">
+						<div class="free_trial_inner">
 							<div class="formula_itemimg d-flex fon-weight-600 img_outline">
 								<img class="img imgfit" src="./images/index_trial_icon.png" alt="">
 							</div>
@@ -165,7 +165,7 @@ $pageTitle = '';
 			</div>
 
 			<!-- Production Equipment -->
-			<div class="container production text-center">
+			<div class="production text-center">
 
 				<div class="row no-gutters ">
 					<div class="col-12 col-lg-4 ">
@@ -196,27 +196,25 @@ $pageTitle = '';
 							</div>
 						</div>
 					</div>
-
 				</div>
-
 			</div>
-		</div><!-- /.inner -->
 
-		<!-- news -->
-		<div class="indexArticles gutter">
-			<div class="News_inner">
-				<div class="mb-4 my-xl-6 text-center">
-					<div class="row no-gutters">
-						<div class="col-lg-12">
-							<h3 class="title font-serif text-center mt-0">
-								<span class="title_en top_line">News</span>
-							</h3>
-							<a href="article_list.php" class="btn btn-color btn-large btn_seeall">See All - <i class="fas fa-angle-right"></i></a>
+
+			<!-- news -->
+			<div class="container">
+				<div class="News_inner">
+					<div class="mb-4 my-xl-6 text-center">
+						<div class="row ">
+							<div class="col-lg-12">
+								<h3 class="title font-serif text-center mt-0">
+									<span class="title_en top_line">News</span>
+								</h3>
+								<a href="" class="btn btn-color btn-large btn_seeall">See All - <i class="fas fa-angle-right"></i></a>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="tabCont">
+
 					<div id="indexActivity_slider" class="indexActivity_slider swiper-container">
 						<div class="swiper-wrapper">
 
@@ -266,26 +264,22 @@ $pageTitle = '';
 
 						</div>
 					</div>
+
+
 				</div>
+			</div><!-- /.indexnews -->
 
+			<!-- map -->
+			<div class="map">
+				<img src="./images/map.png" alt="" style="width: 100%;">
 			</div>
-		</div><!-- /.indexnews -->
-
-		<!-- map -->
-		<div class="map">
-			<img src="./images/map.png" alt="" style="width: 100%;">
-		</div>
-		<!-- /map -->
+			<!-- /map -->
+		</div><!-- /.inner -->
 	</div>
 
 
 
 
-
-	<!-- business -->
-	</div>
-
-	</div>
 
 
 

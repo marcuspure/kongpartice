@@ -43,6 +43,7 @@
   flex-direction: column;
   justify-content: center;
   object-fit: cover;
+
 }
 
 
@@ -67,7 +68,7 @@
   }
 
   @media (max-width: 375px) {
-    .more{
+    .more {
       text-align: center;
       margin: 1em 0;
     }
@@ -77,6 +78,7 @@
 
 .formula {
   background-image: url("/images/index_formula_bg.png");
+  object-fit: cover;
 }
 
 .formula_itemimg {
@@ -86,6 +88,7 @@
   height: 140px;
   align-items: center;
   justify-content: center;
+
   img {
     border-radius: inherit;
   }
@@ -120,3 +123,13 @@
 
 
 
+.free_trial {
+  display: flex;
+  justify-content: center;
+}
+
+.free_trial_inner {
+  display: flex;
+
+  align-items: center;
+}
