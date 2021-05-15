@@ -220,9 +220,6 @@ body { font-family: "Roboto", sans-serif; font-size: 0.925rem; }
 
 a { text-decoration: none; }
 
-.navbar, .navbar .container { width: 100%; display: flex; align-items: center; justify-content: space-between; }
-@media (max-width: 768px) { .navbar, .navbar .container { display: block; } }
-
 /*
 |-----------------------------------
 | Start navbar logo or brand etc..

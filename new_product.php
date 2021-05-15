@@ -50,13 +50,17 @@ $pageTitle = '';
 
 
 
-      <div class="btn01">
-        <button class="toggle btn  p-3 ">+</button>
-        <div id="target"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
+      <div class="btn1">
+        <button class="toggle1 btn  p-3 ">+</button>
+        <div id="target1" class="close"><img class="bg-black " src="/images/new_product01.png"></div>
       </div>
-      <div class="btn02">
-        <button class="toggle1 btn p-3 ">+</button>
-        <div id="target1"><img class="bg-black " src="/images/new_product01.png" style="width: 50%;"></div>
+      <div class="btn2">
+        <button class="toggle2 btn p-3 ">+</button>
+        <div id="target2" class="close"><i><img class="bg-black " src="/images/new_product01.png"></i></div>
+      </div>
+      <div class="btn3">
+        <button class="toggle3 btn p-3 ">+</button>
+        <div id="target3" class="close"><i><img class="bg-black " src="/images/new_product01.png"></i></div>
       </div>
 
 
@@ -107,11 +111,18 @@ $pageTitle = '';
 
 
   <script>
-    $('.toggle').click(function() {
-      $('#target').toggle('');
-    });
     $('.toggle1').click(function() {
-      $('#target1').toggle('');
+      $('.close').hide('', )
+      $('#target1').toggle('', );
+
+    });
+    $('.toggle2').click(function() {
+      $('.close').hide('', );
+      $('#target2').toggle('', false);
+    });
+    $('.toggle3').click(function() {
+      $('.close').hide('', );
+      $('#target3').toggle('', false);
     });
 
     var swiper = new Swiper(".mySwiper", {
@@ -137,19 +148,21 @@ $pageTitle = '';
     background-size: cover;
   }
 
-  #target {
+  #target1 {
     /* background: #0099cc; */
     /* width: 300px;
     height: 300px;
     padding: 5px; */
     display: none;
     z-index: 2;
-
   }
 
-  #target1 {
+  #target2 {
     display: none;
-   
+  }
+
+  #target3 {
+    display: none;
   }
 
 
@@ -157,17 +170,42 @@ $pageTitle = '';
     display: none;
   }
 
-  .btn01 {
+  .btn1 {
     position: absolute;
     top: 30%;
     left: 24%;
-   
+    z-index: 4;
   }
 
-  .btn02 {
+  .btn2 {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 24%;
-    
+    z-index: 3;
+  }
+
+  .btn3 {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    z-index: 2;
+  }
+
+  #target1 img {
+    width: 400px;
+    height: 267px;
+    z-index: 1;
+  }
+
+  #target2 img {
+    width: 400px;
+    height: 267px;
+    z-index: 1;
+  }
+
+  #target3 img {
+    width: 400px;
+    height: 267px;
+    z-index: 1;
   }
 </style>
