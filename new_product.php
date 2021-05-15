@@ -42,26 +42,26 @@ $pageTitle = '';
 
 
       <div class="pic">
-        <div class="row mx-0 justify-content-center align-items-center ">
-          <div class="col imgfit imgfit-3x2 newproduct1">
+        <div class="">
+          <div class="newproduct1">
+            <div class="newproduct1_box newproduct1_box-1">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>
+            <div class="newproduct1_box newproduct1_box-2">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>
+           
+            
           </div>
         </div>
       </div>
 
 
 
-      <div class="btn1">
-        <button class="toggle1 btn  p-3 ">+</button>
-        <div id="target1" class="close"><img class="bg-black " src="/images/new_product01.png"></div>
-      </div>
-      <div class="btn2">
-        <button class="toggle2 btn p-3 ">+</button>
-        <div id="target2" class="close"><i><img class="bg-black " src="/images/new_product01.png"></i></div>
-      </div>
-      <div class="btn3">
-        <button class="toggle3 btn p-3 ">+</button>
-        <div id="target3" class="close"><i><img class="bg-black " src="/images/new_product01.png"></i></div>
-      </div>
+
+      <!-- </div> -->
 
 
       <!-- //輪波圖 -->
@@ -109,21 +109,15 @@ $pageTitle = '';
   <!-- Swiper Slider -->
   <script src="js/swiper/swiper-bundle.min.js"></script>
 
+  
 
   <script>
-    $('.toggle1').click(function() {
-      $('.close').hide('', )
-      $('#target1').toggle('', );
+    $('.newproduct1_trigger').click(function(){
+      $(this).parent('.newproduct1_box').toggleClass('open')
+        .siblings('.newproduct1_box').toggleClass('open',false);      
+    });
 
-    });
-    $('.toggle2').click(function() {
-      $('.close').hide('', );
-      $('#target2').toggle('', false);
-    });
-    $('.toggle3').click(function() {
-      $('.close').hide('', );
-      $('#target3').toggle('', false);
-    });
+    
 
     var swiper = new Swiper(".mySwiper", {
       cssMode: true,
@@ -142,70 +136,3 @@ $pageTitle = '';
 
 </html>
 
-<style>
-  .newproduct1 {
-    background-image: url('./images/new_product1.png');
-    background-size: cover;
-  }
-
-  #target1 {
-    /* background: #0099cc; */
-    /* width: 300px;
-    height: 300px;
-    padding: 5px; */
-    display: none;
-    z-index: 2;
-  }
-
-  #target2 {
-    display: none;
-  }
-
-  #target3 {
-    display: none;
-  }
-
-
-  .Hide {
-    display: none;
-  }
-
-  .btn1 {
-    position: absolute;
-    top: 30%;
-    left: 24%;
-    z-index: 4;
-  }
-
-  .btn2 {
-    position: absolute;
-    top: 35%;
-    left: 24%;
-    z-index: 3;
-  }
-
-  .btn3 {
-    position: absolute;
-    top: 50%;
-    left: 24%;
-    z-index: 2;
-  }
-
-  #target1 img {
-    width: 400px;
-    height: 267px;
-    z-index: 1;
-  }
-
-  #target2 img {
-    width: 400px;
-    height: 267px;
-    z-index: 1;
-  }
-
-  #target3 img {
-    width: 400px;
-    height: 267px;
-    z-index: 1;
-  }
-</style>

@@ -230,8 +230,10 @@ $pageTitle = '';
 							</div>
 
 							<div class="swiper-slide">
-								<div class="active_text">
-									<img class="imgfit imgfit3x2 mx-1" src="/images/index_機台02.jpeg" alt="">
+								<div class="active_text mx-1">
+									<div class="imgfit imgfit-newslist ">
+										<img class="" src="/images/index_機台2.png" alt="">
+									</div>
 									<div class="img_date d-flex p-1 justify-content-between">
 										<button class="btn_black p-1 font-xs">Current activity</button>
 										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
@@ -242,7 +244,9 @@ $pageTitle = '';
 
 							<div class="swiper-slide">
 								<div class="active_text">
-									<img class="imgfit mx-1" src="/images/index_機台03.png" alt="">
+									<div class="imgfit imgfit-newslist">
+										<img class="mx-1" src="/images/index_機台03.png" alt="">
+									</div>
 									<div class="img_date d-flex p-1 justify-content-between">
 										<button class="btn_black p-1 font-xs">Current activity</button>
 										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
@@ -264,6 +268,7 @@ $pageTitle = '';
 
 						</div>
 					</div>
+
 
 
 				</div>

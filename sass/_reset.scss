@@ -38,6 +38,11 @@ a{
 a:hover{ text-decoration: none; }
 a:focus{ text-decoration: none; }
 
+img{
+	max-width: 100%;
+}
+
+
 label{ font-size: $font-size-base; }
 [type=checkbox], [type=radio]{
 	width: 1em;
