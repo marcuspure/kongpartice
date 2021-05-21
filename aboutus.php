@@ -20,10 +20,10 @@ $pageTitle = '';
         <div class="newbackground">
           <div class="imgfit imgfit-3x2 newproduction">
             <div class="aboutus_button text-center">
-              <button class="btn-rectangle btn-outline m-2 p-2">Introduction</button>
-              <button class="btn-rectangle btn-outline m-2 p-2"><a href="/Performance.php">Performance</a></button>
-              <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Production Equipments</a></button>
-              <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Quality Control System</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="">Introduction</button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="./Performance.php">Performance</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="./product_equipment.php">Production Equipments</a></button>
+              <button class="btn-rectangle btn-outline m-2 p-2"><a href="./quality_control_system.php">Quality Control System</a></button>
               <button class="btn-rectangle btn-outline m-2 p-2"><a href="/esg.php">ESG</a></button>
             </div>
           </div>

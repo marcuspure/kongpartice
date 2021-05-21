@@ -51,9 +51,7 @@ $pageTitle = '';
             <div class="newproduct1_box newproduct1_box-2">
               <a class="newproduct1_trigger"></a>
               <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
-            </div>
-           
-            
+            </div>  
           </div>
         </div>
       </div>

@@ -236,20 +236,20 @@
 // 			}
 // 		}
 // 	}
-// 	.nav_item.open{
-// 		.nav_trigger{
-// 			color: $text-color;
-// 			&:before{
-// 				// content: "\f107";
-// 				transform: rotate(90deg);
-// 			}
-// 		}
-// 		>.nav_dropdown{
-// 			max-height: 200vh;
-// 			opacity: 1;
-// 		}
-// 	}
-// }
+	// .nav_item.open{
+	// 	.nav_trigger{
+	// 		color: $text-color;
+	// 		&:before{
+	// 			// content: "\f107";
+	// 			transform: rotate(90deg);
+	// 		}
+	// 	}
+	// 	>.nav_dropdown{
+	// 		max-height: 200vh;
+	// 		opacity: 1;
+	// 	}
+	// }
+
 // @include media-breakpoint-up(xl) {
 // 	.navWrap{
 // 		float: right;

@@ -67,7 +67,7 @@ $pageTitle = '';
 						<p class="py-3 font-l fon-weight-l l-h-30">Do you have the problem of poor life of existing tooling? Want to produce products of different materials, but encounter the problem of tooling breakage?
 							We can provide appropriate tooling modification solutions.</p>
 						<div class="more">
-							<button class="btn text-center w-8em py-1 ">More</button>
+							<a class="btn text-center w-8em py-1 " href="./your_trouble_our_job.php">More</a>
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -91,7 +91,7 @@ $pageTitle = '';
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Wire Rod / Wire</p>
-						<button class="btn py-1 px-3 my-1 font-m">More ></button>
+						<a class="btn py-1 px-3 my-1 font-m" href="./Wire_Rod_Wire.php"> More ></a>
 					</div>
 					<div class="text-white mx-4 my-6 font-xl">
 						<i class="fas fa-plus"></i>
@@ -103,7 +103,7 @@ $pageTitle = '';
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Machine</p>
-						<button class="btn py-1 px-3 my-1">More ></button>
+						<a class="btn py-1 px-3 my-1" href="./machine.php">More ></a>
 					</div>
 					<div class="text-white mx-4 my-6 font-xl">
 						<i class="fas fa-plus"></i>
@@ -115,7 +115,7 @@ $pageTitle = '';
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Toolings</p>
-						<button class="btn py-1 px-3 my-1">More ></button>
+						<a class="btn py-1 px-3 my-1" href="./tooling.php">More ></a>
 					</div>
 					<div class="text-white mx-4 my-6 font-xl">
 						<i class="fas fa-plus"></i>
@@ -127,7 +127,7 @@ $pageTitle = '';
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Heat Treatment/Plating</p>
-						<button class="btn py-1 px-3 my-1">More ></button>
+						<a class="btn py-1 px-3 my-1" href="./heat_Treatment_Furnace.php">More ></a>
 					</div>
 					<div class="text-white mx-4 my-6 font-xl">
 						<i class="fas fa-plus"></i>
@@ -139,7 +139,7 @@ $pageTitle = '';
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Fasteners</p>
-						<button class="btn py-1 px-3 my-1">More ></button>
+						<a class="btn py-1 px-3 my-1" href="./fastener.php">More ></a>
 					</div>
 				</div>
 			</div>
@@ -173,7 +173,7 @@ $pageTitle = '';
 							<p class="production_item_p">Production </p>
 							<p class="production_item_p">Equipment</p>
 							<div class="production_btn">
-								<button class="btn py-1 px-4 my-3">More ></button>
+								<a class="btn py-1 px-4 my-3" href="./product_equipment.php">More ></a>
 							</div>
 						</div>
 					</div>
@@ -183,7 +183,7 @@ $pageTitle = '';
 							<p class="qulaity_item_p">Qulaity Control</p>
 							<p class="qulaity_item_p">System</p>
 							<div class="production_btn">
-								<button class="btn py-1 px-4 my-3">More ></button>
+								<a class="btn py-1 px-4 my-3" href="./quality_control_system.php">More ></a>
 							</div>
 						</div>
 					</div>
@@ -209,7 +209,7 @@ $pageTitle = '';
 								<h3 class="title font-serif text-center mt-0">
 									<span class="title_en top_line">News</span>
 								</h3>
-								<a href="" class="btn btn-color btn-large btn_seeall">See All - <i class="fas fa-angle-right"></i></a>
+								<a href="./new.php" class="btn btn-color btn-large btn_seeall">See All - <i class="fas fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
