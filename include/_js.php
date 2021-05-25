@@ -3,7 +3,7 @@
 
     <!-- common JS -->
     <script>
-        function modal(id) {
+        // function modal(id) {
         //     // modal
         //     $(id).click(function() {
         //         event.preventDefault();
@@ -57,7 +57,7 @@
             //         scrollTop: 0
             //     }, 500);
             // });
-        });
+        // });
 
         // $(window).scroll(function() {
         //     var winScrollH = $(this).scrollTop();

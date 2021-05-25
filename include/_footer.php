@@ -4,8 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
+            <a class="logo" href="./" titile="back to home">
+              <img src="images/logo.png" alt="" style="background-color:black;">
+            </a>
             <div class="footer_item">
-              <p class="footer_title font-thin">KOGI Headquarter</p>
               <a class="footer_socialIcon fas fa-envelope" target="_blank" href="mailto:inquiry@kogiconsulting.com"></a>
               <a class="footer_socialIcon fab fa-twitter" target="_blank" href="https://twitter.com/kogitechnology"></a>
               <a class="footer_socialIcon fab fa-youtube" target="_blank" href="https://www.youtube.com/channel/UCOxCycODX3oUjHTQgFJp_Zw"></a>
@@ -45,10 +47,10 @@
       <!-- /.row -->
     </div>
     <!-- /.inner -->
-</div>
-<!-- /.gutter -->
+  </div>
+  <!-- /.gutter -->
+  <div class="copyright font-serif">© 2021 KONFU Enterprise Co.,Ltd <span class="d-inline-block">All Rights Reserved.</span></div>
 
-<div class="copyright font-serif">© 2021 KONFU Enterprise Co.,Ltd <span class="d-inline-block">All Rights Reserved.</span></div>
 </footer>
 <!--End of footer-->
 </div>

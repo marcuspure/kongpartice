@@ -1,7 +1,7 @@
 <!-- header -->
 <div class="headerWrap">
   <header id="header" class="header">
-    <div class="inner">
+    <div class="inner-1200">
       <div class="header_iconWrap text-left">
         <a class="logo" href="./" titile="back to home">
           <img src="images/logo.png" alt="">

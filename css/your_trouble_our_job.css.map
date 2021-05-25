@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ,GACN,QAAQ,EAAE,KAAK,EACf,KAAK,EAAE,IAAI,EACX,IAAI,EAAE,CAAC,EACP,GAAG,EAAE,CAAC,EACN,OAAO,EAAE,GAAG,EACZ,UAAU,EAAE,CAAC;;AAEf,YAAY,GACV,MAAM,EAAE,KAAK,EACX,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM",
+"sources": ["../sass/your_trouble_our_job.scss"],
+"names": [],
+"file": "your_trouble_our_job.css"
+}

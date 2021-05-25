@@ -27,12 +27,11 @@ $pageTitle = '';
 			<!-- //title -->
 			<div class="konfu_title swiper-container">
 				<div class="swiper-wrapper ">
-
 					<div class="swiper-slide imgfit imgfit-3x2 Toolstitle_img title_img text-center ">
-						<div class="mask"></div>
-						<img src="/images/title.jpg" style="width:100%;">
+						<img src="./images/title.jpg" style="width:100%;">
+						<i class="centered_img"><img src="./images/title_icon.png"></i>
 						<h1 class="centered">Discover The Best</h1>
-						<p class="centered_p">More Than 40 Years Of Experience</p>
+						<p class="centered_p fon-weight-400">More Than 40 Years Of Experience</p>
 					</div>
 					<div class="swiper-slide">Slide 2</div>
 					<div class="swiper-slide">Slide 3</div>
@@ -40,42 +39,6 @@ $pageTitle = '';
 				<div class="swiper-button-next"></div>
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-pagination"></div>
-			</div>
-
-			<!-- newproduct_ourwork -->
-			<div class="newproduct_ourwork">
-				<div class="row no-gutters align-items-center">
-					<div class="col-lg-6">
-						<div class="imgfit imgfit-3x2">
-							<img src="/images/移動清洗.gif" alt="">
-						</div>
-					</div>
-					<div class="col-lg-6  text-center title_item">
-						<h3 class="py-3 text-center">New Product Our Work</h3>
-						<p class="py-3 text-center font-l fon-weight-l l-h-30">If you have a new product you nwat to develop,but encounter a problem with tooling desing. please study with us and we will provide the best solution.</p>
-						<div class="more">
-							<button class="btn text-center w-8em py-1"><a href="./new_product.php">More</a></button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- //Your Trouble Our Job -->
-			<div class="newproduct_ourwork">
-				<div class="row no-gutters  align-items-center title_item">
-					<div class="col-lg-6 ">
-						<h3 class="py-3">Your Trouble Our Job</h3>
-						<p class="py-3 font-l fon-weight-l l-h-30">Do you have the problem of poor life of existing tooling? Want to produce products of different materials, but encounter the problem of tooling breakage?
-							We can provide appropriate tooling modification solutions.</p>
-						<div class="more">
-							<a class="btn text-center w-8em py-1 " href="./your_trouble_our_job.php">More</a>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="imgfit imgfit-3x2">
-							<img src="/images/轉動機械.gif" alt="">
-						</div>
-					</div>
-				</div>
 			</div>
 
 			<!-- The Formula of Fasteners Manufacturing -->
@@ -87,7 +50,7 @@ $pageTitle = '';
 					<div class="formula_item text-center">
 						<div class="img_outline">
 							<div class="formula_itemimg d-flex ">
-								<img class="img imgfit" src="/images/線圈.png" alt="">
+								<img class="img imgfit" src="./images/線圈.png" alt="">
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Wire Rod / Wire</p>
@@ -99,7 +62,7 @@ $pageTitle = '';
 					<div class="formula_item text-center">
 						<div class="img_outline">
 							<div class="formula_itemimg d-flex font-m">
-								<img class="img imgfit" src="/images/機台.png" alt="">
+								<img class="img imgfit" src="./images/機台.png" alt="">
 							</div>
 						</div>
 						<p class="text-center my-2 font-m fon-weight-600 text-white">Machine</p>
@@ -143,31 +106,69 @@ $pageTitle = '';
 					</div>
 				</div>
 			</div>
-
-			<!-- free_trial -->
-			<div class="container">
-				<div class="inner">
-					<div class="free_trial">
-						<div class="free_trial_inner">
-							<div class="formula_itemimg d-flex fon-weight-600 img_outline">
-								<img class="img imgfit" src="./images/index_trial_icon.png" alt="">
-							</div>
+			<!-- newproduct_ourwork -->
+			<div class="newproduct_ourwork">
+				<div class="row no-gutters align-items-center">
+					<div class="col-lg-6">
+						<div class="imgfit imgfit-3x2">
+							<img src="./images/page1.png" alt="">
 						</div>
-						<div class="col-12 col-lg-6">
-							<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
-							<p class="font-l fon-weight-l l-h-30">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
-							<div class="more">
-								<button class="btn w-8em py-1 my-2">Contact Us</button>
-							</div>
+					</div>
+					<div class="col-lg-6  text-center title_item">
+						<h3 class="py-3 ">New Product Our Work</h3>
+						<p class="py-3 text-center font-l fon-weight-l l-h-30">If you have a new product you nwat to develop,but encounter a problem with tooling desing. please study with us and we will provide the best solution.</p>
+						<div class="more">
+							<button class="btn text-center w-8em py-2"><a href="./new_product.php">More</a></button>
 						</div>
 					</div>
 				</div>
+			</div>
+			<!-- //Your Trouble Our Job -->
+			<div class="newproduct_ourwork">
+				<div class="row no-gutters align-items-center">
+					<div class="col-lg-6 text-center title_item">
+						<h3 class="py-3 ">Your Trouble, Our Job</h3>
+						<p class="py-3 font-l fon-weight-l l-h-30 trouble_text">Do you have the problem of poor life of existing tooling? Want to produce products of different materials, but encounter the problem of tooling breakage?
+							We can provide appropriate tooling modification solutions.</p>
+						<div class="more trouble_text">
+							<a class="btn text-center w-8em py-2 " href="./your_trouble_our_job.php">More</a>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="imgfit imgfit-3x2">
+							<img src="./images/轉動機械.gif" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<!-- free_trial -->
+			<div class="container">
+
+				<div class="free_trial">
+					<div class="free_trial_inner">
+						<div class="formula_itemimg d-flex fon-weight-600 img_outline">
+							<img class="img imgfit" src="./images/index_trial_icon.png" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<h4> <span class="text-red">FREE</span> TRIAL ORDER PROJECT</h4>
+						<p class="font-l fon-weight-l l-h-30">We have a special program that provides free trial samples to new customers. Welcome to provide the drawings of the tooling currently encountered with various problems, and we will provide our suggestion and offer free samples for you to try after the evaluation.</p>
+						<div class="more">
+							<button class="btn w-8em py-1 my-2">Contact Us</button>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
 			<!-- Production Equipment -->
 			<div class="production text-center">
 
 				<div class="row no-gutters ">
+
 					<div class="col-12 col-lg-4 ">
 						<div class="production_item">
 							<p class="production_item_p">Production </p>
@@ -190,6 +191,7 @@ $pageTitle = '';
 
 					<div class="col-12 col-lg-4">
 						<div class="esg_item">
+							<p class="esg_item_p my-2"></p>
 							<p class="esg_item_p my-2">ESG</p>
 							<div class="production_btn">
 								<a class="btn py-1 px-4 my-3" href="./esg.php">More ></a>
@@ -205,11 +207,13 @@ $pageTitle = '';
 				<div class="News_inner">
 					<div class="mb-4 my-xl-6 text-center">
 						<div class="row ">
-							<div class="col-lg-12">
-								<h3 class="title font-serif text-center mt-0">
-									<span class="title_en top_line">News</span>
-								</h3>
-								<a href="./new.php" class="btn btn-color btn-large btn_seeall">See All - <i class="fas fa-angle-right"></i></a>
+							<div class="col-lg-4">
+							</div>
+							<div class="col-lg-4">
+								<h3 class="title font-serif text-center mt-0"> <span class="title_en top_line">News</span> </h3>
+							</div>
+							<div class="col-lg-4 d-flex justify-content-end">
+								<a href="./new.php" class=" btn_seeall d-flex justify-content-center align-items-center">See All - <i class="fas fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -220,7 +224,7 @@ $pageTitle = '';
 
 							<div class="swiper-slide ">
 								<div class="active_text">
-									<img class="imgfit mx-1" src="/images/index_機台.png" alt="">
+									<img class="imgfit mx-1" src="./images/index_機台.png" alt="">
 									<div class="img_date d-flex p-1 justify-content-between">
 										<button class="btn_black p-1 font-xs">Current activity</button>
 										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
@@ -232,37 +236,39 @@ $pageTitle = '';
 							<div class="swiper-slide">
 								<div class="active_text mx-1">
 									<div class="imgfit imgfit-newslist ">
-										<img class="" src="/images/index_機台2.png" alt="">
+										<img class="" src="./images/index_機台02.jpeg" alt="">
 									</div>
 									<div class="img_date d-flex p-1 justify-content-between">
 										<button class="btn_black p-1 font-xs">Current activity</button>
 										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
 									</div>
-									<p class="font-m">HH-1538 loading </p>
+									<p class="font-m">Carbide Tip Finger </p>
 								</div>
 							</div>
 
 							<div class="swiper-slide">
 								<div class="active_text">
 									<div class="imgfit imgfit-newslist">
-										<img class="mx-1" src="/images/index_機台03.png" alt="">
+										<img class="" src="./images/index_機台03.png" alt="">
 									</div>
 									<div class="img_date d-flex p-1 justify-content-between">
 										<button class="btn_black p-1 font-xs">Current activity</button>
 										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
 									</div>
-									<p class="font-m">HH-1538 loading </p>
+									<p class="font-m">Thread Rolling Machines </p>
 								</div>
 							</div>
 
 							<div class="swiper-slide">
 								<div class="active_text">
-									<img class="imgfit mx-1" src="/images/index_機台04.jpeg" alt="">
+									<div class="imgfit imgfit-newslist">
+										<img class="" src="./images/index_機台04.jpeg" alt="">
+									</div>
 									<div class="img_date d-flex p-1 justify-content-between">
 										<button class="btn_black p-1 font-xs">Current activity</button>
 										<p class="d-flex flex-column justify-content-center">2021-01-01</p>
 									</div>
-									<p class="font-m">HH-1538 loading </p>
+									<p class="font-m">Used Centerless Grinding Machine </p>
 								</div>
 							</div>
 
@@ -276,7 +282,13 @@ $pageTitle = '';
 
 			<!-- map -->
 			<div class="map">
-				<img src="./images/map.png" alt="" style="width: 100%;">
+				<!-- <img src="./images/map.png" alt="" style="width: 100%;"> -->
+				<div class="content_bar">
+					<img src="./images/social_line.png" alt="">
+					<img src="./images/social_mail.png" alt="">
+					<img src="./images/social_whatsapp.png" alt="">
+					<img src="./images/social_skype.png" alt="">
+				</div>
 			</div>
 			<!-- /map -->
 		</div><!-- /.inner -->
