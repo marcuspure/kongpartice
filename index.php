@@ -142,7 +142,7 @@ $pageTitle = '';
 				</div>
 			</div>
 
-			
+
 
 			<!-- free_trial -->
 			<div class="container">
@@ -284,10 +284,36 @@ $pageTitle = '';
 			<div class="map">
 				<!-- <img src="./images/map.png" alt="" style="width: 100%;"> -->
 				<div class="content_bar">
-					<img src="./images/social_line.png" alt="">
-					<img src="./images/social_mail.png" alt="">
-					<img src="./images/social_whatsapp.png" alt="">
-					<img src="./images/social_skype.png" alt="">
+
+					<div class="img_outline-img my-1">
+						<div class="content_item-img d-flex ">
+							<img src="./images/social_whatsapp.png" alt="">
+						</div>
+					</div>
+
+					<div class="img_outline-img my-1">
+						<div class="content_item-img d-flex ">
+							<img src="./images/social_line.png" alt="">
+						</div>
+					</div>
+					<div class="img_outline-img my-1">
+						<div class="content_item-img d-flex ">
+							<img src="./images/social_skype.png" alt="">
+						</div>
+					</div>
+
+					<div class="img_outline-img my-1">
+						<div class="content_item-img d-flex ">
+							<img src="./images/social_mail.png" alt="">
+						</div>
+					</div>
+
+					<div class="img_outline-img my-1">
+						<div class="content_item-img d-flex ">
+							<img src="./images/TOP.png" alt="">
+						</div>
+					</div>
+
 				</div>
 			</div>
 			<!-- /map -->

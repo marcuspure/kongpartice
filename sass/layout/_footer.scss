@@ -1,9 +1,9 @@
-footer
+// footer
 .footerWrap{
 	font-size: toUnit(12,rem);
 	line-height: 1.25;
 	text-align: center;
-  padding: 10px 20px 10px 20px;
+ 
   background-color: white;
 }
 .footer_item{
@@ -25,6 +25,25 @@ footer
 	text-align: center;
 	color: $text-black;
 	background: $bg-white;
+}
+.footer_img_outline {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+  .footer_item-img {
+
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @include media-breakpoint-down(sm) {
 }

@@ -42,7 +42,7 @@ $pageTitle = '';
 
 
       <div class="pic">
-        <div class="">
+        <!-- <div class=""> -->
           <div class="newproduct1">
             <div class="newproduct1_box newproduct1_box-1">
               <a class="newproduct1_trigger"></a>
@@ -52,7 +52,39 @@ $pageTitle = '';
               <a class="newproduct1_trigger"></a>
               <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
             </div>  
-          </div>
+            <div class="newproduct1_box newproduct1_box-3">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-4">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-5">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-6">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-7">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-8">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-9">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+            <div class="newproduct1_box newproduct1_box-10">
+              <a class="newproduct1_trigger"></a>
+              <div class="newproduct1_target"><img class="bg-black " src="/images/new_product01.png"></div>
+            </div>  
+          <!-- </div> -->
         </div>
       </div>
 

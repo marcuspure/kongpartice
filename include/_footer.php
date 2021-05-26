@@ -7,10 +7,31 @@
             <a class="logo" href="./" titile="back to home">
               <img src="images/logo.png" alt="" style="background-color:black;">
             </a>
-            <div class="footer_item">
-              <a class="footer_socialIcon fas fa-envelope" target="_blank" href="mailto:inquiry@kogiconsulting.com"></a>
+            <div class="footer_item d-flex justify-content-center">
+
+              <div class="footer_img_outline mx-1">
+                <div class="footer_item-img  ">
+                  <img src="./images/social_mail.png" alt="">
+                </div>
+              </div>
+              <div class="footer_img_outline mx-1">
+                <div class="footer_item-img ">
+                  <img src="./images/social_skype.png" alt="">
+                </div>
+              </div>
+              <div class="footer_img_outline mx-1">
+						<div class="footer_item-img d-flex ">
+							<img src="./images/social_line.png" alt="">
+						</div>
+					</div>
+          <div class="footer_img_outline mx-1">
+						<div class="footer_item-img d-flex ">
+							<img src="./images/social_whatsapp.png" alt="">
+						</div>
+					</div>
+              <!-- <a class="footer_socialIcon fas fa-envelope" target="_blank" href="mailto:inquiry@kogiconsulting.com"></a>
               <a class="footer_socialIcon fab fa-twitter" target="_blank" href="https://twitter.com/kogitechnology"></a>
-              <a class="footer_socialIcon fab fa-youtube" target="_blank" href="https://www.youtube.com/channel/UCOxCycODX3oUjHTQgFJp_Zw"></a>
+              <a class="footer_socialIcon fab fa-youtube" target="_blank" href="https://www.youtube.com/channel/UCOxCycODX3oUjHTQgFJp_Zw"></a> -->
             </div>
           </div>
 
@@ -47,9 +68,9 @@
       <!-- /.row -->
     </div>
     <!-- /.inner -->
-  </div>
-  <!-- /.gutter -->
-  <div class="copyright font-serif">© 2021 KONFU Enterprise Co.,Ltd <span class="d-inline-block">All Rights Reserved.</span></div>
+</div>
+<!-- /.gutter -->
+<div class="copyright font-serif">© 2021 KONFU Enterprise Co.,Ltd <span class="d-inline-block">All Rights Reserved.</span></div>
 
 </footer>
 <!--End of footer-->

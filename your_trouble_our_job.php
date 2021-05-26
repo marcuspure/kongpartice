@@ -18,6 +18,7 @@ $pageTitle = '';
       <!-- content 從這裡開始 -->
       <!-- //title -->
       <div class="Toolstitle_img title_img text-center">
+        <i class="centered_img"><img src="./images/title_icon.png"></i>
         <img src="/images/Tooling_main.png" style="width:100%;">
         <h1 class="centered_tooling">Your Trouble Our Job</h1>
       </div>
@@ -142,9 +143,9 @@ $pageTitle = '';
 
                 <div class="col-12">
                   <div class="font-l ">
-                   
-                      <i class="belgian_img"><img src="./images/s6.png" alt=""></i>
-                    
+
+                    <i class="belgian_img"><img src="./images/s6.png" alt=""></i>
+
                   </div>
                 </div>
 
@@ -210,6 +211,39 @@ $pageTitle = '';
           <p class="font-l fon-weight-l m-1">We can provide appropriate tooling modification solutions.</p>
           <div class="product_btn my-3 ">
             <button class="btn m-2 px-6 py-2">Contacts Us</button>
+          </div>
+
+          <div class="content_bar">
+
+            <div class="img_outline-img my-1">
+              <div class="content_item-img d-flex ">
+                <img src="./images/social_whatsapp.png" alt="">
+              </div>
+            </div>
+
+            <div class="img_outline-img my-1">
+              <div class="content_item-img d-flex ">
+                <img src="./images/social_line.png" alt="">
+              </div>
+            </div>
+            <div class="img_outline-img my-1">
+              <div class="content_item-img d-flex ">
+                <img src="./images/social_skype.png" alt="">
+              </div>
+            </div>
+
+            <div class="img_outline-img my-1">
+              <div class="content_item-img d-flex ">
+                <img src="./images/social_mail.png" alt="">
+              </div>
+            </div>
+
+            <div class="img_outline-img my-1">
+              <div class="content_item-img d-flex ">
+                <img src="./images/TOP.png" alt="">
+              </div>
+            </div>
+
           </div>
         </div>
 
